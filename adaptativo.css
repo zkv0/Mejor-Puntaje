@@ -17,6 +17,10 @@
   .nav a img {
     display: none;
   }
+
+  .config {
+    display: none;
+  }
 }
 
 
@@ -71,6 +75,14 @@
     background-repeat: no-repeat;
     height: 6vh;
     width: 100%;
+  }
+
+  .config {
+    height: 4vh;
+    position: absolute;
+
+    top: 2vw;
+    right: 2vw;
   }
 }
 
