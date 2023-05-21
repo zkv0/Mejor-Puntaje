@@ -68,6 +68,10 @@
     }
 
 
+    .imgs {
+      padding-top: 2vh;
+    }
+
   .image-container {
     background-image: url("imgs/logo_mv.png");
     background-size: contain;
@@ -81,7 +85,7 @@
     height: 4vh;
     position: absolute;
 
-    top: 2vw;
+    top: 6vw;
     right: 2vw;
   }
 }
