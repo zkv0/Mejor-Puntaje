@@ -1,0 +1,37 @@
+/*Para Pc*/
+@media (min-width: 668px) {
+
+  .image-container {
+    background-image: url("imgs/logo_header.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15vh;
+    width: 50vw;
+  }
+}
+
+
+
+
+
+/*Para Mobiles*/
+@media (max-width: 667px) {
+  .nav {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  .image-container {
+    background-image: url("imgs/logo_mv.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15vh;
+    width: 100%;
+  }
+}
+
+
+
+
+
