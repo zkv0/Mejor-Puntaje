@@ -82,11 +82,11 @@
   }
 
   .config {
-    height: 5.5vh;
+    height: 4.5vh;
     position: absolute;
 
-    top: 4vw;
-    right: 2vw;
+    top: 5.5vw;
+    right: 2.5vw;
   }
 }
 
