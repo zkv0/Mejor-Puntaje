@@ -12,9 +12,15 @@
     -o-transition: all 0.5s;
 }
 
+.body {
+    width: 10vw;
+    overflow-x: hidden;
+}
+
 body.dark {
     background-color: #1f1f1f;
     color: #ffffff;
+
 }
 
 .head {
@@ -40,8 +46,23 @@ button {
     height: 20vh;
 }
 
-.image-container {
+.sugerencias {
+    width: 100vw;
+    padding:3vw 3vw 3vw 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
 
+.sugerenciauno, .sugerenciados {
+    width: 45vw;
+    border: 3px solid red;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 }
   
   /*Para Pc*/
@@ -159,6 +180,20 @@ button {
       width: 100%;
       margin-top: 3vh;
     }
+
+    .sugerenciauno, .sugerenciados {
+        height: 13vh;
+    }
+
+
+
+
+
+
+
+
+
+
   }
   
     
