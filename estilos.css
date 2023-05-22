@@ -5,6 +5,16 @@
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    transition: all 0.5s;
+    -webkit-transition: all ;
+    -moz-transition: all ;
+    -ms-transition: all ;
+    -o-transition: all ;
+}
+
+body.dark {
+    background-color: #1f1f1f;
+    color: #ffffff;
 }
 
 .head {
@@ -21,3 +31,11 @@
     color: rgb(21, 21, 21);
   }
 
+  nav.dark a {
+    color: #ffffff;
+  }
+
+button {
+    width: 50%;
+    height: 20vh;
+}

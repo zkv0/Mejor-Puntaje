@@ -1,4 +1,13 @@
 /*Para Pc*/
+* {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+
 @media (min-width: 668px) {
 
   .image-container {
@@ -39,6 +48,15 @@
     -ms-border-radius: 500px;
     -o-border-radius: 500px;
 }
+
+.cas:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
 }
 
 
@@ -62,6 +80,10 @@
     height: 10vh;
   }
 
+  .nav.dark {
+    background-color: #303030;
+  }
+
   .nav a {
     width: 30%;
     text-align: center;
@@ -79,6 +101,11 @@
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
     margin-bottom: 10px;
+}
+
+nav.dark a img {
+  filter: invert(90%);
+  -webkit-filter: invert(90%);
 }
 
   .Lectura, .ingles, .ciencias, .Matematicas, .sociales { 
