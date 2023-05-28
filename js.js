@@ -25,16 +25,29 @@ boton.addEventListener("click", function() {
 
 
 
-
-
-
-
-
-
-
-
 if (boton.classList.contains("pressed")) {
     localStorage.setItem("botonPresionado", "true");
   } else {
     localStorage.removeItem("botonPresionado");
   };
+
+
+
+
+//Cambiar texto de span modos
+const span = boton.querySelector('span_modos');
+
+boton.addEventListener('click', function() {
+  if (span_modos.textContent === 'Cambiar a modo oscuro') {
+    span_modos.textContent = 'Cambiar a modo claro';
+  } else {
+    span_modos.textContent = 'Cambiar a modo oscuro';
+  }
+});
+
+
+
+// Redirigir a otra página si se detecta un dispositivo móvil o un ancho de pantalla menor a 667px
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth < 667) {
+  window.location.href = 'movil/mv.html';
+}
