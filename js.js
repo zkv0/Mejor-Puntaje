@@ -5,15 +5,11 @@ var body = document.getElementById("body");
 
 
 
-
-
-
 // Verificar si hay un estado guardado en el almacenamiento local
 var botonPresionado = localStorage.getItem("botonPresionado");
 if (botonPresionado === "true") {
   boton.classList.add("pressed");
 }
-
 
 
 boton.addEventListener("click", function() {
@@ -22,16 +18,11 @@ boton.addEventListener("click", function() {
 });
 
 
-
-
-
 if (boton.classList.contains("pressed")) {
     localStorage.setItem("botonPresionado", "true");
   } else {
     localStorage.removeItem("botonPresionado");
   };
-
-
 
 
 //Cambiar texto de span modos
@@ -46,8 +37,39 @@ boton.addEventListener('click', function() {
 });
 
 
+var bt_acercade = document.getElementById("bt-acercade");
+var bt_acercade_x = document.getElementById("bt-acercade-x");
+var div_acercade = document.getElementById("div-acercade");
 
-// Redirigir a otra página si se detecta un dispositivo móvil o un ancho de pantalla menor a 667px
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth < 667) {
-  window.location.href = 'movil/mv.html';
-}
+bt_acercade.addEventListener("click", function(){
+  if (div_acercade.classList.contains("ocultar")) {
+    div_acercade.classList.remove("ocultar");
+    div_acercade.classList.add("mostrar");
+    setTimeout(function() {
+      div_acercade.style.display = "block";
+    }, 10);
+  }
+  else {
+    div_acercade.classList.add("mostrar");
+    setTimeout(function() {
+      div_acercade.style.display = "block";
+    }, 10);
+  }
+});
+
+
+bt_acercade_x.addEventListener("click", function(){
+  if (div_acercade.classList.contains("mostrar")) {
+    div_acercade.classList.remove("mostrar");
+    div_acercade.classList.add("ocultar");
+    setTimeout(function() {
+      div_acercade.style.display = "none";
+    }, 250);
+  }
+  else {
+    div_acercade.classList.add("ocultar");
+    setTimeout(function() {
+      div_acercade.style.display = "none";
+    }, 250);
+  }
+});
