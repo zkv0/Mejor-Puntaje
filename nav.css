@@ -14,7 +14,7 @@
 .nav div{
     display: flex;
     flex-direction: column;
-    border-bottom: 1px solid #d5d5d5;
+    border-bottom: 2px solid #d5d5d532;
     margin-top: 50px;
     padding-bottom: 10px;
 }
@@ -26,11 +26,11 @@
     flex-wrap: nowrap;
     color: #d5d5d5;
     text-decoration: none;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
     transition:all .5s;
     -webkit-transition:all .5s;
     -moz-transition:all .5s;
@@ -42,6 +42,7 @@
     background-color: #434343;
     color: #fff;
     font-weight: bold;
+
 }
 
 .nav div a:hover > .icon_nav {
@@ -59,8 +60,9 @@
 
 .nav div span {
     font-weight: bold;
-    color: #d5d5d5;
+    color: #ebebeb;
     margin-bottom: 10px;
+    font-size: 17.5px;
 }
 
 .img_nav {
