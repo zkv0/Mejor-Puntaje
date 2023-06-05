@@ -163,14 +163,16 @@
     -o-border-radius: 30px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     text-decoration: none;
     background-color:#191d20 ;
-    margin: 0px 14px;
+    margin: 8px;
 }
 
 .infouno {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background-color: #111315;
     padding: 15px;
     border-radius: 20px;
@@ -178,6 +180,7 @@
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    height: 100%;
 
 }
 
@@ -244,16 +247,4 @@
     margin-right: 6px
 }
 
-.proposito {
-    display: flex;
-    flex-direction: column;
-    background-color: #111315;
-    padding: 15px;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    margin-top: 10px;
-}
 
