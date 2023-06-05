@@ -133,14 +133,22 @@
 
 .materias_div {
     box-sizing: border-box;
-    padding: 0px 40px;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 200px;  
 
 }
 
-.materias_div h1 {
+.materias_div_h1 {
+    position: absolute;
     font-weight: 500;
     font-size: 40px;
-    margin-bottom: 30px;
+    padding-left: 30px;
+    top: 120px;
+    z-index: -1;
+
 }
 
 .materia_contenedor {
@@ -157,6 +165,7 @@
     flex-direction: column;
     text-decoration: none;
     background-color:#191d20 ;
+    margin: 0px 14px;
 }
 
 .infouno {
