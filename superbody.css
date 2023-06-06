@@ -21,6 +21,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    z-index: 99;
 }
 
 .rellenosupernav {
@@ -37,6 +38,7 @@
     justify-content: space-around;
     padding: 10px;
     height: auto;
+
 }
 
 .supernav_buscar {
@@ -113,6 +115,7 @@
     justify-content: center;
     align-items: center;
     margin: 0px 1px;
+    text-decoration: none;
 }
 
 .supernav_filtro_button:hover {
@@ -138,8 +141,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding-top: 200px; 
-    justify-content: center; 
-
 }
 
 .materias_div_h1 {
@@ -153,9 +154,11 @@
 }
 
 .materia_contenedor {
+    flex-grow: 1;
     overflow: hidden ;
-    width: 320px;
     height: auto;
+    width: 25%;
+    min-width: 250px ;
     padding: 15px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -251,6 +254,7 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    z-index: 0;
 
 }
 
