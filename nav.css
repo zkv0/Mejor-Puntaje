@@ -40,6 +40,7 @@
     -moz-transition:all .5s;
     -ms-transition:all .5s;
     -o-transition:all .5s;
+    margin-top: 5px;
 }
 
 .nav div a:hover {
