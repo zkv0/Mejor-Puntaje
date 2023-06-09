@@ -6,7 +6,7 @@
     background-color: #0c0e10;
     width: 280px;
     max-width: 280px;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
     position: fixed;
     display: flex;

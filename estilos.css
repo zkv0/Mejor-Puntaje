@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 @viewport {
-  zoom: 1.0;
-  max-zoom: 1.0;
-  min-zoom: 1.0;
-  user-zoom: fixed;
+  zoom: .5;
+  max-zoom: .5;
+  min-zoom: .5;
 }
 
 * {
