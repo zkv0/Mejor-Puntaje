@@ -1,17 +1,19 @@
-.relleno {
-    padding: 140px;
-    height: 100%;
-}
 
 
-.superbody {
+
+#superbody {
     overflow-x: hidden;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
+flex-wrap: wrap;
     z-index: 1;
     width: 100%;
-    position: relative;
+}
+
+.relleno {
+    padding: 140px;
+    height: 100%;
 }
 
 .supernavmega {
@@ -265,4 +267,108 @@
     margin-right: 6px
 }
 
+
+.h1_separador {
+    margin-top: 60px;
+    margin-left: 40px;
+
+}
+
+.cuestinariosdiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+
+}
+
+
+.cuestionariomateria {
+    width: 250px;
+    flex-grow: 1;
+    overflow: hidden ;
+    height: auto;
+    min-width: 200px ;
+    padding: 15px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color:#191d20 ;
+    margin: 8px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.info_cuestionario {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    background-color: #111315;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.info_cuestionario img {
+    width: 15%;
+    margin-right: 20px;
+    filter: invert(.8);
+    -webkit-filter: invert(.8);
+}
+
+.archivos_materias_cuestiona {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    align-content: space-around;
+    justify-content: space-around;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #111315;
+    margin-top: 10px;
+    height: 100%;
+}
+
+
+
+
+.link_descarga {
+
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+
+}
+
+.link_descarga:hover {
+    text-decoration: underline;
+}
+
+.link_descarga img{
+    width: 10%;
+    filter: invert(.8);
+    -webkit-filter: invert(.8);
+    margin-right: 10px;
+}
 
