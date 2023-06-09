@@ -11,7 +11,7 @@ flex-wrap: wrap;
 }
 
 .relleno {
-    padding: 140px;
+    padding: 150px;
     height: 100%;
 }
 
@@ -137,6 +137,8 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 20px;
+
 }
 
 
@@ -281,7 +283,7 @@ flex-wrap: wrap;
 
 
 .h1_separador {
-    margin-top: 60px;
+    padding-top: 90px;
     margin-left: 40px;
 
 }
@@ -290,7 +292,7 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 20px;
 
 }
 
