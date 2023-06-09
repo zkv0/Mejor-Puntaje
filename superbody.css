@@ -2,7 +2,6 @@
 
 
 #superbody {
-    overflow-x: hidden;
     box-sizing: border-box;
     display: flex;
     flex-direction: column ;
@@ -131,29 +130,15 @@ flex-wrap: wrap;
     -webkit-filter: invert(.8);
 }
 
-.rellenomaterias {
-    display: block;
-    height: 150px;
-}
+
 
 .materias_div {
     box-sizing: border-box;
-    padding: 0px 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-top: 200px; 
 }
 
-.materias_div_h1 {
-    position: absolute;
-    font-weight: 500;
-    font-size: 40px;
-    padding-left: 30px;
-    top: 120px;
-    z-index: -1;
-
-}
 
 .materia_contenedor {
     flex-grow: 1;
@@ -188,8 +173,6 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #111315;
-    padding: 15px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -203,16 +186,6 @@ flex-wrap: wrap;
     -o-transition: all 0.5s;
 }
 
-.img_info {
-    width: 100%;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-}
 
 .infouno_p , .proposito_p {
     margin: 20px 0px;
@@ -223,7 +196,7 @@ flex-wrap: wrap;
 
 
 .tags {
-    margin: 20px 0px;
+    margin: 0px 0px 20px 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -246,6 +219,45 @@ flex-wrap: wrap;
     flex-direction: row;
     flex-wrap: nowrap;
 }
+
+.arribainfo {
+    background-color: #111315;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.arribainfo img {
+    width: 20%;
+    margin-right: 10px;
+    filter: invert(.8);
+    -webkit-filter: invert(.8);
+}
+
+.abajoinfo {
+    background-color: #111315;
+    padding: 15px;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: space-around;
+    justify-content: space-around;
+}
+
+#especial_relleno , #especial_relleno div img {
+    background-color: transparent;
+    color: transparent;
+    filter: opacity(0) ;
+    -webkit-filter: opacity(0) ;
+    cursor: default;
+}
+
 
 .info_datos {
     margin: 0px 9px;
