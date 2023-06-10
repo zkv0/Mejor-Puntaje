@@ -17,8 +17,7 @@
 
 body {
   background-color: #111315;
-  width: 100vw;
-  overflow-x: hidden;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
