@@ -96,7 +96,7 @@
     .arribainfo {
         margin: 0;
         background: none;
-        justify-content: center;
+        justify-content: left;
         background-color: #111315;
         border-radius: 20px;
         -webkit-border-radius: 20px;
@@ -104,7 +104,8 @@
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
         height: 60px;
-        padding: 4px;
+        padding: 8px 12px;
+        height: auto;
 }
 
  #especial_relleno {
@@ -168,15 +169,26 @@
 
 .maspaginasdiv {
     box-sizing: border-box;
-    flex-wrap: nowrap;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    width: 100%;
+    flex-wrap: wrap;
     padding: 20px 10px;
 }
 
+    .otrapagina {
+        height: auto;
+        flex-grow: 1;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .otrapagina img{
+        height: 49px;
+        width: 49px;
+        margin-right: 10px;
+    }
+
 .otraspaginap {
-    width: 200px;
+display: none;
 }
     
   }
