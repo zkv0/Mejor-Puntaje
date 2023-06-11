@@ -32,7 +32,7 @@
     .supernavmega {
         bottom: 0;
     }
-    
+
     .supernavmega:before {
         content: "";
         position: absolute;
@@ -54,7 +54,7 @@
     }
 
     .h1_separador {
-        padding-top: 120px;
+        padding-top: 20px;
     }
 
     .secciondos , .secciontres {
