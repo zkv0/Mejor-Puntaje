@@ -29,6 +29,10 @@
         margin-left: 5px;
     }
 
+    .supernavmega {
+        bottom: 0;
+    }
+    
     .supernavmega:before {
         content: "";
         position: absolute;
