@@ -49,10 +49,6 @@
         background: none;
 }
 
-    #especial_relleno {
-        display: none;
-    }
-
     .h1_separador {
         padding-top: 20px;
     }
@@ -69,4 +65,30 @@
         display: flex;
         width: 46%;
     }
+
+    .materia_contenedor {
+        padding: 0;
+        min-width: 40%;
+        width: 45%;
+    }
+
+    .materias_div {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .abajoinfo {
+        display: none;
+    }
+
+    .arribainfo {
+        margin: 0;
+        background: none;
+        justify-content: center;
+    }
+
+    
   }
