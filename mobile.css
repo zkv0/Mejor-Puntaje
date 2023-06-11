@@ -67,20 +67,21 @@
     }
 
     .materia_contenedor {
-        padding: 0;
+        padding: 10px;
         min-width: 40%;
         width: 45%;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
         margin: 5px;
 }
 
     .materias_div {
         padding: 10px 5px;
         padding-top: 15px;
+
 
 }
 
@@ -96,7 +97,22 @@
         margin: 0;
         background: none;
         justify-content: center;
+        background-color: #111315;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        height: 60px;
+        padding: 4px;
+}
 
+ #especial_relleno {
+    display: none;
+ }
+
+.arribainfo img {
+    width: 49px;
 }
 
     .cuestinariosdiv {
@@ -105,7 +121,8 @@
 }
 
     .cuestionariomateria {
-        margin: 2px;
+        margin: 4px;
+        padding: 10px;
     }
 
     .archivos_materias_cuestiona {
