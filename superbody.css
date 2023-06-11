@@ -42,47 +42,6 @@ flex-wrap: wrap;
 
 }
 
-.supernav_buscar {
-    
-    height:25px;
-    width: 350px;
-    min-width: 290px;
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background-color: #272a30;
-    align-items: center;
-    margin: 10px 0px;
-
-}
-
-.supernav_buscar input {
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
-    outline: none;
-    border: none;
-    padding: 0px 10px;
-    font-size: 18px;
-}
-
-.supernav_buscar input:focus {
-    outline: none;
-    border: none;
-}
-
-.supernav_buscar img {
-    height: 80%;
-    filter: invert(.8);
-    -webkit-filter: invert(.8);
-}
-
 .supernav_filtro {
     background-color: #272a30;
     padding: 5px;
@@ -168,7 +127,7 @@ flex-wrap: wrap;
     -o-transition: all 0.5s;
 }
 
-.materia_contenedor:hover , .cuestionariomateria:hover {
+.materia_contenedor:hover , .otrapagina:hover {
     transform: scale(1.03);
     -webkit-transform: scale(1.03);
     -moz-transform: scale(1.03);
@@ -425,6 +384,11 @@ flex-wrap: wrap;
     background: #191d20;
     margin: 5px;
     flex-grow: 1;
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -ms-transition: transform 0.5s;
+    -o-transition: transform 0.5s;
 }
 
 
@@ -446,23 +410,45 @@ flex-wrap: wrap;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
 }
 
 .seccion {
-    width: 30%;  
+    width: 250px;  
     font-size: 15px;
-    padding: 20px;
+    padding: 20px 0px;
     box-sizing: border-box;
+
 }
 
 .seccionuno {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .seccionuno img {
     height: 50px;
+}
+
+.seccionuno ul {
+    margin-top: 20px;
+}
+.seccionuno ul li{
+    display: inline;
+    border-right: 2px solid #cccccca1 ;
+    padding: 0px 6px;
+    font-size: 14px;
+}
+
+.seccionuno ul li a {
+    color: #cccccca1;
+    text-decoration: none;
+}
+
+.seccionuno ul li a:hover {
+    color: #ccc;
 }
 
 .secciondos h3 img {
@@ -486,6 +472,11 @@ flex-wrap: wrap;
     text-align: justify;
 }
 
+.secciondos p {
+    color: #cccccca1;
+
+}
+
 .secciondos h3 {
     font-size: 18px;
     display: flex;
@@ -498,4 +489,9 @@ flex-wrap: wrap;
 .secciontres img {
     height: 40px;
     margin-bottom: 5px;
+}
+
+.secciontres p {
+    color: #cccccca1;
+
 }
