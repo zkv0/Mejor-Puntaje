@@ -148,5 +148,18 @@
         -ms-transition: all 0.5s;
         -o-transition: all 0.5s;
 }
+
+.maspaginasdiv {
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.otraspaginap {
+    width: 200px;
+}
     
   }
