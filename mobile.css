@@ -70,11 +70,19 @@
         padding: 0;
         min-width: 40%;
         width: 45%;
-    }
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        margin: 5px;
+}
 
     .materias_div {
-        padding: 10px;
-    }
+        padding: 10px 5px;
+        padding-top: 15px;
+
+}
 
     h2 {
         font-size: 15px;
@@ -88,7 +96,8 @@
         margin: 0;
         background: none;
         justify-content: center;
-    }
+
+}
 
     
   }
