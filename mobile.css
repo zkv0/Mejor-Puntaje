@@ -1,0 +1,17 @@
+/* Estilos específicos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    /* Aquí van los estilos para dispositivos móviles */
+    #nav {
+        display: none ;
+    }
+
+    .relleno {
+        display: none;
+    }
+
+    .rellenosupernav {
+        display: none;
+    }
+
+    
+  }
