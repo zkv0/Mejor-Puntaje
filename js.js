@@ -50,8 +50,53 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+/*traer los botones que desplegan el cuesioanrio en moviles*/
+var boton_cuestioanrio_uno = document.getElementById("boton_cuestioanrio_uno");
+var boton_cuestioanrio_sociales = document.getElementById("boton_cuestioanrio_sociales");
+var boton_cuestioanrio_natutales = document.getElementById("boton_cuestioanrio_natutales");
+var boton_cuestioanrio_ingles = document.getElementById("boton_cuestioanrio_ingles");
+var boton_cuestioanrio_mate = document.getElementById("boton_cuestioanrio_mate");
+var boton_cuestioanrio_español = document.getElementById("boton_cuestioanrio_español");
 
+ /* Traer los cuestionarios ocultos*/
 
+var cuestionario_todo = document.getElementById("cuestionario_todo");
+var cuestionario_sociales = document.getElementById("cuestionario_sociales");
+var cuestionario_naturales = document.getElementById("cuestionario_naturales");
+var cuestionario_ingles = document.getElementById("cuestionario_ingles");
+var cuestionario_mate = document.getElementById("cuestionario_mate");
+var cuestionario_español = document.getElementById("cuestionario_español");
 
+/*Añadir las funciones de click haga aparecer el cuestioanrio*/
+
+boton_cuestioanrio_uno.addEventListener("click", function(){  
+  cuestionario_todo.classList.toggle("cuestionario_aparecer");  
+  boton_cuestioanrio_uno.classList.toggle("boton_rotate")
+});
+
+boton_cuestioanrio_sociales.addEventListener("click", function(){  
+  cuestionario_sociales.classList.toggle("cuestionario_aparecer");  
+  boton_cuestioanrio_sociales.classList.toggle("boton_rotate")
+});
+
+boton_cuestioanrio_naturales.addEventListener("click", function(){  
+  cuestionario_naturales.classList.toggle("cuestionario_aparecer");  
+  boton_cuestioanrio_naturales.classList.toggle("boton_rotate")
+});
+
+boton_cuestioanrio_ingles.addEventListener("click", function(){  
+  cuestionario_ingles.classList.toggle("cuestionario_aparecer");  
+  boton_cuestioanrio_ingles.classList.toggle("boton_rotate")
+});
+
+boton_cuestioanrio_mate.addEventListener("click", function(){  
+  cuestionario_mate.classList.toggle("cuestionario_aparecer");  
+  boton_cuestioanrio_mate.classList.toggle("boton_rotate")
+});
+
+boton_cuestioanrio_español.addEventListener("click", function(){  
+  cuestionario_español.classList.toggle("cuestionario_aparecer");  
+  boton_cuestioanrio_español.classList.toggle("boton_rotate")
+});
 
 

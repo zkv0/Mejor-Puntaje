@@ -270,9 +270,18 @@ flex-wrap: wrap;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 20px;
-
 }
 
+.cuestionario_derecha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.boton_cuestioanrio_uno {
+    display: none;
+}
 
 .cuestionariomateria {
     width: 250px;

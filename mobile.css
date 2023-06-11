@@ -99,5 +99,54 @@
 
 }
 
+    .cuestinariosdiv {
+        padding: 8px;
+
+}
+
+    .cuestionariomateria {
+        margin: 2px;
+    }
+
+    .archivos_materias_cuestiona {
+        display: none;
+    }
+
+    .boton_cuestioanrio_uno {
+        display: inline-block;
+        background-color: #191d20;
+        border: none;
+        outline: none;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        height: 20px;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+}
+
+    .boton_cuestioanrio_uno img {
+        width: 20px;
+        display: inline-block;
+        margin: 0;
+    }
+
+    .cuestionario_aparecer {
+        display: block !important;
+    }
+
+    .boton_rotate {
+        transition: all 0.5s;
+        rotate: 180deg;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+}
     
   }
