@@ -82,6 +82,10 @@ flex-wrap: wrap;
     background-color: #191c21;
 }
 
+#button_menu {
+    display: none;
+}
+
 .supernav_img {
     width: 20px;
     margin-right: 5px;

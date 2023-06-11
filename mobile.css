@@ -56,4 +56,13 @@
     .secciondos , .secciontres {
         display: none;
     }
+
+    #a_licencia {
+        display: none;
+    }
+
+    #button_menu {
+        display: flex;
+        width: 46%;
+    }
   }
