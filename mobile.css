@@ -48,4 +48,12 @@
     #especial_relleno {
         display: none;
     }
+
+    .h1_separador {
+        padding-top: 120px;
+    }
+
+    .secciondos , .secciontres {
+        display: none;
+    }
   }
