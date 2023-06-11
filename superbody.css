@@ -31,7 +31,7 @@ flex-wrap: wrap;
 
 .supernav {
     width: 100%;
-    background-color:#191d20;
+    background-color:rgb(17, 19, 21);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -168,6 +168,14 @@ flex-wrap: wrap;
     -o-transition: all 0.5s;
 }
 
+.materia_contenedor:hover , .cuestionariomateria:hover {
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+}
+
 .infouno:hover {
     background-color: transparent;
 }
@@ -289,6 +297,11 @@ flex-wrap: wrap;
 
 }
 
+.h1_separador_h1 {
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
 .cuestinariosdiv {
     display: flex;
     flex-direction: row;
@@ -387,3 +400,102 @@ flex-wrap: wrap;
     margin-right: 10px;
 }
 
+.maspaginasdiv {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.otrapagina {
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    background: #191d20;
+    margin: 5px;
+    flex-grow: 1;
+}
+
+
+.otrapagina img {
+    height: 70px;
+    width: 70px;
+
+}
+
+
+.otrapagina p {
+    text-align: justify;
+}
+
+.piedepagina {
+    margin-top: 80px;
+    background: #191d20;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.seccion {
+    width: 30%;  
+    font-size: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.seccionuno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccionuno img {
+    height: 50px;
+}
+
+.secciondos h3 img {
+    height: 20px;
+    margin-left: 8px;
+
+}
+
+.corazonsvg {
+    filter: invert(.75);
+    -webkit-filter: invert(.75);
+}
+
+.altopuntajepng {
+    filter: invert(.25);
+    -webkit-filter: invert(.25);
+}
+
+.secciondos {
+    font-size: 13px;
+    text-align: justify;
+}
+
+.secciondos h3 {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.secciontres img {
+    height: 40px;
+    margin-bottom: 5px;
+}
