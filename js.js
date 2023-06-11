@@ -31,6 +31,20 @@ window.addEventListener("scroll", function() {
 });
 
 
+// Espera a que el documento esté completamente cargado
+document.addEventListener("DOMContentLoaded", function() {
+    // Obtén una referencia al botón y al elemento de menú
+    var button = document.getElementById("button_menu");
+    var nav = document.getElementById("nav");
+  
+    // Agrega un controlador de eventos clic al botón
+    button.addEventListener("click", function() {
+      // Cambia la propiedad display del elemento de menú
+      nav.style.display = "block";
+    });
+  });
+  
+
 
 
 
