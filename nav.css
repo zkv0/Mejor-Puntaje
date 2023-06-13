@@ -13,6 +13,7 @@
     flex-direction: column;
     padding: 40px 20px;
     z-index: 99;
+    display: block;
 }
 
 .nav div{

@@ -54,7 +54,7 @@
     }
 
     .secciondos , .secciontres {
-        display: none;
+        justify-content: center;
     }
 
     #a_licencia {
@@ -68,8 +68,8 @@
 
     .materia_contenedor {
         padding: 10px;
-        min-width: 40%;
-        width: 45%;
+        min-width: 50%;
+        width: 55%;
         border-radius: 30px;
         -webkit-border-radius: 30px;
         -moz-border-radius: 30px;
