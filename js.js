@@ -52,36 +52,76 @@ document.addEventListener("DOMContentLoaded", function() {
 
 /*traer los botones que desplegan el cuesioanrio en moviles*/
 // Obtener elementos de los botones
-var botones = [
-  document.getElementById("boton_cuestioanrio_uno"),
-  document.getElementById("boton_cuestioanrio_sociales"),
-  document.getElementById("boton_cuestioanrio_natutales"),
-  document.getElementById("boton_cuestioanrio_ingles"),
-  document.getElementById("boton_cuestioanrio_mate"),
-  document.getElementById("boton_cuestioanrio_español")
-];
+/*traer los botones que desplegan el cuesioanrio en moviles*/
+var boton_cuestioanrio_uno = document.getElementById("boton_cuestioanrio_uno");
+var boton_cuestioanrio_sociales = document.getElementById("boton_cuestioanrio_sociales");
+var boton_cuestioanrio_natutales = document.getElementById("boton_cuestioanrio_natutales");
+var boton_cuestioanrio_ingles = document.getElementById("boton_cuestioanrio_ingles");
+var boton_cuestioanrio_mate = document.getElementById("boton_cuestioanrio_mate");
+var boton_cuestioanrio_español = document.getElementById("boton_cuestioanrio_español");
 
-// Obtener elementos de los cuestionarios
-var cuestionarios = [
-  document.getElementById("cuestionario_todo"),
-  document.getElementById("cuestionario_sociales"),
-  document.getElementById("cuestionario_naturales"),
-  document.getElementById("cuestionario_ingles"),
-  document.getElementById("cuestionario_mate"),
-  document.getElementById("cuestionario_español")
-];
+ /* Traer los cuestionarios ocultos*/
 
-// Agregar funciones de clic para mostrar u ocultar los cuestionarios
-for (var i = 0; i < botones.length; i++) {
-  botones[i].addEventListener("click", function(index) {
-    cuestionarios[index].classList.toggle("cuestionario_aparecer");
-    botones[index].classList.toggle("boton_rotate");
-  }.bind(null, i));
-}
+var cuestionario_todo = document.getElementById("cuestionario_todo");
+var cuestionario_sociales = document.getElementById("cuestionario_sociales");
+var cuestionario_naturales = document.getElementById("cuestionario_naturales");
+var cuestionario_ingles = document.getElementById("cuestionario_ingles");
+var cuestionario_mate = document.getElementById("cuestionario_mate");
+var cuestionario_español = document.getElementById("cuestionario_español");
+
+/*Añadir las funciones de click haga aparecer el cuestioanrio*/
+
+boton_cuestioanrio_uno.addEventListener("click", function(){  
+  cuestionario_todo.classList.toggle("cuestionario_aparecer");  
+  boton_cuestioanrio_uno.classList.toggle("boton_rotate")
+});
+
+boton_cuestioanrio_sociales.addEventListener("click", function(){  
+  cuestionario_sociales.classList.toggle("cuestionario_aparecer");  
+  boton_cuestioanrio_sociales.classList.toggle("boton_rotate")
+});
+
+boton_cuestioanrio_naturales.addEventListener("click", function(){  
+  cuestionario_naturales.classList.toggle("cuestionario_aparecer");  
+  boton_cuestioanrio_naturales.classList.toggle("boton_rotate")
+});
+
+boton_cuestioanrio_ingles.addEventListener("click", function(){  
+  cuestionario_ingles.classList.toggle("cuestionario_aparecer");  
+  boton_cuestioanrio_ingles.classList.toggle("boton_rotate")
+});
+
+boton_cuestioanrio_mate.addEventListener("click", function(){  
+  cuestionario_mate.classList.toggle("cuestionario_aparecer");  
+  boton_cuestioanrio_mate.classList.toggle("boton_rotate")
+});
+
+boton_cuestioanrio_español.addEventListener("click", function(){  
+  cuestionario_español.classList.toggle("cuestionario_aparecer");  
+  boton_cuestioanrio_español.classList.toggle("boton_rotate")
+});
 
 
 
 
+//Botones
+var Conocimiento_Geográfico = document.getElementById("Conocimiento_Geográfico"),
+Conceptos_de_Geografía = document.getElementById("Conceptos_de_Geografía");
 
 
-/*Traer los botones de los videos */
+//span de videos
+var Conocimiento_Geográfico_video = document.getElementById("Conocimiento_Geográfico_video"),
+Conceptos_de_Geografía_video = document.getElementById("Conceptos_de_Geografía_video");
+
+//funciones
+
+Conocimiento_Geográfico.addEventListener("click", function(){  
+  Conocimiento_Geográfico_video.classList.toggle ("span_video");
+  document.getElementById("Conocimiento_Geográfico_video").innerHTML = `<iframe class="video"  src="https://www.youtube-nocookie.com/embed/EuVEhJog2Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+});
+
+Conceptos_de_Geografía.addEventListener("click", function () {
+  Conceptos_de_Geografía_video.classList.toggle ("span_video");
+  document.getElementById("Conceptos_de_Geografía_video").innerHTML = `<iframe class="video"  src="https://www.youtube-nocookie.com/embed/w19v7E33YgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+});
+

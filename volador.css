@@ -74,8 +74,15 @@
     background-color: #111315;
   }
 
-  .video {
+  .span_video_oculto {
     display: none;
+  }
+
+  .span_video {
+    display: inline-block !important;
+  }
+
+  .video {
     width: 560px;
     height: 315px;
     margin: 15px 0px;
