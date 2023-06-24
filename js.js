@@ -102,26 +102,9 @@ boton_cuestioanrio_español.addEventListener("click", function(){
 });
 
 
+var boton_acsociales = document.getElementById("boton_acsociales");
+var div_csociales = document.getElementById("div_csociales");
 
-
-//Botones
-var Conocimiento_Geográfico = document.getElementById("Conocimiento_Geográfico"),
-Conceptos_de_Geografía = document.getElementById("Conceptos_de_Geografía");
-
-
-//span de videos
-var Conocimiento_Geográfico_video = document.getElementById("Conocimiento_Geográfico_video"),
-Conceptos_de_Geografía_video = document.getElementById("Conceptos_de_Geografía_video");
-
-//funciones
-
-Conocimiento_Geográfico.addEventListener("click", function(){  
-  Conocimiento_Geográfico_video.classList.toggle ("span_video");
-  document.getElementById("Conocimiento_Geográfico_video").innerHTML = `<iframe class="video"  src="https://www.youtube-nocookie.com/embed/EuVEhJog2Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+boton_acsociales.addEventListener("click", function(){
+  div_csociales.classList.toggle("volador_visible")
 });
-
-Conceptos_de_Geografía.addEventListener("click", function () {
-  Conceptos_de_Geografía_video.classList.toggle ("span_video");
-  document.getElementById("Conceptos_de_Geografía_video").innerHTML = `<iframe class="video"  src="https://www.youtube-nocookie.com/embed/w19v7E33YgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
-});
-
