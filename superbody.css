@@ -36,6 +36,7 @@ flex-wrap: wrap;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
+    align-items: center;
     justify-content: space-around;
     padding: 10px;
     height: auto;
@@ -80,6 +81,43 @@ flex-wrap: wrap;
 
 .supernav_filtro_button:hover {
     background-color: #191c21;
+}
+
+.supernav_rigth {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.compartir , .temas , .chat {
+    background: none;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    outline: 3px solid #191c21;
+    border-radius:100% ;
+    -webkit-border-radius:100% ;
+    -moz-border-radius:100% ;
+    -ms-border-radius:100% ;
+    -o-border-radius:100% ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 10px;
+}
+
+.compartir:hover, .temas:hover, .chat:hover {
+    background-color: #191c21;
+    cursor: pointer;
+}
+
+.compartir img, .temas img , .chat img {
+    background-color: none;
+    width: 20px;
+    height: 20px;
+    filter: invert(.8);
+    -webkit-filter: invert(.8);
 }
 
 #button_menu {

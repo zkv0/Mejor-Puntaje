@@ -103,8 +103,75 @@ boton_cuestioanrio_español.addEventListener("click", function(){
 
 
 var boton_acsociales = document.getElementById("boton_acsociales");
+var cerrar_csociales = document.getElementById("cerrar_csociales");
 var div_csociales = document.getElementById("div_csociales");
 
 boton_acsociales.addEventListener("click", function(){
   div_csociales.classList.toggle("volador_visible")
 });
+
+cerrar_csociales.addEventListener("click", function(){
+  div_csociales.classList.toggle("volador_visible");
+});
+
+
+//copiar texto
+var btnCopy = document.getElementById("btn-copy");
+    btnCopy.addEventListener("click", function() {
+      var myInput = document.getElementById("myInput");
+      var textToCopy = myInput.value;
+
+      navigator.clipboard.writeText(textToCopy)
+        .then(function() {
+          alert("Texto copiado: " + textToCopy);
+        })
+        .catch(function(err) {
+          console.error("Error al copiar el texto: ", err);
+        });
+    });
+
+
+//boton compartir activar 
+var buttonsshare = document.getElementsByClassName("compartir");
+    var divCompartir = document.getElementById("div_compartir");
+
+    for (var i = 0; i < buttonsshare.length; i++) {
+      buttonsshare[i].addEventListener("click", function() {
+        divCompartir.classList.toggle("div_compartir_visible");
+      });
+    }
+
+    // Cerrar compartir
+    var btnsharex = document.getElementById("btn-share-x");
+
+    btnsharex.addEventListener("click", function() {
+      divCompartir.classList.toggle("div_compartir_visible");
+    });
+
+
+//compartir whtpp
+var btnSharew = document.getElementById("btn-share-w");
+    btnSharew.addEventListener("click", function() {
+      var urlToSharew = "http://aprendeicfes.online/";  // URL que deseas compartir
+      var encodedUrlw = encodeURIComponent(urlToSharew);
+      var whatsappUrlw = "https://api.whatsapp.com/send?text=" + encodedUrlw;
+
+      window.open(whatsappUrlw);
+    });
+//Compartir twitter
+var btnSharet = document.getElementById("btn-share-t");
+    btnSharet.addEventListener("click", function() {
+      var urlToSharet = "http://aprendeicfes.online/";  // URL que deseas compartir
+      var encodedUrlt = encodeURIComponent(urlToSharet);
+      var twitterUrlt = "https://twitter.com/intent/tweet?url=" + encodedUrlt;
+
+      window.open(twitterUrlt);
+    });
+//facebook
+var btnSharef = document.getElementById("btn-share-f");
+    btnSharef.addEventListener("click", function() {
+      var urlToSharef = "http://aprendeicfes.online/";  // URL que deseas compartir
+      var facebookUrlf = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(urlToSharef);
+
+      window.open(facebookUrlf, "_blank");
+    });

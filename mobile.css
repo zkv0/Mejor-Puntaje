@@ -76,6 +76,12 @@
         -ms-border-radius: 30px;
         -o-border-radius: 30px;
         margin: 5px;
+
+        
+}
+
+#materia_rellenooo {
+    display: none;
 }
 
     .materias_div {

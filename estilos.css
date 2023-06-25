@@ -23,4 +23,157 @@ body {
 
 }
 
+#materia_rellenooo {
+  color: transparent;
+  background-color: transparent;
+  cursor: auto;
+}
 
+.div_compartir {
+  position: fixed;
+  z-index: 99999999999;
+  width: 100%;
+  height: 100vh;
+  background-color: #111315c9;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_compartir_visible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cerrar-share {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#btn-share-x {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: none;
+  
+}
+
+#btn-share-x img {
+  width: 30px;
+  filter: invert(.8);
+  -webkit-filter: invert(.8);
+}
+
+.compartir_contenido {
+  background: rgb(25, 29, 32);
+  padding: 40px;
+  max-width: 800px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  padding-top: 20px;
+}
+
+.arriba_compartir {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.arriba_compartir img {
+  margin: 0;
+  max-width: 250px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  margin-bottom: 10px;
+  
+}
+
+.link {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111315;
+  padding: 5px;
+  border-radius:20px ;
+  -webkit-border-radius:20px ;
+  -moz-border-radius:20px ;
+  -ms-border-radius:20px ;
+  -o-border-radius:20px ;
+}
+
+.link p {
+  color: #d5d5d5;
+padding: 0;
+margin: 0;
+}
+
+.link button {
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 0;
+  padding: 10px 10px ;
+  background-color: rgb(25, 29, 32);
+  outline: none;
+  border: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.abajo_compartir {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.btn-sharessss {
+  cursor: pointer;
+  background-color: #111315;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-top: 5px;
+  align-items: center;
+  padding: 8px 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn-sharessss img {
+  box-sizing: border-box;
+  width: 30px;
+  padding: 3px;
+  margin-right: 10px;
+  filter: invert(.8);
+  -webkit-filter: invert(.8);
+}

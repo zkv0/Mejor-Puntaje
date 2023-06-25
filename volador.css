@@ -16,8 +16,67 @@
     align-items: center;
   }
 
+  .otronavmas {
+    box-sizing: border-box;
+    background-color: #111315;
+    width: 100%;
+    height: 60px;
+    padding: 8px 60px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+  }
+
+  .otronav_img {
+    height: 98%;
+  }
+
+  .supernav_volador_rigth {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .otronav_button {
+    padding: 10px 40px;
+    font-weight: bold;
+    background-color: #111315;
+    border: none;
+    outline: 3px solid #191c21;
+    font-size: 16px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    cursor: pointer;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.otronav_button img {
+  margin-right: 10px;
+  width: 20px;
+  filter: invert(.8);
+  -webkit-filter: invert(.8);
+}
+
+.otronav_button:hover {
+  background-color: #191c21;
+}
+
   .contenidodelvolador {
-    width: 850px;
+    max-width: 900px;
 
 }
 
@@ -30,6 +89,18 @@
     padding-bottom: 0;
 
     
+  }
+
+  .partedelvolador h2 , .partedelvolador h1 {
+    font-size: 35px;
+    padding: 20px 0px;
+  }
+
+  .partedelvolador p {
+    line-height:1.5;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
   }
 
   .partedelvoladorconvideo {
