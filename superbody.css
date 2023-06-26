@@ -90,7 +90,7 @@ flex-wrap: wrap;
     flex-wrap: nowrap;
 }
 
-.compartir , .temas , .chat {
+.btn-rapido {
     background: none;
     box-sizing: border-box;
     padding: 10px;
@@ -107,12 +107,12 @@ flex-wrap: wrap;
     margin-right: 10px;
 }
 
-.compartir:hover, .temas:hover, .chat:hover {
+.btn-rapido:hover {
     background-color: #191c21;
     cursor: pointer;
 }
 
-.compartir img, .temas img , .chat img {
+.btn-rapido img {
     background-color: none;
     width: 20px;
     height: 20px;
@@ -212,7 +212,6 @@ flex-wrap: wrap;
 
 
 .tags {
-    margin: 0px 0px 20px 0px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -234,6 +233,7 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    margin-top: 10px;
 }
 
 .arribainfo {

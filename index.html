@@ -13,7 +13,8 @@
     
     <title>Aprende</title>
 </head>
-<body>  
+<div id="overlay"></div>
+<body style="position: relative;">  
     
     <div class="nav" id="nav">
         <div class="img_nav">
@@ -23,7 +24,7 @@
         <div class="otraspaginas">
             <span>Explorar</span>
             <a href="index.html" style="background-color: #191d20; color: #fff; font-weight: 600;"><img style="filter: invert(1);" src="imgs/aplicaciones.svg" class="icon_nav" alt="Tiempo" title="Tiempo" > Principal</a>
-            <a href="Pages/estudio.html"><img src="imgs/reloj.svg" class="icon_nav" alt="Tiempo" title="Tiempo"> Metodos De Estudio</a>
+            <a href="Pages/estudio.html"><img src="imgs/reloj.svg" class="icon_nav" alt="Metodos De Estudio" title="Metodos De Estudio"> Metodos De Estudio</a>
             <a href="Pages/portal_icfes.html"><img src="imgs/informacion.svg" class="icon_nav"  alt="info" title="Portal ICFES"> Sobre El ICFES</a>
             <a href="Pages/osobre_la_pagina.html"><img src="imgs/cometa.svg" class="icon_nav" alt="cometa" title="Sobre la web"> Sobre La Pagina</a>
         </div>
@@ -51,9 +52,10 @@
                 </div>
             </div>
             <div class="abajo_compartir">
-                <button id="btn-share-w" class="btn-sharessss" style="background: rgb(0, 212, 0);"><img src="imgs/whatsapp.svg" alt=""> whatsapp</button>
-                <button id="btn-share-t" class="btn-sharessss" style="background: rgb(31, 128, 255);"><img src="imgs/twitter.svg" alt=""> Twitter</button>
-                <button id="btn-share-f" class="btn-sharessss" style="background: rgb(0, 0, 255);"><img src="imgs/facebook.svg" alt=""> Facebook</button>
+                <button id="btn-share-w" class="btn-sharessss" style="background: rgb(0, 212, 0);"><img src="imgs/whatsapp.svg" alt=""></button>
+                <button id="btn-share-t" class="btn-sharessss" style="background: rgb(31, 128, 255);"><img src="imgs/twitter.svg" alt=""></button>
+                <button id="btn-share-f" class="btn-sharessss" style="background: rgb(0, 0, 255);"><img src="imgs/facebook.svg" alt=""></button>
+                <a href="imgs/qrrrrr.svg" download="Qr-Aprende" id="btn-share-f" class="btn-sharessss" style="background: rgb(0, 0, 0);"><img src="imgs/codigo-qr.svg" alt=""></a>
             </div>
         </div>
     </div>
@@ -71,9 +73,11 @@
                     <button id="button_menu" href="#h1_separador_maspaginas" class="supernav_filtro_button"><img src="imgs/aplicaciones.svg" class="supernav_img" alt="Mas paginas" title="Mas paginas">Menu</button>
                 </div>
                 <div class="supernav_rigth">
-                    <button class="chat"><img src="imgs/comentario.svg" alt="Chat" title="Chat"></button>
-                    <button class="temas"><img src="imgs/paleta.svg" alt="Temas" title="Temas"></button>
-                    <button class="compartir"><img src="imgs/compartir-cuadrado.svg" alt="Compartir" title="Compartir"></button>
+                    <button class="luz-nocturna btn-rapido"><img src="imgs/luna-estrellas.svg" alt="luz nocturna" title="luz nocturna"></button>
+                    <button class="Temporizador btn-rapido"><img src="imgs/reloj.svg" alt="Temporizador" title="Temporizador"></button>
+                    <button class="chat btn-rapido"><img src="imgs/comentario.svg" alt="Chat" title="Chat"></button>
+                    <button class="full-screen btn-rapido"><img src="imgs/expandir.svg" alt="todo pantalla" title="Expandir"></button>
+                    <button class="compartir btn-rapido"><img src="imgs/compartir-cuadrado.svg" alt="Compartir" title="Compartir"></button>
                 </div>
         </div>
     </div>
@@ -99,7 +103,7 @@
                         </div>
                         <div class="info">
                             <span class="info_datos"><img class="info_datos_img" src="imgs/prueba.svg" alt="Cuestionarios" title="Cuestionarios">7</span>
-                            <span class="info_datos"><img class="info_datos_img" src="imgs/video.svg" alt="Videos" title="Videos">+50</span>
+                            <span class="info_datos"><img class="info_datos_img" src="imgs/video.svg" alt="Videos" title="Videos">63</span>
                         </div>
                     </div>
                     
@@ -407,22 +411,47 @@
         <div class="otronavmas" id="otronav_sociales">
             <img class="otronav_img" src="imgs/LOGOAPRENDECOMPLETOblanco.PNG" alt="">
             <div class="supernav_volador_rigth">
-                <button class="chat"><img src="imgs/comentario.svg" alt="Chat" title="Chat"></button>
-                <button class="temas"><img src="imgs/paleta.svg" alt="Temas" title="Temas"></button>
-                <button class="compartir"><img src="imgs/compartir-cuadrado.svg" alt="Compartir" title="Compartir"></button>
+                <button class="luz-nocturna btn-rapido"><img src="imgs/luna-estrellas.svg" alt="luz nocturna" title="luz nocturna"></button>
+                    <button class="Temporizador btn-rapido"><img src="imgs/reloj.svg" alt="Temporizador" title="Temporizador"></button>
+                    <button class="chat btn-rapido"><img src="imgs/comentario.svg" alt="Chat" title="Chat"></button>
+                    <button class="full-screen btn-rapido"><img src="imgs/expandir.svg" alt="todo pantalla" title="Expandir"></button>
+                    <button class="compartir btn-rapido"><img src="imgs/compartir-cuadrado.svg" alt="Compartir" title="Compartir"></button>
                 <button class="otronav_button" id="cerrar_csociales"><img src="imgs/salir-alt.svg" alt="Salir" title="Salir">Salir</button>
             </div>
         </div>
         <div class="contenidodelvolador">
            
-        <div class="partedelvolador" style="margin-top: 100px;">
-                <h1>Prueba de Sociales y Competencias Ciudadanas ICFES saber 11</h1>
-        <p>La prueba de Sociales y Competencias Ciudadanas es básicamente la combinación de dos pruebas: la de sociales y la de competencias ciudadanas. La sección de competencias ciudadanas incluye aspectos relacionados con la violencia y la sociedad. El objetivo de esta prueba es evaluar conceptos como la vida en sociedad, la educación cívica y la constitución política, entre otros. <br> En cuanto a la parte de Ciencias Sociales, al igual que en la sección de lectura crítica, se recomienda practicar ejercicios de comprensión de lectura. Si se tiene una buena habilidad de lectura y comprensión, se obtendrán mejores resultados. Por lo tanto, es recomendable buscar ejercicios de comprensión de lectura y comenzar a estudiar.
+        <div class="info_volador" style="margin-top: 100px;">
+        
+        <h1 class="title-volador"><img class="img-info-volador" src="imgs/informacion.svg" alt="">Prueba de Sociales y Competencias Ciudadanas</h1>
+        <p class="text-volador">La prueba de Sociales y Competencias Ciudadanas es básicamente la combinación de dos pruebas: la de sociales y la de competencias ciudadanas. La sección de competencias ciudadanas incluye aspectos relacionados con la violencia y la sociedad. El objetivo de esta prueba es evaluar conceptos como la vida en sociedad, la educación cívica y la constitución política, entre otros. <br> En cuanto a la parte de Ciencias Sociales, al igual que en la sección de lectura crítica, se recomienda practicar ejercicios de comprensión de lectura. Si se tiene una buena habilidad de lectura y comprensión, se obtendrán mejores resultados. Por lo tanto, es recomendable buscar ejercicios de comprensión de lectura y comenzar a estudiar.
         <br>A continuación se presentan algunos temas importantes de Ciencias Sociales para estudiar. Después, se profundizará en conceptos como geografía e historia. Luego, se abordarán los conceptos relacionados con las competencias ciudadanas. Finalmente, se trabajará en la resolución de problemas, todo esto a través de vídeos interactivos que te ayudarán a prepararte para tu prueba ICFES Saber 11.</p>
+        <div class="info-divs-volador">
+            <span class="infoss">
+                <span> <img src="imgs/video.svg" alt="">Videos</span>
+                <span>63</span>
+            </span>
+            <a href=""  class="infoss">
+                <span><img src="imgs/prueba.svg" alt="">Examenes</span>
+                <span>7</span>
+            </a>
+            <div class="infoss">
+                <span><img src="imgs/marcador.svg" alt="">Temas</span>
+                <div class="tags">
+                <a href="#ncncsoci" class="tag_tag">Nociones de Sociales</a>
+                <a href="#gogggsoc" class="tag_tag">Geografía</a>
+                <a href="#hstun" class="tag_tag">Historia Universal</a>
+                <a href="#ssissoc" class="tag_tag">Sistemas Sociales</a>
+                <a href="#Cssco" class="tag_tag">Colombia</a>
+                <a href="#compcidd" class="tag_tag">Competencias Ciudadanas</a>
+                <a href="#ejcsoc" class="tag_tag">Ejemplos</a>
+                </div>
+            </div>
+        </div>
         </div>
         
         <div class="partedelvolador">
-            <h2>Nociones de Sociales</h2>
+            <h2 id="ncncsoci">Nociones de Sociales</h2>
         <p>Antes de adentrarnos completamente en el contenido principal del temario, es importante establecer una base sólida en ciencias sociales, al igual que cuando necesitamos agua para ablandar el suelo antes de cavar un agujero. Necesitaremos comprender los fundamentos de las ciencias sociales para poder enfrentar con éxito lo que veremos más adelante. Si has visitado el portal de matemáticas, ya sabrás qué esperar. En este caso, se presentarán una serie de vídeos explicativos cortos pero fundamentales, que te ayudarán a familiarizarte con los conceptos de ciencias sociales de manera efectiva.</p>
         </div>
 
@@ -628,7 +657,7 @@
          </div>
 
          <div class="partedelvolador">
-            <h2>Geografía</h2>
+            <h2 id="gogggsoc">Geografía</h2>
          </div>
 
 
@@ -665,7 +694,7 @@
         </div>
 
         <div class="partedelvolador">
-            <h2>Historia Universal</h2>
+            <h2 id="hstun">Historia Universal</h2>
             <p>Ahora daremos un recorrido por los hechos y eventos que han ocurrido en el mundo desde que nuestra especie apareció en el planeta, por la historia, claramente no a gran profundidad, esto se puede desglosar tanto como se quiera, por algo esta la carrera universitaria de esto. Lo que veremos es la historia que usualmente se enseña en el colegio. En esta parte hay resúmenes generales, mas adelante encontraremos la historia de Colombia por aparte.</p>
         </div>
 
@@ -761,7 +790,7 @@
         </div>
 
         <div class="partedelvolador">
-            <h2>Sistemas Sociales</h2>
+            <h2 id="ssissoc">Sistemas Sociales</h2>
          </div>
 
          <div class="partedelvoladorconvideo">
@@ -791,7 +820,7 @@
         </div>
 
         <div class="partedelvolador">
-            <h2>Colombia</h2>
+            <h2 id="Cssco">Colombia</h2>
             <p>Muy bien, ahora nos adentramos en un lugar donde la gente parece disfrutar del sufrimiento... digo, en un lugar donde la gente es muy feliz, un país que tiene como símbolos patrios al majestuoso cóndor, el ave voladora más grande y en peligro de extinción, así como la palma de cera, que también está en peligro de extinción. Es crucial comprender más sobre nuestro país, cómo se ha desarrollado y qué factores han contribuido a convertirlo en lo que es hoy en día.</p>
         </div>
 
@@ -855,19 +884,19 @@
         </div>
 
         <div class="partedelvolador">
-            <h2>Competencias Ciudadanas
+            <h2 id="compcidd">Competencias Ciudadanas
             </h2>
             <p>Este componente incluye preguntas diseñadas para evaluar la capacidad de analizar de manera crítica los problemas que afectan a la ciudadanía y cómo actuar de acuerdo con los principios de una sociedad democrática. Estas preguntas se basan en los "Estándares Básicos de Competencias Ciudadanas colombianos", que se centran en temas como la convivencia y la paz, la participación democrática, y la diversidad y pluralidad. Es importante destacar que esta prueba puede generar diferentes opiniones, y aunque personalmente puedo considerarla innecesaria, es mejor reservar juicios y comenzar a examinar cómo el ICFES espera que nos comportemos.</p>
         </div>
 
         <div class="partedelvoladorconvideo">
             <div class="div_botonvideo" >
-                <button class="boton_video" id="Derecho_internacional_humanitario">
+                <button class="boton_video" id="Derecho_internacional_humanitarioo">
                     <h3>Derecho internacional y derecho internacional humanitario
                     </h3>
                     <img class="boton_video_img" src="imgs/flecha_abajo.svg" alt="">
                 </button>
-                <span class="span_video_oculto" id="Derecho_internacional_humanitario_video"></span>
+                <span class="span_video_oculto" id="Derecho_internacional_humanitarioo_video"></span>
             </div>
             <div class="div_botonvideo" >
                 <button class="boton_video" id="Psicología_Social">
@@ -904,8 +933,43 @@
         </div>
 
         <div class="partedelvolador">
-            <h2>Ejemplos de preguntas de Sociales y Ciudadanas</h2>
+            <h2 id="ejcsoc">Ejemplos de preguntas de Sociales y Ciudadanas</h2>
          </div>
+
+         <div class="partedelvoladorconvideo">
+            <div class="div_botonvideo" >
+                <button class="boton_video" id="Reppsj_soccles">
+                    <h3>Repaso I sociales
+                    </h3>
+                    <img class="boton_video_img" src="imgs/flecha_abajo.svg" alt="">
+                </button>
+                <span class="span_video_oculto" id="Reppsj_soccles_video"></span>
+            </div>
+            <div class="div_botonvideo" >
+                <button class="boton_video" id="Repasoiiciales">
+                    <h3>Repaso II sociales
+                    </h3>
+                    <img class="boton_video_img" src="imgs/flecha_abajo.svg" alt="">
+                </button>
+                <span class="span_video_oculto" id="Repasoiiciales_video"></span>
+            </div>
+            <div class="div_botonvideo" >
+                <button class="boton_video" id="Repasoiiisociales">
+                    <h3>Repaso III sociales
+                    </h3>
+                    <img class="boton_video_img" src="imgs/flecha_abajo.svg" alt="">
+                </button>
+                <span class="span_video_oculto" id="Repasoiiisociales_video"></span>
+            </div>
+            <div class="div_botonvideo" >
+                <button class="boton_video" id="Repasiiiisociales">
+                    <h3>CRepaso IV sociales
+                    </h3>
+                    <img class="boton_video_img" src="imgs/flecha_abajo.svg" alt="">
+                </button>
+                <span class="span_video_oculto" id="Repasiiiisociales_video"></span>
+            </div>
+        </div>
 
         </div>
     </div>

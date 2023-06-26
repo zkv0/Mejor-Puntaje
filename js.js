@@ -31,6 +31,27 @@ window.addEventListener("scroll", function() {
 });
 
 
+
+var prevScrollPos = window.pageYOffset;
+var otronavmasElement = document.getElementsByClassName("otronavmas")[0];
+
+window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+
+    if (prevScrollPos > currentScrollPos) {
+        // Scroll hacia arriba
+        otronavmasElement.style.top = "0";
+    } else {
+        // Scroll hacia abajo
+        otronavmasElement.style.top = "-" + otronavmasElement.offsetHeight + "px";
+    }
+
+    prevScrollPos = currentScrollPos;
+};
+
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
     var button = document.getElementById("button_menu");
     var nav = document.getElementById("nav");
@@ -131,6 +152,32 @@ var btnCopy = document.getElementById("btn-copy");
     });
 
 
+
+//luz de noche 
+const overlay = document.getElementById('overlay');
+const luzNocturnaButtons = document.querySelectorAll('.luz-nocturna');
+
+luzNocturnaButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    overlay.classList.toggle('overlay');
+  });
+});
+
+//pantalla completa
+var fullscreenButton = document.querySelector('.full-screen');
+
+fullscreenButton.addEventListener('click', toggleFullScreen);
+
+function toggleFullScreen() {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen();
+  } else {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    }
+  }
+}
+
 //boton compartir activar 
 var buttonsshare = document.getElementsByClassName("compartir");
     var divCompartir = document.getElementById("div_compartir");
@@ -175,3 +222,13 @@ var btnSharef = document.getElementById("btn-share-f");
 
       window.open(facebookUrlf, "_blank");
     });
+
+
+
+
+
+
+
+
+
+

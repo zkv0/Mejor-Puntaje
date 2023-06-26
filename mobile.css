@@ -53,6 +53,10 @@
         padding-top: 20px;
     }
 
+    .secciondos {
+        display: none;
+    }
+
     .secciondos , .secciontres {
         justify-content: center;
     }
@@ -188,13 +192,82 @@
     }
 
     .otrapagina img{
-        height: 49px;
-        width: 49px;
-        margin-right: 10px;
+        height: 49px !important;
+        width: 49px !important;
+        margin-right: 10px !important;
     }
 
 .otraspaginap {
-display: none;
+display: none !important;
 }
-    
+
+    .partedelvolador p , .info_volador p {
+        font-size: 15.6px !important;
+    }
+
+    .partedelvoladorconvideo {
+        padding: 0 !important;
+    }
+
+    .div_botonvideo {
+        flex-grow: 1 !important;
+    }
+
+    .video {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .otronavmas {
+        width: 100% !important;
+        height: auto !important;
+        justify-content: center !important;
+        align-items: center !important;
+        align-content: center !important;
+    }
+
+    .infoss {
+        box-sizing: border-box;
+        margin-bottom: 10px !important;
+        padding: 15px !important;
+    }
+
+    .partedelvolador p, .info_volador p {
+        margin-bottom: 10px !important;
+    }
+
+    .info_volador {
+        border-radius: 0 !important;
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        -ms-border-radius: 0 !important;
+        -o-border-radius: 0 !important;
+}
+
+    .otronav_img {
+        height: 39px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .otronav_button {
+        padding: 10px 15px !important;
+    }
+
+    .info_volador {
+        margin-top: 150px !important;
+    }
+
+    .partedelvolador h2, .partedelvolador h1, .info_volador h1 {
+        font-size: 25px !important;
+    }
+
+    .img-info-volador {
+        width: 30px !important;
+    }
+
+    .supernav_rigth {
+        margin-top: 10px !important;
+    }
+
+
   }

@@ -323,8 +323,8 @@ function toggleVideo(button, videoDiv, videoUrl) {
   );
   
   toggleVideo(
-    document.getElementById("Derecho_internacional_humanitario"),
-    document.getElementById("Derecho_internacional_humanitario_video"),
+    document.getElementById("Derecho_internacional_humanitarioo"),
+    document.getElementById("Derecho_internacional_humanitarioo_video"),
     "https://www.youtube.com/embed/HAWY41FfJ7E"
   );
   toggleVideo(
@@ -346,4 +346,26 @@ function toggleVideo(button, videoDiv, videoUrl) {
     document.getElementById("Práctica_competencias"),
     document.getElementById("Práctica_competencias_video"),
     "https://www.youtube.com/embed/2auyr2cnwm0"
+  );
+
+
+  toggleVideo(
+    document.getElementById("Reppsj_soccles"),
+    document.getElementById("Reppsj_soccles_video"),
+    "https://www.youtube.com/embed/pZVy6vUSdBY"
+  );
+  toggleVideo(
+    document.getElementById("Repasoiiciales"),
+    document.getElementById("Repasoiiciales_video"),
+    "https://www.youtube.com/embed/EZVf0B2mcPw"
+  );
+  toggleVideo(
+    document.getElementById("Repasoiiisociales"),
+    document.getElementById("Repasoiiisociales_video"),
+    "https://www.youtube.com/embed/cXO8SfxzBdI"
+  );
+  toggleVideo(
+    document.getElementById("Repasiiiisociales"),
+    document.getElementById("Repasiiiisociales_video"),
+    "https://www.youtube.com/embed/2EBAmCK9N88"
   );

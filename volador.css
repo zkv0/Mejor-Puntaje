@@ -10,6 +10,8 @@
     align-items: center;
   }
 
+  
+
   .volador_visible {
     display: flex;
     flex-direction: column;
@@ -20,18 +22,25 @@
     box-sizing: border-box;
     background-color: #111315;
     width: 100%;
-    height: 60px;
-    padding: 8px 60px;
+    height: 85px;
+    padding: 15px 60px;
     display: flex;
     flex-direction:row ;
+    align-items: center;
     justify-content: space-between;
     position: fixed;
+    flex-wrap: wrap;
     top: 0;
     z-index: 9;
-  }
+    transition: top 0.3s ease-out;
+    -webkit-transition: top 0.3s ease-out;
+    -moz-transition: top 0.3s ease-out;
+    -ms-transition: top 0.3s ease-out;
+    -o-transition: top 0.3s ease-out;
+}
 
   .otronav_img {
-    height: 98%;
+    height: 75%;
   }
 
   .supernav_volador_rigth {
@@ -80,6 +89,80 @@
 
 }
 
+.info_volador {
+  background-color:#191d20 ;
+  padding: 20px;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+}
+
+.info-divs-volador {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.title-volador {
+  display: flex;
+  align-items: center;
+}
+
+.img-info-volador {
+  margin-right: 10px;
+  width: 50px;
+  filter: invert(.8);
+  -webkit-filter: invert(.8);
+}
+
+
+.infoss {
+  flex-grow: 1;
+  background-color:#111315 ;
+  margin: 5px;
+  display: flex;
+  min-height: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 0;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  max-width: 500px;
+  text-decoration: none;
+
+}
+
+.infoss span {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+
+.infoss span img {
+  width: 25px;
+  margin-right: 10px;
+  filter: invert(.8);
+  -webkit-filter: invert(.8);
+}
+
+.text-volador {
+  background-color: #111315;
+  padding: 15px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
 
 
   .partedelvolador {
@@ -91,12 +174,12 @@
     
   }
 
-  .partedelvolador h2 , .partedelvolador h1 {
+  .partedelvolador h2 , .partedelvolador h1, .info_volador h1{
     font-size: 35px;
     padding: 20px 0px;
   }
 
-  .partedelvolador p {
+  .partedelvolador p, .info_volador p{
     line-height:1.5;
     font-size: 18px;
     text-align: justify;
