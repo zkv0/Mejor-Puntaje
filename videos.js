@@ -369,3 +369,153 @@ function toggleVideo(button, videoDiv, videoUrl) {
     document.getElementById("Repasiiiisociales_video"),
     "https://www.youtube.com/embed/2EBAmCK9N88"
   );
+  toggleVideo(
+    document.getElementById("Ecoloasdecosistemas"),
+    document.getElementById("Ecoloasdecosistemas_video"),
+    "https://www.youtube.com/embed/kPZxZhD4NVA"
+  );
+  toggleVideo(
+    document.getElementById("Biología_volución"),
+    document.getElementById("Biología_volución_video"),
+    "https://www.youtube.com/embed/PhY2f8I4zww"
+  );
+  toggleVideo(
+    document.getElementById("Biología____ecológicas"),
+    document.getElementById("Biología____ecológicas_video"),
+    "https://www.youtube.com/embed/Q6LjNzlnHDY"
+  );
+  toggleVideo(
+    document.getElementById("BioloConservación_energía"),
+    document.getElementById("BioloConservación_energía_video"),
+    "https://www.youtube.com/embed/65K8eK12W2E"
+  );
+  toggleVideo(
+    document.getElementById("Biología_Ecología_I"),
+    document.getElementById("Biología_Ecología_I_video"),
+    "https://www.youtube.com/embed/pAcEIrzjYFY"
+  );
+  toggleVideo(
+    document.getElementById("Biología_Ecología_II"),
+    document.getElementById("Biología_Ecología_II_video"),
+    "https://www.youtube.com/embed/9ZWSla5YQDM"
+  );
+  toggleVideo(
+    document.getElementById("Biología_Ecología_III"),
+    document.getElementById("Biología_Ecología_III_video"),
+    "https://www.youtube.com/embed/mny8vxD0WWs"
+  );
+  toggleVideo(
+    document.getElementById("Biologíaiiiiasjdk"),
+    document.getElementById("Biologíaiiiiasjdk_video"),
+    "https://www.youtube.com/embed/V3KNxAVse9o"
+  );
+  toggleVideo(
+    document.getElementById("INFLUENCIAHUMANAECOSISTEMA"),
+    document.getElementById("INFLUENCIAHUMANAECOSISTEMA_video"),
+    "https://www.youtube.com/embed/SQdsb1S_ZcQ"
+  );
+
+
+
+  toggleVideo(
+    document.getElementById("Clasificaciónkjadfdelosseresvivos"),
+    document.getElementById("Clasificaciónkjadfdelosseresvivos_video"),
+    "https://www.youtube.com/embed/PiWEH2UV7QI"
+  );
+  toggleVideo(
+    document.getElementById("Clasificaciónkjadfdelosseresvivosasldjklkfs"),
+    document.getElementById("Clasificaciónkjadfdelosseresvivosasldjklkfs_video"),
+    "https://www.youtube.com/embed/jlQFF89Km50"
+  );
+  toggleVideo(
+    document.getElementById("Lasssplantas"),
+    document.getElementById("Lasssplantas_video"),
+    "https://www.youtube.com/embed/U8kz25EZqNE"
+  );
+  toggleVideo(
+    document.getElementById("FOTOSÍNTESISdlssdasdf"),
+    document.getElementById("FOTOSÍNTESISdlssdasdf_video"),
+    "https://www.youtube.com/embed/e4B2gXJyBYw"
+  );
+  toggleVideo(
+    document.getElementById("animalessadas"),
+    document.getElementById("animalessadas_video"),
+    "https://www.youtube.com/embed/P_aXN9mrEh0"
+  );
+  toggleVideo(
+    document.getElementById("Genetdsijfsd"),
+    document.getElementById("Genetdsijfsd_video"),
+    "https://player.vimeo.com/video/26834303?h=f5311a88c6"
+  );
+  toggleVideo(
+    document.getElementById("Genéticaklsjfdajs"),
+    document.getElementById("Genéticaklsjfdajs_video"),
+    "https://www.youtube.com/embed/-lbRziH6pBw"
+  );
+  toggleVideo(
+    document.getElementById("Biologíadgknsdfjk"),
+    document.getElementById("Biologíadgknsdfjk_video"),
+    "https://www.youtube.com/embed/nMZFP5fxfZw"
+  );
+
+
+
+
+  toggleVideo(
+    document.getElementById("célulaajfsdklñkdlsf"),
+    document.getElementById("célulaajfsdklñkdlsf_video"),
+    "https://www.youtube.com/embed/ctqXVrB7LJM"
+  );
+
+  toggleVideo(
+    document.getElementById("celularjkpsdajksdf"),
+    document.getElementById("celularjkpsdajksdf_video"),
+    "https://www.youtube.com/embed/5-UuQLVhvSI"
+  );
+
+  toggleVideo(
+    document.getElementById("sda_adsasdf_Adsfads"),
+    document.getElementById("sda_adsasdf_Adsfads_video"),
+    "https://player.vimeo.com/video/26545923?h=d8f0e75948"
+  );
+
+
+
+
+
+  toggleVideo(
+    document.getElementById("adjklfasd_adsfasdfa"),
+    document.getElementById("adjklfasd_adsfasdfa_video"),
+    "https://www.youtube.com/embed/gX24MTkYYdA"
+  );
+  toggleVideo(
+    document.getElementById("Resnmm_nmjd"),
+    document.getElementById("Resnmm_nmjd_video"),
+    "https://www.youtube.com/embed/A_qOMp65bMo"
+  );
+  toggleVideo(
+    document.getElementById("RepaIIIsdf_bio"),
+    document.getElementById("RepaIIIsdf_bio_video"),
+    "https://www.youtube.com/embed/h8jYanldlqo"
+  );
+  toggleVideo(
+    document.getElementById("RepasoIII_biols"),
+    document.getElementById("RepasoIII_biols_video"),
+    "https://www.youtube.com/embed/lHUTbuivtjk"
+  );
+  toggleVideo(
+    document.getElementById("probl_biolo_ii"),
+    document.getElementById("probl_biolo_ii_video"),
+    "https://www.youtube.com/embed/6pAnQxEmJF0"
+  );
+  toggleVideo(
+    document.getElementById("mas_prombls_biol"),
+    document.getElementById("mas_prombls_biol_video"),
+    "https://www.youtube.com/embed/EjyCPJ67zew"
+  );
+  toggleVideo(
+    document.getElementById("Mas_prbls_bio"),
+    document.getElementById("Mas_prbls_bio_video"),
+    "https://www.youtube.com/embed/4Tk1Xb_1dmM"
+  );
+  

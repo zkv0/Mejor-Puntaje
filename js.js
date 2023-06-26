@@ -123,6 +123,8 @@ boton_cuestioanrio_español.addEventListener("click", function(){
 });
 
 
+
+//abrir ventana de sociales
 var boton_acsociales = document.getElementById("boton_acsociales");
 var cerrar_csociales = document.getElementById("cerrar_csociales");
 var div_csociales = document.getElementById("div_csociales");
@@ -133,6 +135,20 @@ boton_acsociales.addEventListener("click", function(){
 
 cerrar_csociales.addEventListener("click", function(){
   div_csociales.classList.toggle("volador_visible");
+});
+
+
+//abrir ventana de naturales
+var boton_abrir_naturales = document.getElementById("boton_abrir_naturales");
+var cerrar_cnaturales = document.getElementById("cerrar_cnaturales");
+var div_cnaturales = document.getElementById("div_cnaturales");
+
+boton_abrir_naturales.addEventListener("click", function(){
+  div_cnaturales.classList.toggle("volador_visible")
+});
+
+cerrar_cnaturales.addEventListener("click", function(){
+  div_cnaturales.classList.toggle("volador_visible");
 });
 
 
