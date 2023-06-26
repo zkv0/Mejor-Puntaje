@@ -269,5 +269,18 @@ display: none !important;
         margin-top: 10px !important;
     }
 
+    .div_compartir_visible {
+       align-items: end !important; 
+    }
+
+    .compartir_contenido {
+        width: 72% !important;
+        border-radius: 40px 40px 0px 0px;
+        -webkit-border-radius: 40px 40px 0px 0px;
+        -moz-border-radius: 40px 40px 0px 0px;
+        -ms-border-radius: 40px 40px 0px 0px;
+        -o-border-radius: 40px 40px 0px 0px;
+}
+
 
   }
