@@ -33,21 +33,26 @@ window.addEventListener("scroll", function() {
 
 
 var prevScrollPos = window.pageYOffset;
-var otronavmasElement = document.getElementsByClassName("otronavmas")[0];
+var otronavmasElements = document.getElementsByClassName("otronavmas");
 
 window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
 
-    if (prevScrollPos > currentScrollPos) {
-        // Scroll hacia arriba
-        otronavmasElement.style.top = "0";
-    } else {
-        // Scroll hacia abajo
-        otronavmasElement.style.top = "-" + otronavmasElement.offsetHeight + "px";
+    for (var i = 0; i < otronavmasElements.length; i++) {
+        var otronavmasElement = otronavmasElements[i];
+
+        if (prevScrollPos > currentScrollPos) {
+            // Scroll hacia arriba
+            otronavmasElement.style.top = "0";
+        } else {
+            // Scroll hacia abajo
+            otronavmasElement.style.top = "-" + otronavmasElement.offsetHeight + "px";
+        }
     }
 
     prevScrollPos = currentScrollPos;
 };
+
 
 
 
@@ -149,6 +154,21 @@ boton_abrir_naturales.addEventListener("click", function(){
 
 cerrar_cnaturales.addEventListener("click", function(){
   div_cnaturales.classList.toggle("volador_visible");
+});
+
+
+
+//abrir ventana de español
+var boton_abrir_español = document.getElementById("boton_abrir_español");
+var cerrar_español = document.getElementById("cerrar_español");
+var div_lecritica = document.getElementById("div_lecritica");
+
+boton_abrir_español.addEventListener("click", function(){
+  div_lecritica.classList.toggle("volador_visible")
+});
+
+cerrar_español.addEventListener("click", function(){
+  div_lecritica.classList.toggle("volador_visible");
 });
 
 

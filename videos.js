@@ -519,3 +519,689 @@ function toggleVideo(button, videoDiv, videoUrl) {
     "https://www.youtube.com/embed/4Tk1Xb_1dmM"
   );
   
+
+
+
+  toggleVideo(
+    document.getElementById("MOVIMIENTOslhguirUNIFORME"),
+    document.getElementById("MOVIMIENTOslhguirUNIFORME_video"),
+    "https://www.youtube.com/embed/i1qwPE_iBqw"
+  );
+  toggleVideo(
+    document.getElementById("MovimientoectilíneformemementeceleradoRUA"),
+    document.getElementById("MovimientoectilíneformemementeceleradoRUA_video"),
+    "https://www.youtube.com/embed/v4VZES06nd8"
+  );
+  toggleVideo(
+    document.getElementById("klfsdjklñsdfjgksfdjgl"),
+    document.getElementById("klfsdjklñsdfjgksfdjgl_video"),
+    "https://www.youtube.com/embed/V5jdq9Foj6k"
+  );
+  toggleVideo(
+    document.getElementById("Cidalibreklnasd"),
+    document.getElementById("Cidalibreklnasd_video"),
+    "https://www.youtube.com/embed/IsQoXpPWZ70"
+  );
+  toggleVideo(
+    document.getElementById("MovimientojdsknfParabólico"),
+    document.getElementById("MovimientojdsknfParabólico_video"),
+    "https://www.youtube.com/embed/U78kZ19K3O0"
+  );
+  toggleVideo(
+    document.getElementById("Movimientoklsdemiparábolico"),
+    document.getElementById("Movimientoklsdemiparábolico_video"),
+    "https://www.youtube.com/embed/09hNPMxPiAo"
+  );
+  toggleVideo(
+    document.getElementById("Cinemáticaaaaaaaaaaaa"),
+    document.getElementById("Cinemáticaaaaaaaaaaaa_video"),
+    "https://www.youtube.com/embed/Lt4pz2dmxP8"
+  );
+  toggleVideo(
+    document.getElementById("Física_sdjfkinámica"),
+    document.getElementById("Física_sdjfkinámica_video"),
+    "https://www.youtube.com/embed/GgaqBfTUy5M"
+  );
+  toggleVideo(
+    document.getElementById("Física_sdlfkpartículas"),
+    document.getElementById("Física_sdlfkpartículas_video"),
+    "https://www.youtube.com/embed/yjyVfWUdgw4"
+  );
+  toggleVideo(
+    document.getElementById("Física_sdfmuidos"),
+    document.getElementById("Física_sdfmuidos_video"),
+    "https://www.youtube.com/embed/EAD0LxIwMM8"
+  );
+  toggleVideo(
+    document.getElementById("Flotacionkk_bdos"),
+    document.getElementById("Flotacionkk_bdos_video"),
+    "https://www.youtube.com/embed/kXoAfk6Y_I8"
+  );
+  toggleVideo(
+    document.getElementById("Física_SDF__Mecánica"),
+    document.getElementById("Física_SDF__Mecánica_video"),
+    "https://www.youtube.com/embed/6M-yqa8uxiA"
+  );
+
+
+
+
+
+  toggleVideo(
+    document.getElementById("Primeraermodinámica"),
+    document.getElementById("Primeraermodinámica_video"),
+    "https://www.youtube.com/embed/z63Ost_m0iI"
+  );
+  toggleVideo(
+    document.getElementById("Termodinámica____I"),
+    document.getElementById("Termodinámica____I_video"),
+    "https://www.youtube.com/embed/10TYd-zRzbs"
+  );
+  toggleVideo(
+    document.getElementById("ermodinámicaI__I"),
+    document.getElementById("ermodinámicaI__I_video"),
+    "https://www.youtube.com/embed/hwvADK_WiaU"
+  );
+  toggleVideo(
+    document.getElementById("Física_Leyes_termodinámica"),
+    document.getElementById("Física_Leyes_termodinámica_video"),
+    "https://www.youtube.com/embed/S5HWnJYJWDQ"
+  );
+  toggleVideo(
+    document.getElementById("Física_dsjkftermodinámica"),
+    document.getElementById("Física_dsjkftermodinámica_video"),
+    "https://www.youtube.com/embed/nhS5-kFIszA"
+  );
+  toggleVideo(
+    document.getElementById("GASES_IDEALES"),
+    document.getElementById("GASES_IDEALES_video"),
+    "https://www.youtube.com/embed/Ko2znYrjdXQ"
+  );
+
+
+
+
+  toggleVideo(
+    document.getElementById("Electroestáticasdfa"),
+    document.getElementById("Electroestáticasdfa_video"),
+    "https://www.youtube.com/embed/ipieX-LhpHY"
+  );
+  toggleVideo(
+    document.getElementById("Electromagnetismoodsfkj"),
+    document.getElementById("Electromagnetismoodsfkj_video"),
+    "https://www.youtube.com/embed/lZJ4lpzctAU"
+  );
+  toggleVideo(
+    document.getElementById("Magnetismoalñskfñlasdf"),
+    document.getElementById("Magnetismoalñskfñlasdf_video"),
+    "https://www.youtube.com/embed/EnwnTcMWZBk"
+  );
+  toggleVideo(
+    document.getElementById("MagnetismoIidosss"),
+    document.getElementById("MagnetismoIidosss_video"),
+    "https://www.youtube.com/embed/F_qafzGNmeA"
+  );
+  toggleVideo(
+    document.getElementById("PreguntasdeCargasyCampoEléctrico"),
+    document.getElementById("PreguntasdeCargasyCampoEléctrico_video"),
+    "https://www.youtube.com/embed/yTmCPW8DQvY"
+  );
+  toggleVideo(
+    document.getElementById("Circuitosadjlfks"),
+    document.getElementById("Circuitosadjlfks_video"),
+    "https://www.youtube.com/embed/UVfux2vDcPY"  
+    );
+
+
+
+
+
+
+    toggleVideo(
+      document.getElementById("MovimientoArmónicoPendulosyResortes"),
+      document.getElementById("MovimientoArmónicoPendulosyResortes_video"),
+      "https://www.youtube.com/embed/mB1fhJjYhCU"
+    );
+    toggleVideo(
+      document.getElementById("ndlfsdPROPIEDADESDELSONIDO"),
+      document.getElementById("ndlfsdPROPIEDADESDELSONIDO_video"),
+      "https://www.youtube.com/embed/7rUTXkXvZDY"
+    );
+    toggleVideo(
+      document.getElementById("Somisdfjlk"),
+      document.getElementById("Somisdfjlk_video"),
+      "https://www.youtube.com/embed/tRUiWcU4emc"
+    );
+    toggleVideo(
+      document.getElementById("Tubos___dskflcuerdas"),
+      document.getElementById("Tubos___dskflcuerdas_video"),
+      "https://www.youtube.com/embed/m7qlU-Nwqe0"
+    );
+    toggleVideo(
+      document.getElementById("Onfaskjfsdhf"),
+      document.getElementById("Onfaskjfsdhf_video"),
+      "https://www.youtube.com/embed/4REwvVnx9LU"
+    );
+    toggleVideo(
+      document.getElementById("Ondaskdlsafss"),
+      document.getElementById("Ondaskdlsafss_video"),
+      "https://www.youtube.com/embed/aoGOy0DdJJw"
+    );
+    toggleVideo(
+      document.getElementById("LenteskladsfEspejos"),
+      document.getElementById("LenteskladsfEspejos_video"),
+      "https://www.youtube.com/embed/AoQPTvF-owY"
+    );
+    toggleVideo(
+      document.getElementById("luzandooticccc"),
+      document.getElementById("luzandooticccc_video"),
+      "https://www.youtube.com/embed/1aqx4oHTPh8"
+    );    
+
+
+
+    toggleVideo(
+      document.getElementById("EjemplosdePreguntasTransformacióndelaEnergía"),
+      document.getElementById("EjemplosdePreguntasTransformacióndelaEnergía_video"),
+      "https://www.youtube.com/embed/4loL3NzRCUM"
+    );
+    toggleVideo(
+      document.getElementById("Mecánicproblems"),
+      document.getElementById("Mecánicproblems_video"),
+      "https://www.youtube.com/embed/fCq1z-SK7dQ"
+    );
+    toggleVideo(
+      document.getElementById("Repasoejemplssfísica"),
+      document.getElementById("Repasoejemplssfísica_video"),
+      "https://www.youtube.com/embed/hKMkESVNVy0"
+    );
+    toggleVideo(
+      document.getElementById("RepasosdfIIfísica"),
+      document.getElementById("RepasosdfIIfísica_video"),
+      "https://www.youtube.com/embed/1op0EmieEFI"
+    );
+    toggleVideo(
+      document.getElementById("PreguntasdeFISICAJJKAFJJK"),
+      document.getElementById("PreguntasdeFISICAJJKAFJJK_video"),
+      "https://www.youtube.com/embed/MJ23zF_fYIY"
+    );
+
+
+
+
+
+
+
+
+
+
+
+    toggleVideo(
+      document.getElementById("AspectosAnalíticosdeMezc"),
+      document.getElementById("AspectosAnalíticosdeMezc_video"),
+      "https://player.vimeo.com/video/28407006?h=5bf3c22bea"
+    );
+    toggleVideo(
+      document.getElementById("Separacióndemezclas"),
+      document.getElementById("Separacióndemezclas_video"),
+      "https://www.youtube.com/embed/X3zMYdsfiPw"
+    );
+    toggleVideo(
+      document.getElementById("Solucionesdeesodejaskd"),
+      document.getElementById("Solucionesdeesodejaskd_video"),
+      "https://www.youtube.com/embed/WBlKqUvACFg"
+    );
+    toggleVideo(
+      document.getElementById("Solucionesquimicaaados"),
+      document.getElementById("Solucionesquimicaaados_video"),
+      "https://www.youtube.com/embed/p7ndjkPcfFk"
+    );
+    toggleVideo(
+      document.getElementById("aspectos_sustancias_quimica"),
+      document.getElementById("aspectos_sustancias_quimica_video"),
+      "https://player.vimeo.com/video/27071578?h=f4618e9adf"
+    );
+    
+    toggleVideo(
+      document.getElementById("Propiedadesquidelamateria"),
+      document.getElementById("Propiedadesquidelamateria_video"),
+      "https://www.youtube.com/embed/jtffeYEsSnk"
+    );
+    toggleVideo(
+      document.getElementById("atmomo"),
+      document.getElementById("atmomo_video"),
+      "https://www.youtube.com/embed/24oVu8ey0sk"
+    );
+    toggleVideo(
+      document.getElementById("formquisadjn"),
+      document.getElementById("formquisadjna"),
+      "https://www.youtube.com/embed/YfVXR-wP3Uk"
+    );
+    toggleVideo(
+      document.getElementById("teoatom"),
+      document.getElementById("teoatoma"),
+      "https://www.youtube.com/embed/36L3ThprC8c"
+    );
+    toggleVideo(
+      document.getElementById("teopeio"),
+      document.getElementById("teopeioa"),
+      "https://www.youtube.com/embed/4_ru_YHffp8"
+    );
+    toggleVideo(
+      document.getElementById("cofelec"),
+      document.getElementById("cofeleca"),
+      "https://www.youtube.com/embed/P22tlPIVuJ0"
+    );
+    toggleVideo(
+      document.getElementById("quiorg"),
+      document.getElementById("quiorga"),
+      "https://www.youtube.com/embed/OFKjqj-lr-0"
+    );
+    toggleVideo(
+      document.getElementById("kquiorgg"),
+      document.getElementById("kquiorgga"),
+      "https://www.youtube.com/embed/fSUfKWSAtK0"
+    );
+    toggleVideo(
+      document.getElementById("squiorggg"),
+      document.getElementById("squiorggga"),
+      "https://www.youtube.com/embed/BJI6sGJEFqY"
+    );
+
+
+
+
+
+
+
+
+
+
+
+
+    toggleVideo(
+      document.getElementById("AspectosAnalífrdiMezc"),
+      document.getElementById("AspectosAnalífrdiMezca"),
+      "https://player.vimeo.com/video/27316050?h=c414b3ec2a"
+    );
+    toggleVideo(
+      document.getElementById("enlaaa"),
+      document.getElementById("enlaaaa"),
+      "https://www.youtube.com/embed/ub2cY926VBk"
+    );
+    toggleVideo(
+      document.getElementById("Arquitecturaasfdmolecular"),
+      document.getElementById("Arquitecturaasfdmoleculara"),
+      "https://www.youtube.com/embed/4vWerOWMvoo"
+    );
+    toggleVideo(
+      document.getElementById("Nomenclaturaaainorgánica"),
+      document.getElementById("Nomenclaturaaainorgánicaa"),
+      "https://www.youtube.com/embed/Wa178N0yPh8"
+    );
+    toggleVideo(
+      document.getElementById("Reaccionessdfquímicas"),
+      document.getElementById("Reaccionessdfquímicasa"),
+      "https://www.youtube.com/embed/nVEmnx3Ites"
+    );
+    toggleVideo(
+      document.getElementById("Reaccionesadsredox"),
+      document.getElementById("Reaccionesadsredoxa"),
+      "https://www.youtube.com/embed/-_ftgYNZ0hc"
+    );
+    toggleVideo(
+      document.getElementById("EstequiometriafffI"),
+      document.getElementById("EstequiometriafffI_video"),
+      "https://www.youtube.com/embed/14HIH4XVtZI"
+    );
+    toggleVideo(
+      document.getElementById("EstequiometriasadfII"),
+      document.getElementById("EstequiometriasadfIIa"),
+      "https://www.youtube.com/embed/EtGlHOf2hSY"
+    );
+    toggleVideo(
+      document.getElementById("Estequiometría_III"),
+      document.getElementById("Estequiometría_IIIa"),
+      "https://www.youtube.com/embed/txRPBY_f89I"
+    );
+    toggleVideo(
+      document.getElementById("Análisisegráficas"),
+      document.getElementById("Análisisegráficasa"),
+      "https://www.youtube.com/embed/KLiC87kkIxw"
+    );
+    toggleVideo(
+      document.getElementById("Gasesaaaaaaaa"),
+      document.getElementById("Gasesaaaaaaaa_video"),
+      "https://www.youtube.com/embed/Tr7Gk8hz9lI"
+    );
+    toggleVideo(
+      document.getElementById("Equilibriofsaquímico"),
+      document.getElementById("Equilibriofsaquímicoa"),
+      "https://www.youtube.com/embed/6hqlbKU-X1w"
+    );
+    toggleVideo(
+      document.getElementById("Ácido_base_PH"),
+      document.getElementById("Ácido_base_PHa"),
+      "https://www.youtube.com/embed/DUFHqQzwU_M"
+    );
+    toggleVideo(
+      document.getElementById("Cinéticasdfquímica"),
+      document.getElementById("Cinéticasdfquímica_video"),
+      "https://www.youtube.com/embed/aqP2keddjok"
+    );
+
+    toggleVideo(
+      document.getElementById("Repasodafquímica"),
+      document.getElementById("Repasodafquímicaa"),
+      "https://www.youtube.com/embed/NEycaBVdlAU"
+    );
+    toggleVideo(
+      document.getElementById("resadj"),
+      document.getElementById("resadja"),
+      "https://www.youtube.com/embed/vqWGVUYKonck"
+    );
+
+
+
+
+
+    toggleVideo(
+      document.getElementById("Cienciatécnologíaysociedad"),
+      document.getElementById("Cienciatécnologíaysociedadaa"),
+      "https://www.youtube.com/embed/ZVnjZTwlvRA"
+    );
+    toggleVideo(
+      document.getElementById("CienciatecnologíaysociedadII"),
+      document.getElementById("CienciatecnologíaysociedadIIa"),
+      "https://www.youtube.com/embed/EUgRJE21Les"
+    );
+    toggleVideo(
+      document.getElementById("CienciatecnologíaysociedadIII"),
+      document.getElementById("CienciatecnologíaysociedadIIIa"),
+      "https://www.youtube.com/embed/eI7BeR8w7kc"
+    );
+    toggleVideo(
+      document.getElementById("CienciatecnologíaysociedadIV"),
+      document.getElementById("CienciatecnologíaysociedadIVa"),
+      "https://www.youtube.com/embed/2DAOSczZn2k"
+    );
+    toggleVideo(
+      document.getElementById("CienciatecnologíaysociedadV"),
+      document.getElementById("CienciatecnologíaysociedadVa"),
+      "https://www.youtube.com/embed/brKAFoFppXE"
+    );
+    toggleVideo(
+      document.getElementById("CienciatecnologíaysociedadVI"),
+      document.getElementById("CienciatecnologíaysociedadVIa"),
+      "https://www.youtube.com/embed/56MuD9VObM0"
+    );
+    toggleVideo(
+      document.getElementById("CienciatecnologíaysociedadVII"),
+      document.getElementById("CienciatecnologíaysociedadVIIa"),
+      "https://www.youtube.com/embed/K_KP2_nVZ8A"
+    );
+    toggleVideo(
+      document.getElementById("CienciatecnologíaysociedadVIII"),
+      document.getElementById("CienciatecnologíaysociedadVIIIa"),
+      "https://www.youtube.com/embed/lEYBqBYgQ7c"
+    );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    toggleVideo(
+      document.getElementById("Literaturadelaedadmedia"),
+      document.getElementById("Literaturadelaedadmediaa"),
+      "https://www.youtube.com/embed/P4UYFkrHzfA"
+    );
+    toggleVideo(
+      document.getElementById("Elasfrenacimiento"),
+      document.getElementById("Elasfrenacimientoa"),
+      "https://www.youtube.com/embed/qXM4IdPgTJQ"
+    );
+    toggleVideo(
+      document.getElementById("Cómoseformónuestraculturaliteraria"),
+      document.getElementById("Cómoseformónuestraculturaliterariaa"),
+      "https://www.youtube.com/embed/cvZHf-G7g58"
+    );
+    toggleVideo(
+      document.getElementById("Lafsailustración"),
+      document.getElementById("Lafsailustracióna"),
+      "https://www.youtube.com/embed/_Va5i-txPgg"
+    );
+    toggleVideo(
+      document.getElementById("Elasdromanticismo"),
+      document.getElementById("Elasdromanticismoa"),
+      "https://www.youtube.com/embed/O-aH_l0FGsg"
+    );
+    toggleVideo(
+      document.getElementById("extosliterarioslanovela"),
+      document.getElementById("extosliterarioslanovelaa"),
+      "https://www.youtube.com/embed/OnR0eEJN3Sw"
+    );
+    toggleVideo(
+      document.getElementById("Textosliterarioslapoesía"),
+      document.getElementById("Textosliterarioslapoesíaa"),
+      "https://www.youtube.com/embed/Uj3PSmr2e2I"
+    );
+    toggleVideo(
+      document.getElementById("Elveapscuento"),
+      document.getElementById("Elveapscuentoa"),
+      "https://www.youtube.com/embed/_BaRtSzs3g4"
+    );
+    toggleVideo(
+      document.getElementById("Elasfdrealismo"),
+      document.getElementById("Elasfdrealismoa"),
+      "https://www.youtube.com/embed/EEKqiEuM4Vs"
+    );
+    toggleVideo(
+      document.getElementById("extoargumentativoestructura"),
+      document.getElementById("extoargumentativoestructuraa"),
+      "https://www.youtube.com/embed/q5jso8iXRbQ"
+    );
+    toggleVideo(
+      document.getElementById("Textosicónicoscomichistorietainforgrafía"),
+      document.getElementById("Textosicónicoscomichistorietainforgrafíaa"),
+      "https://www.youtube.com/embed/XpmSxj-8BKk"
+    );
+    toggleVideo(
+      document.getElementById("Textosinformativosyexpositivos"),
+      document.getElementById("Textosinformativosyexpositivosa"),
+      "https://www.youtube.com/embed/kF3OM3l3PVQ"
+    );
+    toggleVideo(
+      document.getElementById("Estrategiasdecomprensiónlectora"),
+      document.getElementById("Estrategiasdecomprensiónlectoraa"),
+      "https://www.youtube.com/embed/YIbxTuVE3xg"
+    );
+    toggleVideo(
+      document.getElementById("ksfdl"),
+      document.getElementById("ksfdla"),
+      "https://www.youtube.com/embed/LxeGp6SZm1M"
+    );
+    toggleVideo(
+      document.getElementById("Capitksldalismo"),
+      document.getElementById("Capitksldalismoa"),
+      "https://www.youtube.com/embed/fmq1VmBZCSM"
+    );
+    toggleVideo(
+      document.getElementById("Estado_democracia_y_formas_de_gosdfsdbierno"),
+      document.getElementById("Estado_democracia_y_formas_de_gosdfsdbiernoa"),
+      "https://www.youtube.com/embed/HZRJ3hJJwUA"
+    );
+    toggleVideo(
+      document.getElementById("Organización_del_estadsfsafasfo_Colombiano"),
+      document.getElementById("Organización_del_estadsfsafasfo_Colombianoa"),
+      "https://www.youtube.com/embed/ZV1RFcxXR5g"
+    );
+    toggleVideo(
+      document.getElementById("Derecho_internacional_públsafasfasfico"),
+      document.getElementById("Derecho_internacional_públsafasfasficoa"),
+      "https://www.youtube.com/embed/VoWc7SpmP3k"
+    );
+    toggleVideo(
+      document.getElementById("Derecho_internacional_hudasdasmanitario"),
+      document.getElementById("Derecho_internacional_hudasdasmanitarioa"),
+      "https://www.youtube.com/embed/-oMgMWcG6ZA"
+    );
+    toggleVideo(
+      document.getElementById("Problsaduales_del_mundo"),
+      document.getElementById("Problsaduales_del_mundoa"),
+      "https://www.youtube.com/embed/diBNr87EB5c"
+    );
+
+    toggleVideo(
+      document.getElementById("Sobre_sfadfia"),
+      document.getElementById("Sobre_sfadfiaa"),
+      "https://www.youtube.com/embed/dbMD0pk6v7M"
+    );
+    toggleVideo(
+      document.getElementById("ksfdkldsf"),
+      document.getElementById("ksfdkldsfa"),
+      "https://www.youtube.com/embed/hzBmLL7wS-4"
+    );
+    toggleVideo(
+      document.getElementById("dfaadfasdddsd"),
+      document.getElementById("dfaadfasdddsda"),
+      "https://www.youtube.com/embed/qDsEY8Ar9so"
+    );
+    toggleVideo(
+      document.getElementById("Vanguardias"),
+      document.getElementById("Vanguardiasa"),
+      "https://www.youtube.com/embed/X9uAlXZsnc0"
+    );
+
+
+
+    toggleVideo(
+      document.getElementById("sajfjsjsjsjsjs"),
+      document.getElementById("sajfjsjsjsjsjsa"),
+      "https://www.youtube.com/embed/qrbYLGfiOkE"
+    );
+    toggleVideo(
+      document.getElementById("sgsgsgs"),
+      document.getElementById("sgsgsgsa"),
+      "https://www.youtube.com/embed/HjU7PyWakYQ"
+    );
+    toggleVideo(
+      document.getElementById("kjkjkj"),
+      document.getElementById("kjkjkja"),
+      "https://www.youtube.com/embed/BukA-PGuC30"
+    );
+    toggleVideo(
+      document.getElementById("nffkfkf"),
+      document.getElementById("nffkfkfa"),
+      "https://www.youtube.com/embed/zD8RaWDqPg4"
+    );
+    toggleVideo(
+      document.getElementById("viddsf"),
+      document.getElementById("viddsfa"),
+      "https://www.youtube.com/embed/E9Uhp0LkJ3o"
+    );
+    toggleVideo(
+      document.getElementById("fisndiid"),
+      document.getElementById("fisndiida"),
+      "https://www.youtube.com/embed/30FSru1OOfI"
+    );
+    toggleVideo(
+      document.getElementById("saasfaasfasf"),
+      document.getElementById("saasfaasfasfa"),
+      "https://www.youtube.com/embed/E9Uhp0LkJ3o"
+    );
+    toggleVideo(
+      document.getElementById("sfasafnfk"),
+      document.getElementById("sfasafnfka"),
+      "https://www.youtube.com/embed/30FSru1OOfI"
+    );
+    toggleVideo(
+      document.getElementById("ddddd"),
+      document.getElementById("ddddda"),
+      "https://www.youtube.com/embed/rh0hSga2gRM"
+    );
+    toggleVideo(
+      document.getElementById("dvsvsdv"),
+      document.getElementById("dvsvsdva"),
+      "https://www.youtube.com/embed/GSSkAZGo5pE"
+    );
+    toggleVideo(
+      document.getElementById("dsajksafsd"),
+      document.getElementById("dsajksafsda"),
+      "https://www.youtube.com/embed/A34wJfEC7dc"
+    );
+    toggleVideo(
+      document.getElementById("safkasf"),
+      document.getElementById("safkasfa"),
+      "https://www.youtube.com/embed/k6K6tIWefyE"
+    );
+    toggleVideo(
+      document.getElementById("fdndfkdlfv"),
+      document.getElementById("fdndfkdlfva"),
+      "https://www.youtube.com/embed/9mL0VHo289k"
+    );
+    toggleVideo(
+      document.getElementById("sdfasdfasa"),
+      document.getElementById("sdfasdfasaa"),
+      "https://www.youtube.com/embed/CV8Ia0lTS2s"
+    );
+    toggleVideo(
+      document.getElementById("ccccccccccccc"),
+      document.getElementById("ccccccccccccca"),
+      "https://www.youtube.com/embed/ictDSzzi3Kw"
+    );
+    toggleVideo(
+      document.getElementById("sddfvffffffd"),
+      document.getElementById("sddfvffffffda"),
+      "https://www.youtube.com/embed/4piLLWMCPog"
+    );
+    toggleVideo(
+      document.getElementById("fdvfvfvfvvv"),
+      document.getElementById("fdvfvfvfvvva"),
+      "https://www.youtube.com/embed/XcCnaf0eYvU"
+    );
+    toggleVideo(
+      document.getElementById("fvfvfvddd"),
+      document.getElementById("fvfvfvddda"),
+      "https://www.youtube.com/embed/T8OpwgSfEMc"
+    );
+    toggleVideo(
+      document.getElementById("dsfadfadva"),
+      document.getElementById("dsfadfadvaa"),
+      "https://www.youtube.com/embed/5tmaW6U8tT4"
+    );
+    toggleVideo(
+      document.getElementById("Vanguardias"),
+      document.getElementById("Vanguardiasa"),
+      "https://www.youtube.com/embed/Z1LV5H789Tg"
+    );
+
+
+
+    toggleVideo(
+      document.getElementById("dfasvavaaa"),
+      document.getElementById("dfasvavaaaa"),
+      "https://www.youtube.com/embed/bh3YQGI1Bd4"
+    );
+    toggleVideo(
+      document.getElementById("fdnvfdnka"),
+      document.getElementById("fdnvfdnkaa"),
+      "https://www.youtube.com/embed/3jna5adcFPk"
+    );
+    toggleVideo(
+      document.getElementById("sdfsdfa"),
+      document.getElementById("sdfsdfaa"),
+      "https://www.youtube.com/embed/Fkk0N3JGm2Y"
+    );
