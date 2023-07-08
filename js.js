@@ -158,6 +158,34 @@ cerrar_cnaturales.addEventListener("click", function(){
 
 
 
+//abrir ventana de ingles
+var boton_abrir_ig = document.getElementById("boton_abrir_ig");
+var cerrar_ig = document.getElementById("cerrar_ig");
+var div_ig = document.getElementById("div_ig");
+
+boton_abrir_ig.addEventListener("click", function(){
+  div_ig.classList.toggle("volador_visible")
+});
+
+cerrar_ig.addEventListener("click", function(){
+  div_ig.classList.toggle("volador_visible");
+});
+
+
+//abrir ventana de matematicas
+var abrir_mate = document.getElementById("abrir_mate");
+var cerrar_mate = document.getElementById("cerrar_mate");
+var div_mate = document.getElementById("div_mate");
+
+abrir_mate.addEventListener("click", function(){
+  div_mate.classList.toggle("volador_visible")
+});
+
+cerrar_mate.addEventListener("click", function(){
+  div_mate.classList.toggle("volador_visible");
+});
+
+
 //abrir ventana de español
 var boton_abrir_español = document.getElementById("boton_abrir_español");
 var cerrar_español = document.getElementById("cerrar_español");
@@ -170,6 +198,8 @@ boton_abrir_español.addEventListener("click", function(){
 cerrar_español.addEventListener("click", function(){
   div_lecritica.classList.toggle("volador_visible");
 });
+
+
 
 
 //copiar texto

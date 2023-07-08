@@ -1029,8 +1029,8 @@ function toggleVideo(button, videoDiv, videoUrl) {
       "https://www.youtube.com/embed/YIbxTuVE3xg"
     );
     toggleVideo(
-      document.getElementById("ksfdl"),
-      document.getElementById("ksfdla"),
+      document.getElementById("ksfdgdfgdfgdfdl"),
+      document.getElementById("ksfdgdfgdfgdfdla"),
       "https://www.youtube.com/embed/LxeGp6SZm1M"
     );
     toggleVideo(
@@ -1182,11 +1182,6 @@ function toggleVideo(button, videoDiv, videoUrl) {
       document.getElementById("dsfadfadvaa"),
       "https://www.youtube.com/embed/5tmaW6U8tT4"
     );
-    toggleVideo(
-      document.getElementById("Vanguardias"),
-      document.getElementById("Vanguardiasa"),
-      "https://www.youtube.com/embed/Z1LV5H789Tg"
-    );
 
 
 
@@ -1205,3 +1200,6 @@ function toggleVideo(button, videoDiv, videoUrl) {
       document.getElementById("sdfsdfaa"),
       "https://www.youtube.com/embed/Fkk0N3JGm2Y"
     );
+
+
+

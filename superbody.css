@@ -331,6 +331,7 @@ flex-wrap: wrap;
     overflow: hidden ;
     height: auto;
     min-width: 200px ;
+    max-width: 350px;
     padding: 15px;
     border-radius: 30px;
     -webkit-border-radius: 30px;
