@@ -151,11 +151,7 @@ flex-wrap: wrap;
     width: 25%;
     min-width: 250px ;
     padding: 15px;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -170,6 +166,10 @@ flex-wrap: wrap;
     outline: none;
     border: none;
     cursor: pointer;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 }
 
 .materia_contenedor:hover , .otrapagina:hover {
@@ -239,12 +239,16 @@ flex-wrap: wrap;
 .arribainfo {
     background-color: #111315;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 30px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
     margin-bottom: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 
 .arribainfo img {
@@ -257,13 +261,17 @@ flex-wrap: wrap;
 .abajoinfo {
     background-color: #111315;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 30px;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-content: space-around;
     align-items: space-around;
     justify-content: space-around;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 
 #especial_relleno , #especial_relleno div img {
@@ -333,11 +341,11 @@ flex-wrap: wrap;
     min-width: 200px ;
     max-width: 350px;
     padding: 15px;
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -351,6 +359,38 @@ flex-wrap: wrap;
     -o-transition: all 0.5s;
 }
 
+.cuestionariomateria_grande {
+    width: 100%;
+    flex-grow: 1;
+    overflow: hidden ;
+    height: auto;
+    padding: 9px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color:#191d20 ;
+    margin: 8px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    font-size: 15px;}
+
+.info_cuestionario_grande img {
+    width: 6% !important;
+}
+
+.link_descarga_grande img {
+    width: 8% !important;
+}
+
 .info_cuestionario {
     display: flex;
     flex-direction: row;
@@ -359,11 +399,11 @@ flex-wrap: wrap;
     align-content: center;
     background-color: #111315;
     padding: 10px;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 .info_cuestionario img {
     width: 15%;
@@ -378,16 +418,32 @@ flex-wrap: wrap;
     align-items: space-around;
     align-content: space-around;
     justify-content: space-around;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
     background-color: #111315;
     margin-top: 10px;
     height: 100%;
 }
 
+.archivos_materias_cuestiona_grande {
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+    align-content: space-around;
+    justify-content: space-around;
+    border-radius: 30px;
+    padding: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: #111315;
+    height: 100%; 
+    font-size: 18px;
+}
 
 
 
@@ -432,11 +488,11 @@ flex-wrap: wrap;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border-radius: 35px;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    -ms-border-radius: 35px;
-    -o-border-radius: 35px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
     background: #191d20;
     margin: 5px;
     flex-grow: 1;

@@ -10,6 +10,11 @@
     align-items: center;
   }
 
+  .volador div h2 {
+    width: 90%;
+    text-align: left;
+  }
+
   .tptext {
     width: 100%;
     display: flex;
@@ -128,6 +133,8 @@
 
   .contenidodelvolador {
     max-width: 900px;
+    display: flex;
+    flex-direction: column;
 
 }
 
