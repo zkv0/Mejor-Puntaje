@@ -27,6 +27,7 @@
 .nav div a {
     padding: 14px 12px;
     display: flex;
+    align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
     color: #d5d5d5;
@@ -81,18 +82,32 @@
 #close_button {
     position: fixed;
     display: none;
+    border: none;
     top: 10px;
     right: 10px;
     padding: 10px;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 110px;
+    font-size: 16px;
     border-radius:50px ;
     -webkit-border-radius:50px ;
     -moz-border-radius:50px ;
     -ms-border-radius:50px ;
     -o-border-radius:50px ;
     background-color: #191d20;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
     z-index: 9999;
+}
+
+#close_button img {
+    margin-right: 10px;
+    width: 20px;
+    filter: invert(.8);
+    -webkit-filter: invert(.8);
 }
 
 .rellenoimpedido {
@@ -101,6 +116,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    backdrop-filter: blur(10px);
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
     z-index: 98; /* Un nivel inferior al nav */

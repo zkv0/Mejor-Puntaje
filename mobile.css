@@ -283,10 +283,11 @@ display: none !important;
 
     .div_compartir_visible {
        align-items: end !important; 
+       backdrop-filter: blur(10px);
     }
 
     .compartir_contenido {
-        width: 72% !important;
+        width: 100% !important;
         border-radius: 40px 40px 0px 0px;
         -webkit-border-radius: 40px 40px 0px 0px;
         -moz-border-radius: 40px 40px 0px 0px;

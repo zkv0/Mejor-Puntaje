@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     button.addEventListener("click", function() {
         nav.style.display = "block";
-        closeButton.style.display = "block";
+        closeButton.style.display = "flex";
         relleno.style.display = "block";
     });
 
