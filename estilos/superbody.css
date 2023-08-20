@@ -360,7 +360,7 @@ flex-wrap: wrap;
 }
 
 .cuestionariomateria_grande {
-    width: 100%;
+    width: 90%;
     flex-grow: 1;
     overflow: hidden ;
     height: auto;
