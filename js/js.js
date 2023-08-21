@@ -145,30 +145,6 @@ var btnCopy = document.getElementById("btn-copy");
 
 
 
-//luz de noche 
-const overlay = document.getElementById('overlay');
-const luzNocturnaButtons = document.querySelectorAll('.luz-nocturna');
-
-luzNocturnaButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    overlay.classList.toggle('overlay');
-  });
-});
-
-//pantalla completa
-var fullscreenButton = document.querySelector('.full-screen');
-
-fullscreenButton.addEventListener('click', toggleFullScreen);
-
-function toggleFullScreen() {
-  if (!document.fullscreenElement) {
-    document.documentElement.requestFullscreen();
-  } else {
-    if (document.exitFullscreen) {
-      document.exitFullscreen();
-    }
-  }
-}
 
 //boton compartir activar 
 var buttonsshare = document.getElementsByClassName("compartir");
