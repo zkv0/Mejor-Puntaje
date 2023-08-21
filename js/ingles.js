@@ -6,7 +6,6 @@ function toggleVideo(button, videoDiv, videoUrl) {
     });
   }
 
-    
   toggleVideo(
     document.getElementById("prscontinnnn"),
     document.getElementById("prscontinnnna"),

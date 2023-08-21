@@ -43,7 +43,7 @@
 }
 
   .tptext h2 {
-    text-align: center;
+    text-align: center !important;
     padding: 10px;
     margin-top: 10px;
     width: 100%;
@@ -95,6 +95,7 @@
   }
 
   .otronav_button {
+    text-decoration: none;
     padding: 10px 40px;
     font-weight: bold;
     background-color: #111315;
@@ -125,7 +126,7 @@
 }
 
 .otronav_button:hover {
-  background-color: #191c21;
+  background-color: #1f2125;
 }
 
   .contenidodelvolador {

@@ -23,6 +23,31 @@ body {
 
 }
 
+/* Estilos para la barra de desplazamiento */
+/* Webkit (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(17, 19, 21);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(39, 42, 48);
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(84, 91, 105);
+}
+
+
+
 #materia_rellenooo {
   color: transparent;
   background-color: transparent;
