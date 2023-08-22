@@ -1,0 +1,293 @@
+function toggleVideo(button, videoDiv, videoUrl) {
+    button.addEventListener("click", function() {
+      videoDiv.classList.toggle("span_video");
+      videoDiv.innerHTML = `<iframe class="video" src="${videoUrl}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+      videoDiv.parentElement.classList.toggle("div_botonvideo_grande");
+    });
+  }
+  toggleVideo(
+    document.getElementById("Inecuacionesaaaaa"),
+    document.getElementById("Inecuacionesaaaaaa"),
+    "https://www.youtube.com/embed/LFfLY8N2eTA?si=hM6tV_ecICEKWM0I"
+  );
+  toggleVideo(
+    document.getElementById("safadsgdcxzxx"),
+    document.getElementById("safadsgdcxzxxv"),
+    "https://www.youtube.com/embed/1apBt9GTRYE?si=z_AHlcOGjzDsVntj"
+  );
+  toggleVideo(
+    document.getElementById("plannnn"),
+    document.getElementById("plannnnv"),
+    "https://www.youtube.com/embed/uxkPaRWwZpk?si=5ztG6ve6jAyU50Ox"
+  );
+  toggleVideo(
+    document.getElementById("funcclinnn"),
+    document.getElementById("funcclinnnv"),
+    "https://www.youtube.com/embed/DMyOX93Gt7c?si=gXYIZhj1cEAk39zC"
+  );
+  toggleVideo(
+    document.getElementById("asfdgxcvcxcvv"),
+    document.getElementById("asfdgxcvcxcvvv"),
+    "https://www.youtube.com/embed/ENAagmVIsBs?si=DHnpyiyuokwfk-Hf"
+  );
+  toggleVideo(
+    document.getElementById("Funcióncuadrática"),
+    document.getElementById("Funcióncuadráticav"),
+    "https://www.youtube.com/embed/YHy0B2mjMzg?si=d0sIgqocDcvENyYN"
+  );
+  toggleVideo(
+    document.getElementById("Ecuacióncuadrática"),
+    document.getElementById("Ecuacióncuadráticav"),
+    "https://www.youtube.com/embed/duLQudCx7h0?si=xM3iXCXpFl65rmI9"
+  );
+  toggleVideo(
+    document.getElementById("Funciónradical"),
+    document.getElementById("Funciónradicala"),
+    "https://www.youtube.com/embed/teL-TQuFPVA?si=J1Nj93zl7sXIbD9C"
+  );
+
+  toggleVideo(
+    document.getElementById("Funciracional"),
+    document.getElementById("Funciracionalv"),
+    "https://www.youtube.com/embed/Eu3aMAeTn5c?si=VEgmFCErWsxyjQvQ"
+  );
+  toggleVideo(
+    document.getElementById("fadsgfdsgdv"),
+    document.getElementById("fadsgfdsgdvv"),
+    "https://www.youtube.com/embed/3jic46RVAIw?si=MevIKsCKWJQ4MSgVu"
+  );
+  toggleVideo(
+    document.getElementById("dsfadgdcvfd"),
+    document.getElementById("dsfadgdcvfdv"),
+    "https://www.youtube.com/embed/7v1WEht9P3I?si=oSHfVHc1NE-5XBIb"
+  );
+  toggleVideo(
+    document.getElementById("gtgtefasssssssssssdgd"),
+    document.getElementById("gtgtefasssssssssssdgdv"),
+    "https://www.youtube.com/embed/WfL-RmeueYs?si=n6dXk6rdeO8RcKRL"
+  );
+  toggleVideo(
+    document.getElementById("ragshgvyctrgcer"),
+    document.getElementById("ragshgvyctrgcerv"),
+    "https://www.youtube.com/embed/z85SQkw6fSc?si=84gKunrcLSip7rjP"
+  );
+  toggleVideo(
+    document.getElementById("Indeterminantesaa"),
+    document.getElementById("Indeterminantesaav"),
+    "https://www.youtube.com/embed/wvsglkkuSCw?si=XSAv9Nff7RkZ0b1X"
+  );
+  toggleVideo(
+    document.getElementById("rgethbyvcef"),
+    document.getElementById("rgethbyvcefv"),
+    "https://www.youtube.com/embed/fm9OGZgfpsg?si=dv9PEOof7uDPUFl0"
+  );
+  toggleVideo(
+    document.getElementById("deriivasd"),
+    document.getElementById("deriivasdv"),
+    "https://www.youtube.com/embed/Gx0zVtZAvkg?si=utdySlgVDVISIxL6"
+  );
+  toggleVideo(
+    document.getElementById("safadfsdsf"),
+    document.getElementById("safadfsdsfa"),
+    "https://www.youtube.com/embed/oZhXSPebAII?si=3L0zaWzkLX2QQb2R"
+  );
+  toggleVideo(
+    document.getElementById("lojlsyunku"),
+    document.getElementById("lojlsyunkua"),
+    "https://www.youtube.com/embed/C-mzTxKBOZA?si=6Keg0ovxtARrpXfi"
+  );
+  toggleVideo(
+    document.getElementById("sdfadsfasdfasd"),
+    document.getElementById("sdfadsfasdfasda"),
+    "https://www.youtube.com/embed/QEGpuzVXHKY?si=6S1lyjsn5nOXxSBV"
+  );
+  toggleVideo(
+    document.getElementById("rjyfghfghg"),
+    document.getElementById("rjyfghfghga"),
+    "https://www.youtube.com/embed/6Gdwz5AnejM?si=FSYyLwiDRS2KdibR"
+  );
+  toggleVideo(
+    document.getElementById("probbbb"),
+    document.getElementById("probbbba"),
+    "https://www.youtube.com/embed/7xZ_kKMiqGU?si=fIIQkIju4DUnQBRZ"
+  );
+  toggleVideo(
+    document.getElementById("fdsgsdfgsdfh"),
+    document.getElementById("fdsgsdfgsdfhsa"),
+    "https://www.youtube.com/embed/MqWh_8M8yPM?si=yhXBqN6_JuNS9mKo"
+  );
+  toggleVideo(
+    document.getElementById("Permutaciónsss"),
+    document.getElementById("Permutaciónsssa"),
+    "https://www.youtube.com/embed/ACRQriWX-qo?si=Lk-m1QlnkC84GuTC"
+  );
+  toggleVideo(
+    document.getElementById("Sucesionesssfsdf"),
+    document.getElementById("Sucesionesssfsdfa"),
+    "https://www.youtube.com/embed/MgV6rGJfKgc?si=auBApysiWk9I-N6R"
+  );
+  toggleVideo(
+    document.getElementById("Triánguloone"),
+    document.getElementById("Triánguloonea"),
+    "https://www.youtube.com/embed/B33ywzABJRE?si=kwcfjImFF6EOLGmI"
+  );
+  toggleVideo(
+    document.getElementById("sahfgjytjfdnh"),
+    document.getElementById("sahfgjytjfdnha"),
+    "https://www.youtube.com/embed/_gvBaky5MZk?si=Jy9KkEDKt7Bl3zcf"
+  );
+  toggleVideo(
+    document.getElementById("dsfdijf"),
+    document.getElementById("dsfdijfa"),
+    "https://www.youtube.com/embed/iEmA7KlPaek?si=CImXy_MP2A5ZH-SW"
+  );
+  toggleVideo(
+    document.getElementById("gdyjthfgsfddsf"),
+    document.getElementById("gdyjthfgsfddsfa"),
+    "https://www.youtube.com/embed/4Y1bG-X2zng?si=YbZiwSY5NbSC9ZvJ"
+  );
+  toggleVideo(
+    document.getElementById("Circunferenciaaaaaaaaaaaaa"),
+    document.getElementById("Circunferenciaaaaaaaaaaaaav"),
+    "https://www.youtube.com/embed/vv-AmuAi2v8?si=UFaWf2HfnsluVQu1"
+  );
+  toggleVideo(
+    document.getElementById("arepoliii"),
+    document.getElementById("arepoliiia"),
+    "https://www.youtube.com/embed/wC3dbC0u6KI?si=OOQG8he_It5CW0ry"
+  );
+  toggleVideo(
+    document.getElementById("vlcuerpgeoo"),
+    document.getElementById("vlcuerpgeooa"),
+    "https://www.youtube.com/embed/I_R5Sgk3d6w?si=HoL9Pyy-qWRtpl4_"
+  );
+  toggleVideo(
+    document.getElementById("Transformaciones"),
+    document.getElementById("Transformacionesa"),
+    "https://www.youtube.com/embed/W7uFQYnbkf0?si=BgJa0fZU7BvbdFcs"
+  );
+  toggleVideo(
+    document.getElementById("Circunferaaenciaaaaaaaa"),
+    document.getElementById("Circunferaaenciaaaaaaaaa"),
+    "https://www.youtube.com/embed/hIl5qDhl9sY?si=yM4LbnrYs0Z72hfB"
+  );
+  toggleVideo(
+    document.getElementById("gdfsgsfdfdsfds"),
+    document.getElementById("gdfsgsfdfdsfdsa"),
+    "https://www.youtube.com/embed/E_HFyAXkJ5g?si=AW2Cqt_c3hh3SkIK"
+  );
+  toggleVideo(
+    document.getElementById("Reduccióndetérminos"),
+    document.getElementById("Reduccióndetérminosa"),
+    "https://www.youtube.com/embed/MKoeyBjD2KU?si=4GPGB3WEJDycSgfN"
+  );
+  toggleVideo(
+    document.getElementById("Racionasslización"),
+    document.getElementById("Racionasslizacióna"),
+    "https://www.youtube.com/embed/7eqsu7oTYgw?si=Bn1s1c85vW72_kOt"
+  );
+  toggleVideo(
+    document.getElementById("safefeeeeee"),
+    document.getElementById("safefeeeeeea"),
+    "https://www.youtube.com/embed/272uMSw54fU?si=uhEmk1JPmNQ-4CUT"
+  );
+  toggleVideo(
+    document.getElementById("dafarefaessssd"),
+    document.getElementById("dafarefaessssda"),
+    "https://www.youtube.com/embed/oo5IqMrx25A?si=XSOSqAxmfM_sU5QI"
+  );
+  toggleVideo(
+    document.getElementById("dfsewewewew"),
+    document.getElementById("dfsewewewewa"),
+    "https://www.youtube.com/embed/i8KiisMHYQg?si=2FN2Pb54yl5UQpHN"
+  );
+  toggleVideo(
+    document.getElementById("Ecuacionesprimergrado"),
+    document.getElementById("Ecuacionesprimergradoa"),
+    "https://www.youtube.com/embed/acBAQM8zcv0?si=gYuOkhU1czAGVmGL"
+  );
+  toggleVideo(
+    document.getElementById("métodosdesustituciones"),
+    document.getElementById("métodosdesustitucionesa"),
+    "https://www.youtube.com/embed/JEbEsF-cUXU?si=Pzey2EGrqMYgk2I7"
+  );
+  toggleVideo(
+    document.getElementById("lsdfiryms"),
+    document.getElementById("lsdfirymsa"),
+    "https://www.youtube.com/embed/US8mPstfyRo?si=5CpoiPiVhnbScL4W"
+  );
+  toggleVideo(
+    document.getElementById("ttfhfgsdgtsgdfgs"),
+    document.getElementById("ttfhfgsdgtsgdfgsa"),
+    "https://www.youtube.com/embed/eg6G58Z8EOU?si=GxyGpUfl2ngXVmiM"
+  );
+  toggleVideo(
+    document.getElementById("tgtgtgtgt"),
+    document.getElementById("tgtgtgtgta"),
+    "https://www.youtube.com/embed/tYyHeAPB-MQ?si=EGVSV03UWUn4FsPn"
+  );
+  toggleVideo(
+    document.getElementById("gtgtefadgd"),
+    document.getElementById("gtgtefadgda"),
+    "https://www.youtube.com/embed/FBbmHM7YcFM?si=hFQf1LaMUMETKbV9"
+  );
+  toggleVideo(
+    document.getElementById("dsdsdsdsd"),
+    document.getElementById("dsdsdsdsda"),
+    "https://www.youtube.com/embed/-s50UO0GHiU?si=lpqvShM1JF93cwjm"
+  );
+  toggleVideo(
+    document.getElementById("gtgtgtgg"),
+    document.getElementById("gtgtgtgga"),
+    "https://www.youtube.com/embed/AqPCvyWUmg8?si=2QsPtW1PtdiddpnF"
+  );
+  toggleVideo(
+    document.getElementById("dasdsdftrfvd"),
+    document.getElementById("dasdsdftrfvda"),
+    "https://www.youtube.com/embed/lgKCXeF56O4?si=gXveVcCtr00Xbe6-"
+  );
+  toggleVideo(
+    document.getElementById("asftrtge"),
+    document.getElementById("asftrtgea"),
+    "https://www.youtube.com/embed/RGVjGMSkR6o?si=i1Qii9Z7OMUwMsAv"
+  );
+  toggleVideo(
+    document.getElementById("dafarefaesd"),
+    document.getElementById("dafarefaesda"),
+    "https://www.youtube.com/embed/xcOR55oiHdk?si=c-80rpoJn_CJ5mua"
+  );
+  toggleVideo(
+    document.getElementById("sdaklfasdjllkasdf"),
+    document.getElementById("sdaklfasdjllkasdfa"),
+    "https://www.youtube.com/embed/Kkwyigq865k?si=AY6bZxEf07Vleej5"
+  );
+  toggleVideo(
+    document.getElementById("sfasfsadfasdfsd"),
+    document.getElementById("sfasfsadfasdfsda"),
+    "https://www.youtube.com/embed/RLmNJ9FeIHI?si=k4b_rl2vFYLA8T0u"
+  );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+
+
+
+
+
