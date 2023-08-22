@@ -213,17 +213,22 @@ display: none !important;
         font-size: 15.6px !important;
     }
 
+    .boton_video {
+        padding: 10px  15px !important;
+    }
+
     .partedelvoladorconvideo {
         padding: 0 !important;
     }
 
     .div_botonvideo {
         flex-grow: 1 !important;
+        margin: 3px;
     }
 
     .video {
         width: 90vw !important;
-        height: auto !important;
+        height: 200px !important;
     }
 
     .otronavmas {

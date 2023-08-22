@@ -241,6 +241,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .div_botonvideo {
@@ -255,12 +256,12 @@
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
     background-color: #272a30;
-    width: 46%;
+    width: 44%;
     margin: 5px;
 }
 
 .div_botonvideo_grande {
-  width: 96%;
+  width: 90%;
 }
 
 
