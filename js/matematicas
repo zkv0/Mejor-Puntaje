@@ -6,6 +6,79 @@ function toggleVideo(button, videoDiv, videoUrl) {
     });
   }
   toggleVideo(
+    document.getElementById("thrsdsfsdfsddfgsdfhsf"),
+    document.getElementById("thrsdsfsdfsddfgsdfhsfa"),
+    "https://www.youtube.com/embed/DhOeAPRXGxM?si=bsQu2LWbImiPXAnj"
+  );toggleVideo(
+    document.getElementById("sdfsadfsdfa"),
+    document.getElementById("sdfsadfsdfaa"),
+    "https://www.youtube.com/embed/s90x76_2S9o?si=rZEiyQs-YHX7rl9-"
+  );toggleVideo(
+    document.getElementById("nytsdfghd"),
+    document.getElementById("nytsdfghda"),
+    "https://www.youtube.com/embed/QXO3u6Ak4rU?si=GN2v76SKdDLlLxwN"
+  );toggleVideo(
+    document.getElementById("dthbdvgc"),
+    document.getElementById("dthbdvgca"),
+    "https://www.youtube.com/embed/ns7uwSVPLJk?si=GSru5tZmBVFM4pdC"
+  );
+  toggleVideo(
+    document.getElementById("thrsdfgsdfhsf"),
+    document.getElementById("thrsdfgsdfhsfa"),
+    "https://www.youtube.com/embed/hQRlIrHCNhs?si=F1KRECLomw4m_Y3W"
+  );
+
+  toggleVideo(
+    document.getElementById("ngulosnotables"),
+    document.getElementById("ngulosnotablesa"),
+    "https://www.youtube.com/embed/foast0jLXkE?si=jYGp3DAE0GtVL89n"
+  );
+
+  toggleVideo(
+    document.getElementById("TringulosRectngulos"),
+    document.getElementById("TringulosRectngulosa"),
+    "https://www.youtube.com/embed/Dbd5OmbOE9c?si=mxK1Ekl64FVjwmIb"
+  );
+
+  toggleVideo(
+    document.getElementById("leydelseno"),
+    document.getElementById("leydelsenoa"),
+    "https://www.youtube.com/embed/ASTyOu7FkGQ?si=9V3yEUlTBp7Dd7A6"
+  );
+
+  toggleVideo(
+    document.getElementById("leydelcoseno"),
+    document.getElementById("leydelcosenoa"),
+    "https://www.youtube.com/embed/0jVoW2fG3js?si=nZG62TlCEQ8OFU3k"
+  );
+
+  toggleVideo(
+    document.getElementById("prgtrigg"),
+    document.getElementById("prgtrigga"),
+    "https://www.youtube.com/embed/9vzuUrfVrjc?si=96SyILkKNzPNU46n"
+  );
+   
+  toggleVideo(
+    document.getElementById("Geometranalítica"),
+    document.getElementById("Geometranalíticaa"),
+    "https://www.youtube.com/embed/wHzmw6UgOAE?si=emnpfdt66JawIdME"
+  );
+  toggleVideo(
+    document.getElementById("Geometrianotacional"),
+    document.getElementById("Geometrianotacionala"),
+    "https://www.youtube.com/embed/xnGKA4MGB0U?si=_qEca1mqFAe6Icyt"
+  );
+  toggleVideo(
+    document.getElementById("geohgs"),
+    document.getElementById("geohgsa"),
+    "https://www.youtube.com/embed/j5cAgElOobk?si=J-cOoyuwcTcJC2d9"
+  );
+  toggleVideo(
+    document.getElementById("geometrrii"),
+    document.getElementById("geometrriia"),
+    "https://www.youtube.com/embed/XvU4hhsXsKk?si=NzAEfLFFd_MBG4Ol"
+  );
+  toggleVideo(
     document.getElementById("Inecuacionesaaaaa"),
     document.getElementById("Inecuacionesaaaaaa"),
     "https://www.youtube.com/embed/LFfLY8N2eTA?si=hM6tV_ecICEKWM0I"
@@ -266,28 +339,8 @@ function toggleVideo(button, videoDiv, videoUrl) {
     document.getElementById("sfasfsadfasdfsda"),
     "https://www.youtube.com/embed/RLmNJ9FeIHI?si=k4b_rl2vFYLA8T0u"
   );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
- 
-
-
-
-
-
+  toggleVideo(
+    document.getElementById("rtvhtvhsrt"),
+    document.getElementById("rtvhtssvhsrta"),
+    "https://www.youtube.com/embed/_NtKI8HwdtU?si=PS6fBsbrxkYVWzW9"
+  );
