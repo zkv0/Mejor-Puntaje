@@ -218,3 +218,22 @@ margin: 0;
   pointer-events: none; /* Permite la interacción con los elementos subyacentes */
   z-index: 999999999999999999999999999999999999; /* Asegura que la superposición esté en la parte superior */
 }
+
+#h1_separador_cuestionarios {
+  display: flex;
+  align-items: center;
+}
+
+
+#nube_infoo {
+  width: 39px;
+  margin-left: 10px;
+  cursor: pointer;
+  filter: invert(0.7);
+  -webkit-filter: invert(0.7);
+  position: relative;
+  padding-top: 20px
+  ;
+  
+}
+
