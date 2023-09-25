@@ -146,28 +146,53 @@ var btnCopy = document.getElementById("btn-copy");
 
 
 
-//boton compartir activar 
-var buttonsshare = document.getElementsByClassName("compartir");
-    var divCompartir = document.getElementById("div_compartir");
 
-    for (var i = 0; i < buttonsshare.length; i++) {
-      buttonsshare[i].addEventListener("click", function() {
-        divCompartir.classList.toggle("div_compartir_visible");
+    document.addEventListener("DOMContentLoaded", function() {
+      var botonesCompartir = document.querySelectorAll(".compartir");
+      
+      botonesCompartir.forEach(function(boton) {
+          boton.addEventListener("click", function() {
+              // Aquí puedes mostrar el código HTML que ya tienes
+              var codigoHTML = `
+              <div class="div_compartir" id="div_compartir">
+        <div class="compartir_contenido">
+            <div class="cerrar-share">
+                <button id="btn-share-x"><img src="imgs/x.svg" alt="cerrar" title="cerrar"></button>
+            </div>
+            <div class="arriba_compartir">
+                <img src="imgs/qrrrrr.svg" alt="">
+                <div class="link">
+                    <p class="p-link">https://zkv0.github.io/aprende/</p>
+                    <input type="text" value="https://zkv0.github.io/aprende/" id="myInput" readonly style="display: none;">
+                    <button class="btn-copy" id="btn-copy">Copiar</button>
+                </div>
+            </div>
+            <div class="abajo_compartir">
+                <button id="btn-share-w" class="btn-sharessss" style="background: rgb(0, 212, 0);"><img src="imgs/whatsapp.svg" alt=""></button>
+                <button id="btn-share-t" class="btn-sharessss" style="background: rgb(31, 128, 255);"><img src="imgs/twitter.svg" alt=""></button>
+                <button id="btn-share-f" class="btn-sharessss" style="background: rgb(0, 0, 255);"><img src="imgs/facebook.svg" alt=""></button>
+                <a href="imgs/qrrrrr.svg" download="Qr-Aprende" id="btn-share-f" class="btn-sharessss" style="background: rgb(0, 0, 0);"><img src="imgs/codigo-qr.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+          `;
+              
+              // Puedes mostrar el código en una ventana emergente o en un div en la página
+              var codigoDiv = document.createElement("div");
+              codigoDiv.innerHTML = codigoHTML;
+              document.body.appendChild(codigoDiv);
+          });
       });
-    }
-
-    // Cerrar compartir
-    var btnsharex = document.getElementById("btn-share-x");
-
-    btnsharex.addEventListener("click", function() {
-      divCompartir.classList.toggle("div_compartir_visible");
-    });
+  });
+  var codigoDiv = document.createElement("div");
+codigoDiv.innerHTML = codigoHTML;
+document.body.appendChild(codigoDiv);
 
 
 //compartir whtpp
 var btnSharew = document.getElementById("btn-share-w");
     btnSharew.addEventListener("click", function() {
-      var urlToSharew = "http://aprendeicfes.online/";  // URL que deseas compartir
+      var urlToSharew = "https://zkv0.github.io/aprende/";  // URL que deseas compartir
       var encodedUrlw = encodeURIComponent(urlToSharew);
       var whatsappUrlw = "https://api.whatsapp.com/send?text=" + encodedUrlw;
 
@@ -176,7 +201,7 @@ var btnSharew = document.getElementById("btn-share-w");
 //Compartir twitter
 var btnSharet = document.getElementById("btn-share-t");
     btnSharet.addEventListener("click", function() {
-      var urlToSharet = "http://aprendeicfes.online/";  // URL que deseas compartir
+      var urlToSharet = "https://zkv0.github.io/aprende/";  // URL que deseas compartir
       var encodedUrlt = encodeURIComponent(urlToSharet);
       var twitterUrlt = "https://twitter.com/intent/tweet?url=" + encodedUrlt;
 
@@ -185,7 +210,7 @@ var btnSharet = document.getElementById("btn-share-t");
 //facebook
 var btnSharef = document.getElementById("btn-share-f");
     btnSharef.addEventListener("click", function() {
-      var urlToSharef = "http://aprendeicfes.online/";  // URL que deseas compartir
+      var urlToSharef = "https://zkv0.github.io/aprende/";  // URL que deseas compartir
       var facebookUrlf = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(urlToSharef);
 
       window.open(facebookUrlf, "_blank");
