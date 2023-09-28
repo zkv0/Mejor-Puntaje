@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+* {
+    box-sizing: border-box !important;
+    font-family: 'PT Serif'!important;
+}
+
 
 .blog_intro {
     position: relative;
@@ -108,7 +115,7 @@ body {
 }
 
 .item_blog:hover .img_blog_item {
-    scale: 1.1;
+    scale: 1.35;
 }
 
 

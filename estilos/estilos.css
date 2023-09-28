@@ -229,8 +229,6 @@ margin: 0;
   width: 39px;
   margin-left: 10px;
   cursor: pointer;
-  filter: invert(0.7);
-  -webkit-filter: invert(0.7);
   position: relative;
   padding-top: 20px
   ;
