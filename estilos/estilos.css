@@ -235,3 +235,22 @@ margin: 0;
   
 }
 
+#blog_redirecction {
+  transition: background ;
+  -webkit-transition: background ;
+  -moz-transition: background ;
+  -ms-transition: background ;
+  -o-transition: background ;
+}
+
+#blog_redirecction:hover {
+  background: url(../imgs/fondo_blog.avif);
+  background-size: cover; 
+  color: aliceblue;;
+}
+
+#blog_redirecction img {
+  filter: invert(1);
+  -webkit-filter: invert(1);
+}
+
