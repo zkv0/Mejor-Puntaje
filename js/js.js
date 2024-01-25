@@ -56,26 +56,6 @@ window.onscroll = function() {
 
 
 
-
-document.addEventListener("DOMContentLoaded", function() {
-    var button = document.getElementById("button_menu");
-    var nav = document.getElementById("nav");
-    var closeButton = document.getElementById("close_button");
-    var relleno = document.querySelector(".rellenoimpedido");
-
-    button.addEventListener("click", function() {
-        nav.style.display = "block";
-        closeButton.style.display = "flex";
-        relleno.style.display = "block";
-    });
-
-    closeButton.addEventListener("click", function() {
-        nav.style.display = "none";
-        closeButton.style.display = "none";
-        relleno.style.display = "none";
-    });
-});
-
 /*traer los botones que desplegan el cuesioanrio en moviles*/
 // Obtener elementos de los botones
 /*traer los botones que desplegan el cuesioanrio en moviles*/

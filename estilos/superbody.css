@@ -30,6 +30,7 @@ flex-wrap: wrap;
 }
 
 .supernav {
+    display: none;
     width: 100%;
     background-color:rgb(17, 19, 21);
     display: flex;
@@ -41,6 +42,23 @@ flex-wrap: wrap;
     padding: 10px;
     height: auto;
 
+}
+
+@media only screen and (min-width: 600px) {
+
+.supernav {
+    display: none;
+    width: 100%;
+    background-color:rgb(17, 19, 21);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    height: auto;
+
+}
 }
 
 .supernav_filtro {
@@ -83,12 +101,7 @@ flex-wrap: wrap;
     background-color: #191c21;
 }
 
-.supernav_rigth {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: nowrap;
-}
+
 
 .btn-rapido {
     background: none;
@@ -126,8 +139,8 @@ flex-wrap: wrap;
 
 .supernav_img {
     width: 20px;
-    margin-right: 5px;
     filter: invert(.8);
+    margin-bottom: 2px;
     -webkit-filter: invert(.8);
 }
 

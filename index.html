@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,25 +11,28 @@
     <link rel="stylesheet" href="estilos/mobile.css">
     <link rel="stylesheet" href="estilos/volador.css">
     
-    <title>Aprende</title>
+    <title>Mejor Puntaje</title>
 </head>
 
 <body style="position: relative;">  
-    <div class="nav" id="nav">
+    <div class="nav" style="overflow: auto;
+    " id="nav">
         <div class="img_nav">
             <img class="img_nav_div" src="imgs/LOGOAPRENDECOMPLETOblanco.PNG" alt="Logo Aprende">
         </div>
             
         <div class="otraspaginas">
-            <span>Explorar</span>
-            <a href="index.html" style="background-color: #191d20; color: #fff; font-weight: 600;"><img style="filter: invert(1);" src="imgs/home_relleno.svg" class="icon_nav" alt="principal" title="principal" > Principal</a>
-            <a href="paginas/blog/blog.html" id="blog_redirecction" style=""><img src="imgs/newspaper.png" class="icon_nav" alt="Blog" title="Blog">Blog</a>
-            <a href="Pages/osobre_la_pagina.html"><img src="imgs/info.svg" class="icon_nav" alt="info" title="Sobre la web"> Sobre La Pagina</a>
-            
+            <span>Principal</span>
+            <a  href="#h1_separador_materias"><img class="icon_nav" src="imgs/libro-alt.svg" alt="materias" title="materias"> Materias</a>
+            <a  href="#h1_separador_cuestionarios"><img class="icon_nav" src="imgs/prueba.svg" alt="cuestionarios" title="cuestionarios"> Cuestionarios</a>
+            <a  href="#h1_separador_maspaginas"><img class="icon_nav" src="imgs/globo.svg" alt="Recomendaciones" title="Recomendaciones">Recomendaciones</a>
+            <a  href="#piedepagina" id="a_licencia"><img class="icon_nav" src="imgs/cc.svg" alt="licencia" title="licencia">licencia</a>
+                        
         </div>
 
         <div class="Githubinfo">
-            <span>GitHub</span>
+            <span>Otros</span>
+            <a href="paginas/blog/blog.html"><img src="imgs/newspaper.png" class="icon_nav" alt="Blog" title="Blog">Blog Estudiantil</a>
             <a href="https://github.com/zkv0/aprende" target="_blank"><img src="imgs/github.svg" class="icon_nav" alt="github" title="github"> Repositorio En Github</a>
         </div>
     </div>
@@ -37,7 +40,6 @@
     <div class="rellenoimpedido"></div>
 
 
-    
     <div class="relleno"></div>
 
     <div class="superbody" id="superbody">
@@ -45,17 +47,19 @@
             <div class="rellenosupernav"></div>
             <div class="supernav">
                 <div class="supernav_filtro">
-                    <a  href="#h1_separador_materias" class="supernav_filtro_button"><img class="supernav_img" src="imgs/libro-alt.svg" alt="materias" title="materias"> Materias</a>
-                    <a  href="#h1_separador_cuestionarios" class="supernav_filtro_button"><img class="supernav_img" src="imgs/prueba.svg" alt="cuestionarios" title="cuestionarios"> Cuestionarios</a>
-                    <a  href="#h1_separador_maspaginas" class="supernav_filtro_button"><img src="imgs/globo.svg" class="supernav_img" alt="Recomendaciones" title="Recomendaciones">Recomendaciones</a>
-                    <a  href="#piedepagina" id="a_licencia" class="supernav_filtro_button"><img src="imgs/cc.svg" class="supernav_img" alt="licencia" title="licencia">licencia</a>
-                    <button id="button_menu" href="#h1_separador_maspaginas" class="supernav_filtro_button"><img src="imgs/aplicaciones.svg" class="supernav_img" alt="Menu" title="Menu">Menu</button>
-                </div>
-                <div class="supernav_rigth">
-                    <button class="compartir btn-rapido"><img src="imgs/compartir-cuadrado.svg" alt="Compartir" title="Compartir"></button>
+                    <a  href="#h1_separador_materias" class="supernav_filtro_button"><img class="supernav_img" src="imgs/home.svg">Inicio</a>
+                    <a  href="paginas/blog/blog.html" class="supernav_filtro_button"><img class="supernav_img" src="imgs/newspaper.png"> Blog</a>
+                    <a  href="https://github.com/zkv0/aprende" target="_blank" class="supernav_filtro_button"><img src="imgs/github.svg" class="supernav_img">Github</a>
+                    <a  href="" class="supernav_filtro_button"><img src="imgs/compartir-cuadrado.svg" class="supernav_img">Compartir</a>
                 </div>
         </div>
     </div>
+
+    <span class="bienveniicda" style="background-image: url(imgs/bienvenida.png);">
+        <h1>Bienvenido a <br>Mejor Puntaje</h1>
+        <p>La página web que te ayuda a prepararte para el icfes. Aquí encontrarás videos, cuestionarios, otras páginas y un blog estudiantil. Nuestro objetivo es que logres tu mejor puntaje y tus sueños académicos. Explora nuestro sitio y aprovecha nuestros recursos. ¡Te apoyamos!</p>
+    </span>
+
 
         <h1 class="h1_separador" id="h1_separador_materias">Materias</h1>
         <div class="materias_div" id="materias_div">
@@ -176,7 +180,7 @@
 
 
         <div class="div_info_mediafire"  id="h1_separador_cuestionarios">
-            <h1 id="megaunosuperh" class="h1_separador_h1">Cuestionarios </h1><img src="imgs/nube.svg" alt="Nube" title="Nube" id="nube_infoo">
+            <h1 id="megaunosuperh" class="h1_separador_h1">Cuestionarios </h1>
         </div>
 
         
