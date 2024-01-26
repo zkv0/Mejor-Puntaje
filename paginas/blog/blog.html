@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,135 +9,122 @@
     <link rel="stylesheet" href="../../estilos/mobile.css">
     <link rel="stylesheet" href="../../estilos/volador.css">
     <link rel="stylesheet" href="blogestilo.css">
+    
     <title>Blog</title>
 </head>
-<body style="background: url(../../imgs/fondo_blog.avif); background-repeat: no-repeat; background-size: cover; display: flex; flex-direction: column;">
-    
-    <div class="otronavmas" style="backdrop-filter: blur(10px); background: none; ">
-        <img class="otronav_img" src="../../imgs/APRENDREBLOG.png" alt="">
-        <div class="supernav_volador_rigth">
+
+<body style="position: relative;">  
+    <div class="nav" style="overflow: auto;
+    " id="nav">
+        <div class="img_nav">
+            <img class="img_nav_div" src="../../imgs/APRENDREBLOG.png" alt="Logo Aprende" style="width: 70%;">
+        </div>
             
-                <button class="compartir btn-rapido"><img src="../../imgs/compartir-cuadrado.svg" alt="Compartir" title="Compartir"></button>
-            <a href="../../index.html" class="otronav_button" id="cerrar_csociales"><img src="../../imgs/home.svg" alt="Salir" title="Salir">Ir a Inicio</a>
+
+        <div class="Githubinfo">
+            <span>Otros</span>
+            <a href="../../index.html"><img src="../../imgs/home.svg" class="icon_nav" alt="Principal" title="Principal">Principal</a>
+            <a href="https://github.com/zkv0/Mejor-Puntaje" target="_blank"><img src="../../imgs/github.svg" class="icon_nav" alt="github" title="github"> Repositorio En Github</a>
+            <a href="paginas/blog/blog.html"><img src="../../imgs/compartir-cuadrado.svg" class="icon_nav" alt="Compartir" title="Compartir">Compartir</a>
         </div>
     </div>
+    <button id="close_button"><img src="../../imgs/salir-alt.svg" alt="Salir"> Salir</button>
+    <div class="rellenoimpedido"></div>
 
-        
-    </div>
 
+    <div class="relleno"></div>
 
-        <div class="blog_intro">
-            <div class="introooblogg">
-                <h1>Explora nuestro Blog</h1>
-            <h3>¡Bienvenidos al blog de Aprende! Aquí encontrarás información, consejos y todo lo que necesitas para informarte sobre este importante desafío educativo en Colombia. ¡Comencemos juntos esta preparación hacia el éxito en el ICFES!</h3>
+    <div class="superbody" id="superbody">
+        <div class="supernavmega" id="supernavmega">
+            <div class="rellenosupernav"></div>
+            <div class="supernav">
+                <div class="supernav_filtro">
+                    <a  href="../../index.html" class="supernav_filtro_button"><img class="supernav_img" src="../../imgs/home.svg">Inicio</a>
+                    <a  href="paginas/blog/blog.html" class="supernav_filtro_button"><img style="background-color: #fff;" class="supernav_img" src="../../imgs/newspaper.png"> Blog</a>
+                    <a  href="https://github.com/zkv0/Mejor-Puntaje" target="_blank" class="supernav_filtro_button"><img src="../../imgs/github.svg" class="supernav_img">Github</a>
+                    <a  href="" class="supernav_filtro_button"><img src="../../imgs/compartir-cuadrado.svg" class="supernav_img">Compartir</a>
+                </div>
             </div>
         </div>
+
+
+    
+
+    <div class="contenedor_articulos">
+
+        <a href="articulos/carrera_adecuada.html" class="articulo-blog">
+            <div class="blog-arituculocont">
+                <div class="articulocont-arriba">
+                    <img src="../../imgs/lanita.jpg" alt="">
+                </div>
+                <div class="articulocont-abajo">
+                    <h2>Elegir carrera</h2>
+                    <span>Mi futuro</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="articulos/curva_del_olvido.html" class="articulo-blog">
+            <div class="blog-arituculocont">
+                <div class="articulocont-arriba">
+                    <img src="../../imgs/sadasd.jpg" alt="">
+                </div>
+                <div class="articulocont-abajo">
+                    <h2 >Curva del olvido</h2>
+                    <span>Mente</span>
+                </div>
+            </div>
+        </a>
+        <a href="articulos/estres.html" class="articulo-blog">
+            <div class="blog-arituculocont">
+                <div class="articulocont-arriba">
+                    <img src="../../imgs/ansiesassad.jpg" alt="">
+                </div>
+                <div class="articulocont-abajo">
+                    <h2>Estres</h2>
+                    <span>Mente</span>
+                </div>
+            </div>
+        </a>
+        <a href="articulos/carrera_adecuada.html" class="articulo-blog">
+            <div class="blog-arituculocont">
+                <div class="articulocont-arriba">
+                    <img src="../../imgs/OIG3.jpg" alt="">
+                </div>
+                <div class="articulocont-abajo">
+                    <h2>Metodos de Estudio</h2>
+                    <span>Productividad</span>
+                </div>
+            </div>
+        </a>
+        <a href="articulos/retener_aprendizaje.html" class="articulo-blog">
+            <div class="blog-arituculocont">
+                <div class="articulocont-arriba">
+                    <img src="../../imgs/curvadeinfo.jpg" alt="">
+                </div>
+                <div class="articulocont-abajo">
+                    <h2>Retener informacion</h2>
+                    <span>Productividad</span>
+                </div>
+            </div>
+        </a>
+        <a href="articulos/vencer_procrastinacion.html" class="articulo-blog">
+            <div class="blog-arituculocont">
+                <div class="articulocont-arriba">
+                    <img src="../../imgs/procra.jpg" alt="">
+                </div>
+                <div class="articulocont-abajo">
+                    <h2>Procrastinación</h2>
+                    <span>Mente</span>
+                </div>
+            </div>
+        </a>
         
 
-
-        <h1 class="title_blog">BLOG</h1>
-        <div class="categorias_blog_filtro">
-            <span class="categoria_item_blog">ICFES</span>
-            <span class="categoria_item_blog">Productividad</span>
-            <span class="categoria_item_blog">Aprendizaje efectivo</span>
-            <span class="categoria_item_blog">Salud mental</span>
-            <span class="categoria_item_blog">Educación superior</span>
-
-            
-        </div>
-        <div class="realblog">
-
-                <button class="item_blog" onclick="window.location.href='articulos/icfes.html'">
-                    <div class="arriba_blog_item">
-                        <img class="img_blog_item" src="../../imgs/red-teaming-network.webp" alt="">
-                    </div>
-                    <div class="abajo_blog_item">
-                        <h3 class="titulo_blog_item">ICFES: Todo lo que necesitas saber</h3>
-                        <div class="estiquetas_blog">
-                            <span class="etiqueta_blog_item">ICFES</span>
-                        </div>
-                    </div>
-                </button>
-
-                <button class="item_blog" onclick="window.location.href='articulos/metodos_estudio.html'">
-                    <div class="arriba_blog_item">
-                        <img class="img_blog_item" src="../../imgs/ajlfsdksdfsdf.webp" alt="">
-                    </div>
-                    <div class="abajo_blog_item">
-                        <h3 class="titulo_blog_item">Métodos de Estudio</h3>
-                        <div class="estiquetas_blog">
-                            <span class="etiqueta_blog_item">Productividad</span>
-                            <span class="etiqueta_blog_item">Aprendizaje efectivo</span>
-                        </div>
-                    </div>
-                </button>
-                <button class="item_blog" onclick="window.location.href='articulos/estres.html'">
-                    <div class="arriba_blog_item">
-                        <img class="img_blog_item" src="../../imgs/estresssssssss.avif" alt="">
-                    </div>
-                    <div class="abajo_blog_item">
-                        <h3 class="titulo_blog_item">Libérate del Estrés Académico</h3>
-                        <div class="estiquetas_blog">
-                            <span class="etiqueta_blog_item">Salud mental</span>
-                        </div>
-                    </div>
-                </button>
-                <button class="item_blog" onclick="window.location.href='articulos/carrera_adecuada.html'">
-                    <div class="arriba_blog_item">
-                        <img class="img_blog_item" src="../../imgs/carrreraadecuada.avif" alt="">
-                    </div>
-                    <div class="abajo_blog_item">
-                        <h3 class="titulo_blog_item">Cómo Escoger la Carrera Adecuada</h3>
-                        <div class="estiquetas_blog">
-                            <span class="etiqueta_blog_item">Educación superior</span>
-                        </div>
-                    </div>
-                </button>
-                <button class="item_blog" onclick="window.location.href='articulos/vencer_procrastinacion.html'">
-                    <div class="arriba_blog_item">
-                        <img class="img_blog_item" src="../../imgs/prjisdlkfas.avif" alt="">
-                    </div>
-                    <div class="abajo_blog_item">
-                        <h3 class="titulo_blog_item">Cómo Vencer la Procrastinación</h3>
-                        <div class="estiquetas_blog">
-                            <span class="etiqueta_blog_item">Productividad</span>
-                            <span class="etiqueta_blog_item">Salud mental</span>
-                        </div>
-                    </div>
-                </button>
-                <button class="item_blog" onclick="window.location.href='articulos/retener_aprendizaje.html'">
-                    <div class="arriba_blog_item">
-                        <img class="img_blog_item" src="../../imgs/ekldjsdñlkafajksldf.webp" alt="">
-                    </div>
-                    <div class="abajo_blog_item">
-                        <h3 class="titulo_blog_item">Mantén lo que Aprendes</h3>
-                        <div class="estiquetas_blog">
-                            <span class="etiqueta_blog_item">Aprendizaje efectivo</span>
-                        </div>
-                    </div>
-                </button>
-                <button class="item_blog" onclick="window.location.href='articulos/curva_del_olvido.html'">
-                    <div class="arriba_blog_item">
-                        <img class="img_blog_item" src="../../imgs/announcing-openai-devday.webp" alt="">
-                    </div>
-                    <div class="abajo_blog_item">
-                        <h3 class="titulo_blog_item">La curva del olvido</h3>
-                        <div class="estiquetas_blog">
-                            <span class="etiqueta_blog_item">Cientifico</span>
-                        </div>
-                    </div>
-                </button>
-
-                
-                
-                
-            
-        </div>
-
-        
+    </div>
 
 
-    <script src="../../js/js.js"></script>
-    <script src="blogjs.js"></script>
+
+</div>
+
 </body>
-</html>

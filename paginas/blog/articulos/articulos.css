@@ -15,7 +15,7 @@ h2 {
 
 
 body {
-    background-color: #000;
+    background-color: #111315;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +33,6 @@ body {
 
 
 .superior_articulo_izquierda {
-    filter: invert(100%);
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -41,7 +40,6 @@ body {
     padding: 20px;
     justify-content: center;
     padding-left: 40px;
-    -webkit-filter: invert(100%);
 }
 .superior_articulo_izquierda_h1 {
     font-size: 70px;
@@ -76,6 +74,12 @@ margin-top: 10px;
 
 .superior_articulo_derecha_img {
     width: 70%;
+    box-shadow: #000 0px 0px 70px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 .superior_articulo_izquierda_etiquetas {
@@ -99,8 +103,7 @@ margin-top: 10px;
 
 .contendio_articulo_text {
     width: 70%;
-    filter: invert(100%);
-    -webkit-filter: invert(100%);
+
 }
 .contendio_articulo_text_text {
     margin-bottom: 60px;

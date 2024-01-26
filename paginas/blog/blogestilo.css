@@ -1,149 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
-* {
-    box-sizing: border-box !important;
-    font-family: 'PT Serif'!important;
-}
-
-
-.blog_intro {
-    position: relative;
-    box-sizing: border-box;
-    height: 100vh;
+.contenedor_articulos{
+    padding: 20px;
     display: flex;
-    align-items: left;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    padding: 0 10%;
-    height:100vh;
-    margin: 0;
-
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-.introooblogg {
-    border-radius: 40px;
-    padding: 55px;
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    -ms-border-radius: 40px;
-    -o-border-radius: 40px;
-    background-color: #00000036;
-    backdrop-filter: blur(50px);
-
-    
-}
-
-.blog_intro h1 {
-    font-size: 30px;
-    text-align: left;
-}
-
-.blog_intro h3 {
-
-    margin-top: 20px;
-    width: 95%;
-    text-align: left;
-    font-size: 37px;
-}
-
-.realblog {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    box-sizing: border-box;
-    padding: 5vh;
+    justify-content: start;
 }
-
-
-
-
-.item_blog {
-    outline: none !important;
-    border: none !important;
-    cursor: pointer;
+.articulo-blog {
     margin: 10px;
-    margin-bottom: 40px;
-    flex-grow: 1;
-    width: 290px;
-    max-width: 350px;
-    min-width: 100px;
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
     text-decoration: none;
+    cursor: pointer;
+    flex-grow: 1;
+    width: 150px;
+    max-width: 170px;
     overflow: hidden;
-    position: relative;
+    padding: 15px;
+    background-color: #191d20;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-
+    justify-content: center;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
 }
 
 
-
-.item_blog:hover .titulo_blog_item {
+.articulo-blog:hover {
+    background-color: #262c30;
     text-decoration: underline;
-} 
-
-.titulo_blog_item {
-}
-
-.img_blog_item {
-    width: 100%;
-    height: 100%;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    transition: scale .5s, transform .9s;
-    -webkit-transition: scale .5s, transform .9s;
-    -moz-transition: scale .5s, transform .9s;
-    -ms-transition: scale .5s, transform .9s;
-    -o-transition: scale .5s, transform .9s;
-    margin-bottom: 0;
-}
-
-.item_blog:hover .img_blog_item {
-    scale: 1.35;
 }
 
 
-.title_blog {
-    margin-left: 60px;
+.articulocont-arriba {
+    display: flex;
+
+justify-content: center;  
+  align-items: center;
+  margin-bottom: 15px;
 }
 
-.abajo_blog_item {
-    padding: 15px 9px;
-    backdrop-filter: blur(90px);
-    position: relative;
+.articulocont-arriba img {
+    border-radius: 10px;
+    width: 95%;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.articulocont-arriba img:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+.articulocont-abajo {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    text-align: left;
 }
 
-.estiquetas_blog {
-    margin-top: 5px;
-    display: flex;
+.articulocont-abajo h2 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
-.etiqueta_blog_item {
-    background-color: #000;
-    padding: 3px 10px;
-    border-radius: 20px;
-    margin: 2px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+.articulocont-abajo span {
+    margin-top: 7px;
 }
-
