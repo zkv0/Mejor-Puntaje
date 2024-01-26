@@ -351,6 +351,21 @@ display: none !important;
     margin-top: 50px;
 }
 
+.bienveniicda {
+    padding: 20px;
+    box-sizing: border-box;
+    height: 50vh;
+}
+
+.bienveniicda h1 {
+    font-size: 50px;
+}
+
+.bienveniicda p {
+    font-size: 20px;
+}
+
+
 
 
 
