@@ -82,7 +82,7 @@
     .materia_contenedor {
         padding: 7px;
         width: 40%;
-        max-width: 50%;
+        max-width: 45%;
         min-width: 0px !important;
         border-radius: 30px;
         -webkit-border-radius: 30px;
@@ -124,7 +124,7 @@
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
         height: 60px;
-        padding: 8px 12px;
+        padding: 18px 12px;
         height: auto;
 }
 
@@ -133,7 +133,7 @@
  }
 
 .arribainfo img {
-    width: 49px;
+    width: 29px;
 }
 
     .cuestinariosdiv {
@@ -206,6 +206,10 @@
         height: 49px !important;
         width: 49px !important;
         margin-right: 10px !important;
+    }
+
+    .info_cuestionario {
+        background-color: transparent !important;
     }
 
 .otraspaginap {
