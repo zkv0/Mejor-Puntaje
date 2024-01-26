@@ -308,4 +308,50 @@ display: none !important;
     max-width: 150px !important;
 }
 
+
+.superior_articulo {
+    flex-direction: column-reverse !important;
+    height: auto !important;
+    flex-wrap:nowrap !important;
+    text-align: center;
+    align-items: center;
+}
+
+.superior_articulo_izquierda {
+    width: 100% !important;
+}
+
+.superior_articulo_izquierda_h1 {
+    font-size: 40px !important;
+}
+
+.superior_articulo_izquierda_span {
+    font-size: 18px !important;
+}
+
+.button_salir_blog{
+    width: auto !important;
+}
+
+.superior_articulo_izquierda {
+    padding-left: 20px !important;
+}
+
+.superior_articulo_izquierda_etiquetas {
+    display: inline-block !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.contendio_articulo_text {
+    width: 90% !important;
+}
+
+.superior_articulo_derecha_img {
+    margin-top: 50px;
+}
+
+
+
+
   }
