@@ -372,6 +372,16 @@ display: none !important;
 }
 
 
+.cajondeinformacion {
+    padding: 0;
+    margin: 40px 0px;
+    outline: none 0px ;
+}
+.cajondeinformacion p {
+    outline: none;
+    margin: none;
+    padding: 0px 20px;
+}
 
 
 

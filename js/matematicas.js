@@ -5,23 +5,34 @@ function toggleVideo(button, videoDiv, videoUrl) {
       videoDiv.parentElement.classList.toggle("div_botonvideo_grande");
     });
   }
+  
+  
+  
   toggleVideo(
     document.getElementById("thrsdsfsdfsddfgsdfhsf"),
     document.getElementById("thrsdsfsdfsddfgsdfhsfa"),
     "https://www.youtube.com/embed/DhOeAPRXGxM?si=bsQu2LWbImiPXAnj"
-  );toggleVideo(
+  );
+  
+  toggleVideo(
     document.getElementById("sdfsadfsdfa"),
     document.getElementById("sdfsadfsdfaa"),
     "https://www.youtube.com/embed/s90x76_2S9o?si=rZEiyQs-YHX7rl9-"
-  );toggleVideo(
+  );
+  
+  toggleVideo(
     document.getElementById("nytsdfghd"),
     document.getElementById("nytsdfghda"),
     "https://www.youtube.com/embed/QXO3u6Ak4rU?si=GN2v76SKdDLlLxwN"
-  );toggleVideo(
+  );
+  
+  
+  toggleVideo(
     document.getElementById("dthbdvgc"),
     document.getElementById("dthbdvgca"),
     "https://www.youtube.com/embed/ns7uwSVPLJk?si=GSru5tZmBVFM4pdC"
   );
+
   toggleVideo(
     document.getElementById("thrsdfgsdfhsf"),
     document.getElementById("thrsdfgsdfhsfa"),
@@ -344,3 +355,7 @@ function toggleVideo(button, videoDiv, videoUrl) {
     document.getElementById("rtvhtssvhsrta"),
     "https://www.youtube.com/embed/_NtKI8HwdtU?si=PS6fBsbrxkYVWzW9"
   );
+
+
+
+ 

@@ -261,3 +261,31 @@ overflow: hidden;
 .bienveniicda p {
   font-size: 25px;
 }
+
+
+.cajondeinformacion {
+  box-sizing: border-box;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.cajondeinformacion h1 {
+  padding: 20px;
+}
+
+.cajondeinformacion p {
+  border-radius: 40px;
+  outline: 5px solid #191d20;
+  padding: 30px;
+  text-align: justify;
+  font-size: 20px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
