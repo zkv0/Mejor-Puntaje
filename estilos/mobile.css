@@ -360,7 +360,7 @@ display: none !important;
 .bienveniicda {
     padding: 20px;
     box-sizing: border-box;
-    height: 85vh;
+    height: 25vh;
 }
 
 .bienveniicda h1 {
@@ -383,6 +383,22 @@ display: none !important;
     padding: 0px 20px;
 }
 
+#logoidizquierdo::after {
+    content: none;
+}
 
+.bieneicnsl {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.bienveniicda img {
+    width: 100%;
+}
+
+.bienveniicda p {
+    width: 100%;
+}
 
   }
