@@ -151,13 +151,13 @@ flex-wrap: wrap;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 20px;
+    
 
 
 }
 
 
 .materia_contenedor {
-    flex-grow: 1;
     overflow: hidden ;
     height: auto;
     max-width: 250px;

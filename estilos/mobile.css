@@ -81,9 +81,8 @@
 
     .materia_contenedor {
         padding: 7px;
-        width: 40%;
-        max-width: 45%;
-        min-width: 0px !important;
+        width: 100%;
+        max-width: 100%;
         border-radius: 30px;
         -webkit-border-radius: 30px;
         -moz-border-radius: 30px;
@@ -117,15 +116,14 @@
         margin: 0;
         background: none;
         justify-content: left;
-        background-color: #111315;
         border-radius: 20px;
         -webkit-border-radius: 20px;
         -moz-border-radius: 20px;
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
         height: 60px;
-        padding: 18px 12px;
-        height: auto;
+
+padding: 0;        height: auto;
 }
 
  #especial_relleno {
@@ -133,7 +131,7 @@
  }
 
 .arribainfo img {
-    width: 29px;
+    width: 49px;
 }
 
     .cuestinariosdiv {
@@ -200,7 +198,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: left;
-        width: 40% !important;
+        width: 100%;
     }
 
     .otrapagina img{
@@ -360,7 +358,7 @@ display: none !important;
 .bienveniicda {
     padding: 20px;
     box-sizing: border-box;
-    height: 25vh;
+    height: auto;
 }
 
 .bienveniicda h1 {
