@@ -118,65 +118,63 @@ if (boton_cuestioanrio_español && cuestionario_español) {
 }
 
 
-//copiar texto
-var btnCopy = document.getElementById("btn-copy");
-btnCopy.addEventListener("click", function () {
-  var myInput = document.getElementById("myInput");
-  var textToCopy = myInput.value;
 
-  navigator.clipboard.writeText(textToCopy)
-    .then(function () {
-      alert("Texto copiado: " + textToCopy);
-    })
-    .catch(function (err) {
-      console.error("Error al copiar el texto: ", err);
-    });
-}//compartir whtpp
+// Función para configurar los botones dentro del modal de compartir
 function setupShareButtons() {
-  var btnSharew = document.getElementById("btn-share-w");
+  const btnCopy = document.getElementById("btn-copy");
+  if (btnCopy) {
+    btnCopy.addEventListener("click", function () {
+      const myInput = document.getElementById("myInput");
+      const textToCopy = myInput.value;
+      navigator.clipboard.writeText(textToCopy)
+        .then(function () {
+          alert("Texto copiado: " + textToCopy);
+        })
+        .catch(function (err) {
+          console.error("Error al copiar el texto: ", err);
+        });
+    });
+  }
+
+  const btnSharew = document.getElementById("btn-share-w");
   if (btnSharew) {
     btnSharew.addEventListener("click", function () {
-      var urlToSharew = "https://zkv0.github.io/aprende/";
-      var encodedUrlw = encodeURIComponent(urlToSharew);
-      var whatsappUrlw = "https://api.whatsapp.com/send?text=" + encodedUrlw;
-      window.open(whatsappUrlw);
+      const urlToShare = encodeURIComponent("https://zkv0.github.io/aprende/");
+      window.open("https://api.whatsapp.com/send?text=" + urlToShare);
     });
   }
 
-  var btnSharet = document.getElementById("btn-share-t");
+  const btnSharet = document.getElementById("btn-share-t");
   if (btnSharet) {
     btnSharet.addEventListener("click", function () {
-      var urlToSharet = "https://zkv0.github.io/aprende/";
-      var encodedUrlt = encodeURIComponent(urlToSharet);
-      var twitterUrlt = "https://twitter.com/intent/tweet?url=" + encodedUrlt;
-      window.open(twitterUrlt);
+      const urlToShare = encodeURIComponent("https://zkv0.github.io/aprende/");
+      window.open("https://twitter.com/intent/tweet?url=" + urlToShare);
     });
   }
 
-  var btnSharef = document.getElementById("btn-share-f");
+  const btnSharef = document.getElementById("btn-share-f");
   if (btnSharef) {
     btnSharef.addEventListener("click", function () {
-      var urlToSharef = "https://zkv0.github.io/aprende/";
-      var facebookUrlf = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(urlToSharef);
-      window.open(facebookUrlf, "_blank");
+      const urlToShare = encodeURIComponent("https://zkv0.github.io/aprende/");
+      window.open("https://www.facebook.com/sharer/sharer.php?u=" + urlToShare, "_blank");
     });
   }
 
-  var btnShareX = document.getElementById("btn-share-x");
+  const btnShareX = document.getElementById("btn-share-x");
   if (btnShareX) {
     btnShareX.addEventListener("click", function () {
-      var modal = document.getElementById("div_compartir");
+      const modal = document.getElementById("div_compartir");
       if (modal) modal.remove();
     });
   }
 }
 
 document.addEventListener("DOMContentLoaded", function () {
-  var botonesCompartir = document.querySelectorAll(".compartir");
+  const botonesCompartir = document.querySelectorAll(".compartir");
 
   botonesCompartir.forEach(function (boton) {
     boton.addEventListener("click", function () {
-      var codigoHTML = `
+      const codigoHTML = `
         <div class="div_compartir" id="div_compartir">
           <div class="compartir_contenido">
             <div class="cerrar-share">
@@ -194,16 +192,16 @@ document.addEventListener("DOMContentLoaded", function () {
               <button id="btn-share-w" class="btn-sharessss" style="background: rgb(0, 212, 0);"><img src="imgs/whatsapp.svg" alt=""></button>
               <button id="btn-share-t" class="btn-sharessss" style="background: rgb(31, 128, 255);"><img src="imgs/twitter.svg" alt=""></button>
               <button id="btn-share-f" class="btn-sharessss" style="background: rgb(0, 0, 255);"><img src="imgs/facebook.svg" alt=""></button>
-              <a href="imgs/qrrrrr.svg" download="Qr-Aprende" id="btn-share-f" class="btn-sharessss" style="background: rgb(0, 0, 0);"><img src="imgs/codigo-qr.svg" alt=""></a>
+              <a href="imgs/qrrrrr.svg" download="Qr-Aprende" class="btn-sharessss" style="background: rgb(0, 0, 0);"><img src="imgs/codigo-qr.svg" alt=""></a>
             </div>
           </div>
         </div>
       `;
 
-      var existingModal = document.getElementById("div_compartir");
+      const existingModal = document.getElementById("div_compartir");
       if (existingModal) existingModal.remove();
 
-      var codigoDiv = document.createElement("div");
+      const codigoDiv = document.createElement("div");
       codigoDiv.innerHTML = codigoHTML;
       document.body.appendChild(codigoDiv);
       
