@@ -55,7 +55,7 @@
 
 
     .supernav {
-        background: #191d20;
+        background: #080808;
 }
 
     .h1_separador {
@@ -93,9 +93,6 @@
         
 }
 
-#materia_rellenooo {
-    display: none;
-}
 
     .materias_div {
         padding: 10px 5px;
@@ -126,9 +123,6 @@
 padding: 0;        height: auto;
 }
 
- #especial_relleno {
-    display: none;
- }
 
 .arribainfo img {
     width: 49px;
@@ -151,7 +145,7 @@ padding: 0;        height: auto;
 
     .boton_cuestioanrio_uno {
         display: inline-block;
-        background-color: #191d20;
+        background-color: #333333;
         border: none;
         outline: none;
         border-radius: 50px;
@@ -381,9 +375,6 @@ display: none !important;
     padding: 0px 20px;
 }
 
-#logoidizquierdo::after {
-    content: none;
-}
 
 .bieneicnsl {
     width: 100%;

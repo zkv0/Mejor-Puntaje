@@ -3,7 +3,7 @@
 
 .nav {
     box-sizing: border-box;
-    background-color: #0c0e10;
+    background-color: #0c0c0c;
     width: 280px;
     max-width: 280px;
     height: 100%;
@@ -20,7 +20,7 @@
 .nav div{
     display: flex;
     flex-direction: column;
-    border-bottom: 2px solid #d5d5d532;
+    border-bottom: 2px solid #333333;
     margin-top: 30px;
     padding-bottom: 10px;
 }
@@ -32,7 +32,7 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    color: #d5d5d5;
+    color: #e0e0e0;
     text-decoration: none;
     border-radius: 20px;
     transition:all .5s;
@@ -41,11 +41,11 @@
     -ms-transition:all .5s;
     -o-transition:all .5s;
     margin-top: 5px;
-    outline: 2px solid #191d20;
+    outline: 2px solid #1a1a1a;
 }
 
 .nav div a:hover {
-    background-color: #191d20;
+    background-color: #333333;
     color: #fff;
 
 }
@@ -99,7 +99,7 @@
     -moz-border-radius:50px ;
     -ms-border-radius:50px ;
     -o-border-radius:50px ;
-    background-color: #191d20;
+    background-color: #1a1a1a;
     
     flex-direction: row;
     justify-content: center;
@@ -115,15 +115,4 @@
     filter: invert(.8);
     -webkit-filter: invert(.8);
 }
-
-.rellenoimpedido {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    backdrop-filter: blur(10px);
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
-    z-index: 98; /* Un nivel inferior al nav */
-}
+
