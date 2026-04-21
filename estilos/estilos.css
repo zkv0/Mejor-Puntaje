@@ -57,7 +57,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(10px);}
+  backdrop-filter: blur(10px);
+}
 
 .div_compartir_visible {
   display: flex;
@@ -78,7 +79,7 @@ body {
   cursor: pointer;
   outline: none;
   background: none;
-  
+
 }
 
 #btn-share-x img {
@@ -123,7 +124,7 @@ body {
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
   margin-bottom: 10px;
-  
+
 }
 
 .link {
@@ -135,24 +136,24 @@ body {
   align-items: center;
   background-color: #1a1a1a;
   padding: 5px;
-  border-radius:20px ;
-  -webkit-border-radius:20px ;
-  -moz-border-radius:20px ;
-  -ms-border-radius:20px ;
-  -o-border-radius:20px ;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 .link p {
   color: #e0e0e0;
-padding: 0;
-margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .link button {
   cursor: pointer;
   border-radius: 20px;
   margin: 0;
-  padding: 10px 10px ;
+  padding: 10px 10px;
   background-color: #333333;
   outline: none;
   border: none;
@@ -175,7 +176,7 @@ margin: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  width: auto ;
+  width: auto;
   height: auto;
   justify-content: center;
   margin-top: 15px;
@@ -209,8 +210,10 @@ margin: 0;
   width: 100%;
   height: 100%;
   background-color: #210f0054;
-  pointer-events: none; /* Permite la interacción con los elementos subyacentes */
-  z-index: 999999999999999999999999999999999999; /* Asegura que la superposición esté en la parte superior */
+  pointer-events: none;
+  /* Permite la interacción con los elementos subyacentes */
+  z-index: 999999999999999999999999999999999999;
+  /* Asegura que la superposición esté en la parte superior */
 }
 
 #h1_separador_cuestionarios {
@@ -218,16 +221,16 @@ margin: 0;
   align-items: center;
 }
 
-.bienveniicda{
+.bienveniicda {
   box-sizing: border-box;
-width: auto;
-height: 100vh;
-background-size: cover;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-overflow: hidden;
+  width: auto;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 
 
 
@@ -292,4 +295,17 @@ overflow: hidden;
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
+}
+
+.clickable-title {
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.clickable-title:hover {
+  opacity: 0.6;
+}
+
+.seccion-oculta {
+  display: none !important;
 }

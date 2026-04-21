@@ -2,20 +2,18 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     z-index: 1;
-    width: 100%;
+    width: calc(100% - 280px);
+    margin-left: 280px;
+    max-width: calc(100% - 280px);
 }
 
-.relleno {
-    padding: 140px;
-    height: 100%;
-}
+
 
 .supernavmega {
     position: fixed;
-    width: 100%;
-    left: 0;
+    width: calc(100% - 280px);
+    left: 280px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -479,8 +477,16 @@
     padding: 30px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 15px;
 }
+
+.maspaginasdiv::-webkit-scrollbar {
+    display: none;
+}
+
 
 
 .otrapagina {
@@ -499,7 +505,7 @@
     -o-border-radius: 40px;
     background: #121212;
     margin: 5px;
-    flex-grow: 1;
+    flex: 0 0 auto;
     transition: transform 0.5s;
     -webkit-transition: transform 0.5s;
     -moz-transition: transform 0.5s;

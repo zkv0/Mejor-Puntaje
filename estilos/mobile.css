@@ -13,6 +13,17 @@
     z-index: 999999999999;
 }
 
+    #superbody {
+        margin-left: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .supernavmega {
+        width: 100%;
+        left: 0;
+    }
+
     .relleno {
         display: none;
     }
