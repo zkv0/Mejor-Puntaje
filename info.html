@@ -3,137 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Información institucional, política de privacidad y condiciones de uso de Mejor Puntaje.">
     <link rel="stylesheet" href="estilos/estilos.css">
     <link rel="stylesheet" href="estilos/nav.css">
-    <link rel="icon" href="imgs/LOGOPAGINAHTML.png">
     <link rel="stylesheet" href="estilos/superbody.css">
     <link rel="stylesheet" href="estilos/mobile.css">
     <link rel="stylesheet" href="estilos/volador.css">
     <link rel="stylesheet" href="estilos/blogestilo.css">
+    <link rel="stylesheet" href="estilos/info.css">
+    <link rel="icon" href="imgs/LOGOPAGINAHTML.png">
     <script src="js/js.js" defer></script>
-    <title>Sobre Nosotros</title>
+    <script src="js/usuario.js" defer></script>
+    <title>Información | Mejor Puntaje</title>
 </head>
-<body>
-
-
-    <div class="nav" style="overflow: auto;
-    " id="nav">
+<body class="pagina_info">
+    <aside class="nav" id="nav" aria-label="Navegación de información">
         <div class="img_nav">
-            <img class="img_nav_div" src="imgs/LOGOAPRENDECOMPLETOblanco.PNG" alt="Logo Aprende">
+            <img class="img_nav_div" src="imgs/LOGOAPRENDECOMPLETOblanco.PNG" alt="Logo de Mejor Puntaje">
         </div>
-            
-        <div class="otraspaginas">
-            <a  href="#seccionacercadelcreador"><img class="icon_nav" src="imgs/revisar.svg" alt="sobre el creador" title="sobre el creador">Acerca Del Creador</a>
-            <a  href="#seccionpoliticadeprivacidad"><img class="icon_nav" src="imgs/ojo-de-la-cerradura-del-escudo.svg" alt="Privacidad" title="Privacidad">Política De Privacidad</a>
-            <a  href="#vallowysk"><img class="icon_nav" src="imgs/derechosdeautor.svg">Aviso sobre Derechos de Autor</a>
-            <a  href="#werttyun"><img class="icon_nav" src="imgs/informacion-sobre-terminos-y-condiciones.svg">Términos y Condiciones de Uso</a>   
-            <a  href="#bullpport"><img class="icon_nav" src="imgs/manos-aplaudiendo.svg">Agradecimientos</a>      
-            <a  href="#zeyalop"><img class="icon_nav" src="imgs/creative-commons.svg">Licencia</a>  
-            <a  href="#piedepagina"><img class="icon_nav" src="imgs/huella.svg">Pie De Pagina</a>                        
-                      
-                  
-                     
+        <div class="otraspaginas" aria-label="Secciones de esta página">
+            <a href="#seccionacercadelcreador"><img class="icon_nav" src="imgs/revisar.svg" alt="">Acerca del proyecto</a>
+            <a href="#seccionpoliticadeprivacidad"><img class="icon_nav" src="imgs/ojo-de-la-cerradura-del-escudo.svg" alt="">Política de privacidad</a>
+            <a href="#vallowysk"><img class="icon_nav" src="imgs/derechosdeautor.svg" alt="">Derechos de autor</a>
+            <a href="#werttyun"><img class="icon_nav" src="imgs/informacion-sobre-terminos-y-condiciones.svg" alt="">Términos de uso</a>
+            <a href="#bullpport"><img class="icon_nav" src="imgs/manos-aplaudiendo.svg" alt="">Agradecimientos</a>
+            <a href="#zeyalop"><img class="icon_nav" src="imgs/creative-commons.svg" alt="">Licencia</a>
         </div>
-
         <div class="Githubinfo">
             <span>Otros</span>
-            <a href="index.html"><img src="imgs/home.svg" class="icon_nav" alt="inicio" title="inicio">Principal</a>
-            <a href="https://github.com/zkv0/Mejor-Puntaje" target="_blank"><img src="imgs/github.svg" class="icon_nav" alt="github" title="github"> Repositorio En Github</a>
+            <a href="index.html"><img src="imgs/home.svg" class="icon_nav" alt="">Inicio</a>
+            <a href="https://github.com/zkv0/Mejor-Puntaje" target="_blank" rel="noopener noreferrer"><img src="imgs/github.svg" class="icon_nav" alt="">Repositorio en GitHub</a>
         </div>
-    </div>
+    </aside>
     <div class="relleno"></div>
 
     <div class="superbody" id="superbody">
         <div class="supernavmega" id="supernavmega">
             <div class="rellenosupernav"></div>
             <div class="supernav">
-                <div class="supernav_filtro">
-                    <a  href="index.html" class="supernav_filtro_button"><img class="supernav_img" src="imgs/home.svg">Inicio</a>
-                    <a  href="https://github.com/zkv0/Mejor-Puntaje" target="_blank" class="supernav_filtro_button"><img class="supernav_img" src="imgs/github.svg"> GitHub</a>
-                    <a  href="sobre.html" class="supernav_filtro_button"><img style="background-color: #ffffff;" src="imgs/info.svg" class="supernav_img">Info</a>
-                </div>
+                <nav class="supernav_filtro" aria-label="Navegación principal">
+                    <a href="index.html" class="supernav_filtro_button"><img class="supernav_img" src="imgs/home.svg" alt="">Inicio</a>
+                    <a href="#seccionacercadelcreador" class="supernav_filtro_button"><img src="imgs/info.svg" class="supernav_img" alt="">Info</a>
+                    <a href="#" id="usuario_menu_movil" class="supernav_filtro_button usuario_menu_link usuario_menu_movil" aria-label="Mi usuario">
+                        <svg class="supernav_img" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"></circle><path d="M5 21v-2a7 7 0 0 1 14 0v2"></path></svg>
+                        <span class="usuario_menu_nombre">Mi usuario</span>
+                    </a>
+                </nav>
+            </div>
         </div>
-    </div>
 
+        <main class="info_contenido">
+            <header class="info_portada">
+                <span class="info_etiqueta">MEJOR PUNTAJE</span>
+                <h1>Información del sitio</h1>
+                <p>Qué es este sitio, de dónde proceden sus recursos y qué ocurre con los datos guardados en tu navegador.</p>
+            </header>
 
+            <section class="cajondeinformacion info_tarjeta" id="seccionacercadelcreador" aria-labelledby="titulo-proyecto">
+                <h2 id="titulo-proyecto">Sobre este sitio</h2>
+                <p>Mejor Puntaje es un sitio independiente que reúne y organiza referencias a recursos educativos disponibles en páginas y servicios de terceros. Los videos se reproducen desde YouTube u otros proveedores de alojamiento; los cuestionarios y exámenes se encuentran en páginas externas. El sitio no es el creador ni el titular de esos recursos.</p>
+                <p>El acceso a Mejor Puntaje es gratuito. Cada servicio externo puede tener sus propias condiciones de acceso, disponibilidad y uso. “Mejor Puntaje” se utiliza como nombre del proyecto; según lo informado por su administrador, el sitio no representa a una sociedad o institución y ese nombre no se presenta como marca registrada.</p>
+                <p>La página funciona con archivos estáticos HTML, CSS y JavaScript. No tiene cuentas en línea, autenticación ni una base de datos propia. El perfil opcional guarda un nombre, una fotografía y el avance en el navegador del dispositivo.</p>
+            </section>
 
-    <div class="cajondeinformacion" id="seccionacercadelcreador">
-             Mejor Puntaje nació para apoyar a los estudiantes, proporcionándoles recursos que les permitan prepararse de manera efectiva para alcanzar sus metas académicas, sin preocuparse por el dinero.
-            <br><br>
-            Creo firmemente que la información debe ser libre y accesible para todos, y esta página es mi pequeña contribución para que los estudiantes de mi país puedan tener más oportunidades de éxito.</p>
-    </div>
+            <section class="cajondeinformacion info_tarjeta" id="seccionpoliticadeprivacidad" aria-labelledby="titulo-privacidad">
+                <h2 id="titulo-privacidad">Política de privacidad</h2>
+                <p class="info_actualizacion">Última actualización: 24 de octubre de 2026</p>
+                <h3>1. Quién administra el sitio</h3>
+                <p>Mejor Puntaje es un proyecto administrado de forma independiente y no se presenta como una empresa, entidad educativa o institución oficial. El nombre del administrador y un medio directo de contacto no están publicados; por tanto, esta página aún no ofrece un canal para tramitar solicitudes dirigidas al administrador. La <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981" target="_blank" rel="noopener noreferrer">Ley 1581 de 2012</a> contempla informar la identificación y los datos de contacto del responsable cuando resulte aplicable.</p>
 
-    <div class="cajondeinformacion" id="seccionpoliticadeprivacidad">
-        <h1>Politica de privacidad</h1>
-        <p>
-            En Mejor Puntaje, la privacidad de nuestros usuarios es una prioridad absoluta. Queremos asegurarle que no recopilamos ni almacenamos ningún tipo de información personal. No solicitamos el inicio de sesión ni requerimos ningún tipo de dato que identifique al usuario. De igual manera, no compartimos ni ofrecemos información a terceros.
-            <br><br>
-            Nuestra página es completamente estática. Esto significa que no utilizamos bases de datos ni almacenamos información en servidores. Los recursos empleados en Mejor Puntaje, incluyendo el uso de JavaScript, se limitan exclusivamente a la integración de información desde otras fuentes hacia nuestra plataforma, sin transferir ningún tipo de dato del usuario hacia otros sitios o servicios.
-            <br><br>
-            Garantizamos una experiencia 100% privada. No utilizamos cookies, no implementamos técnicas de rastreo, ni manejamos identificadores de usuario (OIs). Nuestra única intención es proporcionar contenido útil y accesible para los estudiantes, sin interferir en su privacidad.</p>
-    </div>
+                <h3>2. Datos, finalidades y carácter facultativo</h3>
+                <p>El registro del perfil es opcional. Si se utiliza, se guarda el nombre indicado, la fotografía seleccionada y un registro de los videos abiertos para calcular el avance general y por materia. Estos datos se usan para mostrar el perfil y sus métricas en ese navegador. El formulario no solicita correo electrónico, documento de identidad ni datos de pago.</p>
+                <p>El registro no es requisito para consultar los contenidos. Los datos se guardan en el almacenamiento local del navegador (<code>localStorage</code>), en el dispositivo y perfil de navegador utilizados. No se transmiten desde el código de la aplicación a una base de datos o servidor propio de Mejor Puntaje, no se comparten con otros usuarios y no se sincronizan entre dispositivos. El nombre, la fotografía y el progreso permanecen hasta que la persona utilice «Borrar mis datos» o elimine los datos del sitio desde la configuración del navegador; al hacerlo, se suprimen el perfil y los registros de avance guardados por esta aplicación en ese navegador.</p>
+                <p><code>localStorage</code> es almacenamiento del navegador y no una cookie HTTP. Mejor Puntaje no instala cookies propias de analítica o publicidad ni incorpora herramientas propias de seguimiento. La configuración del navegador puede permitir o bloquear el almacenamiento local; si se bloquea, el perfil o el progreso pueden no guardarse.</p>
 
-    <div class="cajondeinformacion" id="vallowysk">
-        <h1>Aviso sobre Derechos de Autor</h1>
-        <p>
-            En Mejor Puntaje respetamos plenamente las leyes de derechos de autor y cumplimos con lo estipulado en la Ley 23 de 1982 y sus modificaciones, así como en la Ley 1915 de 2018, que rigen la protección de obras intelectuales en Colombia. Es importante destacar que no alojamos, almacenamos ni distribuimos de manera directa ningún video, documento o recurso multimedia protegido por derechos de autor en nuestros servidores.
-<BR></BR>
-            Los materiales y recursos que se ofrecen en Mejor Puntaje son accesibles únicamente a través de enlaces externos que redirigen a sitios de terceros, que no están asociados ni afiliados a nuestra plataforma. Nuestra función es únicamente proporcionar a los usuarios el acceso a fuentes de información de interés para su preparación, respetando siempre los derechos y condiciones que estas plataformas externas puedan imponer.
-            <br><br>
-            Queremos subrayar que no apoyamos ni fomentamos la piratería ni la distribución ilegal de contenido protegido. Cualquier infracción de derechos de autor es responsabilidad exclusiva de los sitios web externos a los que enlazamos, y Mejor Puntaje no asume ninguna responsabilidad sobre el contenido al que se accede fuera de nuestra plataforma.
-            <br><br>
-            Nos comprometemos a revisar periódicamente los enlaces publicados para asegurar que cumplimos con las normativas legales vigentes. Si en algún momento se identifica un enlace que infringe los derechos de autor, por favor notifíquenos para que tomemos las acciones pertinentes, incluyendo su eliminación inmediata.</p>
-    </div>
+                <h3>3. Alojamiento y comunicaciones con terceros</h3>
+                <p>El sitio se publica en GitHub Pages. Aunque sus archivos son estáticos, el navegador se comunica con el servicio de alojamiento para descargarlos. GitHub informa que registra direcciones IP de visitantes de páginas de GitHub Pages por motivos de seguridad; ese registro lo gestiona GitHub conforme a sus propias políticas.</p>
+                <p>La página también carga tipografías de Google Fonts e integra videos de YouTube. Los cuestionarios, exámenes y algunos archivos se abren en sitios externos o servicios de almacenamiento en la nube. Al solicitar o abrir esos recursos, el proveedor correspondiente puede recibir datos técnicos de conexión, como la dirección IP y la página solicitada. Los servicios externos gestionan esos datos y sus cookies o tecnologías equivalentes bajo sus propias políticas; el administrador de Mejor Puntaje no controla esos tratamientos.</p>
+                <p>Los enlaces externos se identifican como recursos de terceros y su uso puede implicar que la persona salga del entorno de Mejor Puntaje. Antes de utilizarlos, debe consultar las políticas y condiciones del proveedor correspondiente. La política de este sitio no sustituye ni modifica las de terceros.</p>
 
-    <div class="cajondeinformacion" id="werttyun">
-        <h1>Términos y Condiciones de Uso</h1>
-        <p>Al acceder y utilizar Mejor Puntaje, aceptas cumplir con estos términos y condiciones. Si no estás de acuerdo con alguna parte de estos términos, te recomendamos que no utilices esta página.
-            <br><br>
-            Mejor Puntaje es una plataforma informativa creada con el fin de ofrecer recursos gratuitos a estudiantes que se preparan para el examen del IFES. Sin embargo, la información proporcionada en esta página es de carácter general y no garantiza resultados específicos.
-            <br><br>
-            Los usuarios son responsables de cómo utilizan la información y los recursos disponibles en Mejor Puntaje. No asumimos responsabilidad por cualquier acción que realices basándote en el contenido de nuestra página. Todos los enlaces a sitios externos son ofrecidos únicamente como referencia, y no garantizamos la precisión, integridad o calidad de la información contenida en esos sitios.
-            <br><br>
-            Asimismo, Mejor Puntaje no es responsable de cualquier daño o pérdida que pueda surgir del uso o la imposibilidad de uso de la información proporcionada en esta página.
-            <br><br>
-            Al utilizar este sitio, aceptas que lo haces bajo tu propio riesgo y que eximes a Mejor Puntaje de cualquier responsabilidad relacionada con el uso de la información y recursos presentados.</p>
-    </div>
-    
-    <div class="cajondeinformacion" id="bullpport">
-        <h1>Agradecimientos</h1>
-        <p>Queremos expresar un sincero agradecimiento a Alto Puntaje. Gran parte del contenido que ofrecemos en Mejor Puntaje fue obtenido gracias a ellos, y personalmente, esta plataforma ha sido una gran inspiración para mí. Alto Puntaje no solo ofrece recursos gratuitos de excelente calidad, sino que también me ayudó enormemente en mi propio camino académico. Por eso, les extiendo todo mi agradecimiento.</p>
-    </div>
-    
+                <h3>4. Conservación y derechos de los titulares</h3>
+                <p>El perfil local se conserva únicamente en el navegador hasta su eliminación por la persona usuaria o por las herramientas del dispositivo. Como el sitio no mantiene una copia propia de ese perfil, el administrador no puede recuperarlo si se borra el almacenamiento, ni acceder remotamente a él para rectificarlo o suprimirlo. La interfaz permite consultar el perfil y sus métricas agregadas, y borrar el perfil y el avance guardados localmente. También se pueden eliminar los datos desde los ajustes del navegador.</p>
+                <p>Los artículos 8, 14 y 15 de la Ley 1581 de 2012 reconocen, entre otros, los derechos a conocer, actualizar y rectificar datos; conocer el uso dado a estos; presentar consultas y reclamos; y solicitar su supresión o revocar la autorización en los casos previstos por la ley. El sitio no publica actualmente la identificación ni un canal de contacto del administrador, por lo que no es posible tramitar desde esta página una solicitud dirigida a él. La ley contempla la posibilidad de acudir a la Superintendencia de Industria y Comercio una vez agotado el procedimiento correspondiente ante el responsable.</p>
+                <p>El sitio puede ser utilizado por estudiantes menores de edad. El perfil es opcional; se recomienda no guardar información de otras personas ni fotografías sin autorización. Si el usuario es menor, debe contar con la orientación de su madre, padre o representante legal antes de ingresar datos personales.</p>
 
+                <h3>5. Vigencia y cambios</h3>
+                <p>Esta política rige desde la fecha indicada. Si se modifica el código para añadir nuevas finalidades, almacenamiento remoto, analítica, publicidad, cuentas en línea o transmisión de datos del perfil, el texto deberá actualizarse antes o al momento de implementar el cambio, junto con las autorizaciones e información que resulten legalmente exigibles.</p>
+            </section>
 
+            <section class="cajondeinformacion info_tarjeta" id="vallowysk" aria-labelledby="titulo-autor">
+                <h2 id="titulo-autor">Fuentes y derechos de terceros</h2>
+                <p>Mejor Puntaje funciona principalmente como una recopilación de enlaces y referencias a materiales publicados por terceros. Los videos permanecen en YouTube u otras plataformas de alojamiento; los cuestionarios, exámenes y archivos se consultan en los sitios que los ofrecen. El administrador no afirma ser autor, propietario ni editor de esos materiales, ni que estén alojados en los servidores del sitio.</p>
+                <p>Que un recurso sea público o gratuito para consultar no significa que sea de dominio público ni que pueda copiarse, redistribuirse o modificarse libremente. Los derechos, permisos, atribuciones y condiciones de uso corresponden a cada titular o proveedor. Enlazar o insertar un reproductor no constituye una declaración de propiedad, afiliación o respaldo.</p>
+                <p>Si una persona titular considera que un enlace o recurso debe revisarse, puede solicitarlo al administrador. El nombre y el canal de contacto directo todavía no están publicados, por lo que la gestión de estas solicitudes requiere habilitar ese contacto.</p>
+            </section>
 
+            <section class="cajondeinformacion info_tarjeta" id="werttyun" aria-labelledby="titulo-terminos">
+                <h2 id="titulo-terminos">Términos de uso</h2>
+                <p>Mejor Puntaje organiza referencias para facilitar la consulta de recursos educativos de terceros. No es un sitio oficial del ICFES ni de las plataformas enlazadas y no representa a esas entidades. El avance del perfil registra la apertura de videos; no confirma que se hayan visto completos ni mide el aprendizaje o el resultado de una prueba.</p>
+                <p>Los enlaces pueden cambiar, dejar de funcionar o conducir a servicios con requisitos y condiciones propios. Antes de usar un cuestionario, video o archivo, revisa las reglas del sitio proveedor. El administrador no controla la disponibilidad, el contenido ni las prácticas de privacidad de esas páginas externas.</p>
+                <p>La recopilación se ofrece con fines informativos y puede contener enlaces desactualizados. No se garantiza que cada recurso permanezca disponible o sea adecuado para una necesidad particular.</p>
+            </section>
 
+            <section class="cajondeinformacion info_tarjeta" id="bullpport" aria-labelledby="titulo-agradecimientos">
+                <h2 id="titulo-agradecimientos">Agradecimientos</h2>
+                <p>Reconocemos a Alto Puntaje y a las demás páginas y servicios que publican los recursos educativos enlazados. Este reconocimiento no implica afiliación, patrocinio ni autorización general para reutilizar sus materiales.</p>
+            </section>
 
-
-
-
-
-
-
-
-
-
-    <div class="piedepagina" id="piedepagina">
+            <section class="cajondeinformacion info_tarjeta" id="zeyalop" aria-labelledby="titulo-licencia">
+                <h2 id="titulo-licencia">Aviso de licencia</h2>
+                <p>El sitio muestra un aviso de licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank" rel="noopener noreferrer">Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)</a> añadido por su administrador. Ese aviso no concede derechos sobre videos, cuestionarios, documentos, imágenes u otros materiales de terceros, y no significa que sus titulares hayan autorizado su reproducción o relicenciamiento. La licencia solo puede aplicarse a material sobre el que quien la concede tenga derechos suficientes; consulta la fuente original para conocer las condiciones de cada recurso. Creative Commons también recomienda identificar claramente el material de terceros para que no se interprete que está cubierto por una licencia CC.</p>
+            </section>
+        </main>
+        <footer class="piedepagina" id="piedepagina">
         <div class="seccion seccionuno">
-            <img src="imgs/LOGOAPRENDECOMPLETOblanco.PNG" alt="">
+            <img src="imgs/LOGOAPRENDECOMPLETOblanco.PNG" alt="Logo de Mejor Puntaje">
             <ul>
-                <li><a href="info.html">Privacidad</a></li>
-                <li><a href="info.html">T&C</a></li>
-                <li><a href="info.html">Sobre Nosotros</a></li>
+                <li><a href="#seccionpoliticadeprivacidad">Privacidad</a></li>
+                <li><a href="#werttyun">Términos de uso</a></li>
+                <li><a href="#seccionacercadelcreador">Sobre este sitio</a></li>
             </ul>
         </div>
         <div class="seccion secciondos">
-            <h3><img src="imgs/LOGOAPRENDECOMPLETOblanco.PNG" alt=""> <img src="imgs/corazon.svg" class="corazonsvg" alt=""> <img src="imgs/altopuntajedos.png" class="altopuntajepng" alt=""></h3>
-            <p>Agradecemos a Esneider Manzano por el valioso contenido de su pagina <a target="_blank" href="https://altopuntaje.com/">Altopuntaje.com</a>, de la cual obtuvimos inspiración para crear nuestra página y de allí obtuvimos gran parte del contenido proporcionado.  </p>
+            <h3><img src="imgs/LOGOAPRENDECOMPLETOblanco.PNG" alt="Mejor Puntaje"><img src="imgs/corazon.svg" class="corazonsvg" alt=""><img src="imgs/altopuntajedos.png" class="altopuntajepng" alt="Alto Puntaje"></h3>
+            <p>Algunos recursos y referencias proceden de <a target="_blank" rel="noopener noreferrer" href="https://altopuntaje.com/">Alto Puntaje</a> y de otros servicios externos. Sus titulares conservan sus derechos y condiciones de uso.</p>
         </div>
         <div class="seccion secciontres">
-            <img src="imgs/licenciacc.png" alt="">
-            <p>El contenido de este sitio está sujeto a una licencia de <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" >Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)</a>.</p>
+            <img src="imgs/licenciacc.png" alt="Creative Commons BY-SA 4.0">
+            <p>El aviso CC BY-SA 4.0 de este sitio no se aplica a materiales de terceros. Consulta la licencia o condiciones indicadas por cada fuente.</p>
         </div>
+        </footer>
     </div>
 </body>
 </html>

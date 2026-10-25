@@ -33,6 +33,7 @@
     }
 
     .supernav_filtro {
+        box-sizing: border-box;
         background-color: transparent;
         flex-wrap: nowrap;
         height: auto;
@@ -47,11 +48,18 @@
         flex-direction: column;
         align-items: center;
         justify-items: space-around;
+        flex: 1;
+        min-width: 0;
         width: auto;
+        font-size: 12px;
+    }
+
+    .supernav_github {
+        display: none;
     }
 
     .supernav_img {
-        padding: 7px 25px;
+        padding: 7px 12px;
         margin-bottom: 5px;
         border-radius: 20px;
         -webkit-border-radius: 20px;
@@ -60,13 +68,43 @@
         -o-border-radius: 20px;
 }
 
+    .usuario_menu_movil {
+        display: flex;
+    }
+
+    .usuario_menu_movil .usuario_menu_nombre {
+        white-space: nowrap;
+    }
+
+    .supernav_filtro_button > .usuario_foto_menu {
+        box-sizing: border-box;
+        width: 28px;
+        height: 28px;
+        padding: 0;
+        border-radius: 50%;
+        object-fit: cover;
+        filter: none;
+        -webkit-filter: none;
+    }
+
+    .usuario_menu_movil > svg.supernav_img {
+        box-sizing: border-box;
+        width: 28px;
+        height: 28px;
+        padding: 0;
+    }
+
     .supernavmega {
         bottom: 0;
     }
 
 
     .supernav {
+        display: flex;
+        box-sizing: border-box;
         background: #080808;
+        width: 100%;
+        padding: 10px 8px calc(10px + env(safe-area-inset-bottom));
 }
 
     .h1_separador {
@@ -103,7 +141,6 @@
 
         
 }
-
 
     .materias_div {
         padding: 10px 5px;
@@ -245,9 +282,15 @@ display: none !important;
     .otronavmas {
         width: 100% !important;
         height: auto !important;
+        padding: 10px 16px !important;
         justify-content: center !important;
         align-items: center !important;
         align-content: center !important;
+    }
+
+    .supernav_volador_rigth {
+        justify-content: center;
+        gap: 8px;
     }
 
     .infoss {

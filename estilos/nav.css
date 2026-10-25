@@ -50,9 +50,44 @@
 
 }
 
+.nav .otraspaginas > .material_icfes_menu {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 5px 0 3.9px;
+    padding: 14px 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 0;
+    border-radius: 20px;
+    outline: 2px solid #1a1a1a;
+    background: transparent;
+    color: #e0e0e0;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.nav .otraspaginas > .material_icfes_menu:hover {
+    background-color: #333333;
+    color: #fff;
+}
+
 .nav div a:hover > .icon_nav {
     filter: invert(1);
     -webkit-filter: invert(1);
+}
+
+.nav .material_icfes_menu:hover > .icon_nav {
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
+.nav div a:hover > .usuario_foto_menu {
+    filter: none;
+    -webkit-filter: none;
 }
 
 .icon_nav {

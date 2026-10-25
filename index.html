@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="estilos/mobile.css">
     <link rel="stylesheet" href="estilos/volador.css">
     <link rel="stylesheet" href="estilos/blogestilo.css">
+    <script src="js/examenes.js" defer></script>
     <script src="js/js.js" defer></script>
+    <script src="js/usuario.js" defer></script>
 
 
 
@@ -28,14 +30,12 @@
 
         <div class="otraspaginas">
             <span>Principal</span>
-            <a href="#h1_separador_materias"><img class="icon_nav" src="imgs/libro-alt.svg" alt="materias"
+            <a href="#h1_separador_secmaterias"><img class="icon_nav" src="imgs/libro-alt.svg" alt="materias"
                     title="materias"> Materias</a>
-            <a href="#h1_separador_cuestionarios"><img class="icon_nav" src="imgs/prueba.svg" alt="cuestionarios"
-                    title="cuestionarios"> Cuestionarios</a>
-            <a href="#blog_estudiantil"><img class="icon_nav" src="imgs/newspaper.png" alt="bolg estudiantil"
-                    title="blog estudiantil"> Articulos</a>
-            <a href="#h1_separador_maspaginas"><img class="icon_nav" src="imgs/globo.svg" alt="Recomendaciones"
+            <button class="material_icfes_menu examenes_abrir" type="button" data-examenes="material-icfes" data-asset-base="imgs"><img class="icon_nav" src="imgs/todo.svg" alt="">Material del ICFES</button>
+            <a href="#h1_separador_secmaspaginas"><img class="icon_nav" src="imgs/globo.svg" alt="Recomendaciones"
                     title="Recomendaciones">Mas Paginas</a>
+            <a href="#" class="usuario_menu_link" id="usuario_menu"><svg class="icon_nav" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"></circle><path d="M5 21v-2a7 7 0 0 1 14 0v2"></path></svg><span class="usuario_menu_nombre">Mi usuario</span></a>
         </div>
 
 
@@ -45,12 +45,16 @@
         <div class="supernavmega" id="supernavmega">
             <div class="supernav">
                 <div class="supernav_filtro">
-                    <a href="#h1_separador_materias" class="supernav_filtro_button"><img
+                    <a href="#h1_separador_secmaterias" class="supernav_filtro_button"><img
                             style="background-color: #ffffff;" class="supernav_img" src="imgs/home.svg">Inicio</a>
-                    <a href="https://github.com/zkv0/Mejor-Puntaje" target="_blank" class="supernav_filtro_button"><img
+                    <a href="https://github.com/zkv0/Mejor-Puntaje" target="_blank" class="supernav_filtro_button supernav_github"><img
                             class="supernav_img" src="imgs/github.svg"> GitHub</a>
                     <a href="info.html" class="supernav_filtro_button"><img src="imgs/info.svg"
                             class="supernav_img">Info</a>
+                    <a href="#" id="usuario_menu_movil" class="supernav_filtro_button usuario_menu_link usuario_menu_movil" aria-label="Mi usuario">
+                        <svg class="supernav_img" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"></circle><path d="M5 21v-2a7 7 0 0 1 14 0v2"></path></svg>
+                        <span class="usuario_menu_nombre">Mi usuario</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -66,7 +70,8 @@
 
         <h1 class="h1_separador clickable-title" id="h1_separador_secmaterias">Materias</h1>
         <div class="materias_div" id="materias_div">
-            <a href="materias/sociales.html" class="materia_contenedor" id="boton_acsociales">
+            <article class="materia_contenedor" id="boton_acsociales">
+                <a class="materia_enlace" href="materias/sociales.html">
                 <div class="infouno">
                     <div class="arribainfo">
                         <img src="imgs/mundo.svg" alt="">
@@ -79,16 +84,17 @@
                             personas y comunidades que interactúan entre sí.</p>
 
                         <div class="info">
-                            <span class="info_datos"><img class="info_datos_img" src="imgs/prueba.svg"
-                                    alt="Cuestionarios" title="Cuestionarios">7</span>
                             <span class="info_datos"><img class="info_datos_img" src="imgs/video.svg" alt="Videos"
                                     title="Videos">63</span>
                         </div>
                     </div>
 
                 </div>
-            </a>
-            <a href="materias/naturales.html" class="materia_contenedor" id="boton_abrir_naturales">
+                </a>
+                <button class="examenes_abrir materia_examenes" type="button" data-examenes="sociales.html" data-asset-base="imgs"><img src="imgs/todo.svg" alt="">Exámenes</button>
+            </article>
+            <article class="materia_contenedor" id="boton_abrir_naturales">
+                <a class="materia_enlace" href="materias/naturales.html">
                 <div class="infouno">
                     <div class="arribainfo">
                         <img src="imgs/hoja.svg" alt="ciencias">
@@ -100,15 +106,16 @@
                             manera crítica sus consecuencias en la sociedad y en el ambiente.</p>
 
                         <div class="info">
-                            <span class="info_datos"><img class="info_datos_img" src="imgs/prueba.svg"
-                                    alt="Cuestionarios" title="Cuestionarios">9</span>
                             <span class="info_datos"><img class="info_datos_img" src="imgs/video.svg" alt="Videos"
                                     title="Videos">102</span>
                         </div>
                     </div>
                 </div>
-            </a>
-            <a href="materias/ingles.html" class="materia_contenedor" id="boton_abrir_ig">
+                </a>
+                <button class="examenes_abrir materia_examenes" type="button" data-examenes="naturales.html" data-asset-base="imgs"><img src="imgs/todo.svg" alt="">Exámenes</button>
+            </article>
+            <article class="materia_contenedor" id="boton_abrir_ig">
+                <a class="materia_enlace" href="materias/ingles.html">
                 <div class="infouno">
                     <div class="arribainfo">
                         <img src="imgs/bandera-usa.svg" alt="Idioma Extrangero">
@@ -120,16 +127,17 @@
                             a su vez, clasificarlos según el Marco Común Europeo de Referencia para las lenguas</p>
 
                         <div class="info">
-                            <span class="info_datos"><img class="info_datos_img" src="imgs/prueba.svg"
-                                    alt="Cuestionarios" title="Cuestionarios">3</span>
                             <span class="info_datos"><img class="info_datos_img" src="imgs/video.svg" alt="Videos"
                                     title="Videos">26</span>
                         </div>
                     </div>
 
                 </div>
-            </a>
-            <a href="materias/matematicas.html" class="materia_contenedor" id="abrir_mate">
+                </a>
+                <button class="examenes_abrir materia_examenes" type="button" data-examenes="ingles.html" data-asset-base="imgs"><img src="imgs/todo.svg" alt="">Exámenes</button>
+            </article>
+            <article class="materia_contenedor" id="abrir_mate">
+                <a class="materia_enlace" href="materias/matematicas.html">
                 <div class="infouno">
                     <div class="arribainfo">
                         <img src="imgs/matematicas.svg" alt="">
@@ -140,16 +148,17 @@
                             formatos como gráficos, textos, tablas, diagramas, conjuntos o esquemas.</p>
 
                         <div class="info">
-                            <span class="info_datos"><img class="info_datos_img" src="imgs/prueba.svg"
-                                    alt="Cuestionarios" title="Cuestionarios">3</span>
                             <span class="info_datos"><img class="info_datos_img" src="imgs/video.svg" alt="Videos"
                                     title="Videos">+80</span>
                         </div>
                     </div>
 
                 </div>
-            </a>
-            <a href="materias/lectura.html" class="materia_contenedor" id="boton_abrir_español">
+                </a>
+                <button class="examenes_abrir materia_examenes" type="button" data-examenes="matematicas.html" data-asset-base="imgs"><img src="imgs/todo.svg" alt="">Exámenes</button>
+            </article>
+            <article class="materia_contenedor" id="boton_abrir_español">
+                <a class="materia_enlace" href="materias/lectura.html">
                 <div class="infouno">
                     <div class="arribainfo">
                         <img src="imgs/español.svg" alt="">
@@ -161,233 +170,25 @@
                             críticas frente a un texto, aunque no sean especialistas en el tema de lectura.</p>
 
                         <div class="info">
-                            <span class="info_datos"><img class="info_datos_img" src="imgs/prueba.svg"
-                                    alt="Cuestionarios" title="Cuestionarios">5</span>
                             <span class="info_datos"><img class="info_datos_img" src="imgs/video.svg" alt="Videos"
                                     title="Videos">47</span>
                         </div>
                     </div>
 
                 </div>
-            </a>
+                </a>
+                <button class="examenes_abrir materia_examenes" type="button" data-examenes="lectura.html" data-asset-base="imgs"><img src="imgs/todo.svg" alt="">Exámenes</button>
+            </article>
 
         </div>
 
 
-        <h1 class="h1_separador clickable-title" id="h1_separador_seccuestionarios">Cuestionarios</h1>
-
-
-        <div class="cuestinariosdiv" id="cuestinariosdiv">
-            <div class="cuestionariomateria">
-                <div class="info_cuestionario">
-                    <div class="cuestionario_derecha">
-                        <img src="imgs/todo.svg" alt="">
-                        <h2 class="nombre_materia_cuestionario">Material ICFES</h2>
-                    </div>
-                    <button id="boton_cuestioanrio_uno" class="boton_cuestioanrio_uno"><img src="imgs/flecha_abajo.svg"
-                            alt=""></button>
-                </div>
-                <div class="archivos_materias_cuestiona" id="cuestionario_todo">
-                    <a href="https://www.mediafire.com/file/h9v94l0d4xn8634/Cuadernillo_icfes_2016.pdf/file"
-                        target="_blank" target="_blank" class="link_descarga"><img src="imgs/documento.svg"
-                            alt="">Cuadernillo saber 11 - 2016. <br> Peso: 3.8 MB</a>
-
-                    <a href="https://www.mediafire.com/file/945rx5m0e9l3m3w/Cuadernillo_saber_11-2014.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Cuadernillo saber 11
-                        - 2014 <br> Peso. 3.6 MB</a>
-
-                    <a href="https://www.mediafire.com/file/d3ykysztgyjdsc2/Cuadernillo_icfes_2012.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Cuadernillo saber 11
-                        - 2012 <br>Peso: 2.6 MB</a>
-
-                    <a href="https://www.mediafire.com/file/67whc3173f99oi9/Cuadernillo_nucleo_com%25C3%25BAn_2010.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Cuadernillo nucleo
-                        común - 2010 <br> Peso: 3.6 MB</a>
-
-                    <a href="https://www.mediafire.com/file/vx8ns507b5karty/Cuadernillo_icfes_2010_%2528respuestas%2529.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Cuadernillo nucleo
-                        común - 2010 (RESPUESTAS) <br> Peso: 0.01 MB</a>
-
-                    <a href="https://www.mediafire.com/file/ho627q0re2ewp25/icfes--2006.rar/file" target="_blank"
-                        class="link_descarga"><img src="imgs/carpeta.png" alt="">ICFES 2006<br> Peso: 11.4 MB</a>
-
-                    <a href="https://www.mediafire.com/file/uydkp0xqyasbk9w/icfes-2005.rar/file" target="_blank"
-                        class="link_descarga"><img src="imgs/carpeta.png" alt="">ICFES 2005<br> Peso: 1.6 MB</a>
-
-                    <a href="https://www.mediafire.com/file/kzaqsol8zhb3fh4/ICFES-2004.rar/file" target="_blank"
-                        class="link_descarga"><img src="imgs/carpeta.png" alt="">ICFES 2004<br> Peso: 4.6 MB</a>
-
-                    <a href="https://www.mediafire.com/file/v5mmebk3ho1g41l/ICFES-2003.rar/file" target="_blank"
-                        class="link_descarga"><img src="imgs/carpeta.png" alt="">ICFES 2003<br> Peso: 16.2 MB</a>
-
-                </div>
-            </div>
-            <div class="cuestionariomateria">
-                <div class="info_cuestionario">
-                    <div class="cuestionario_derecha">
-                        <img src="imgs/mundo.svg" alt="">
-                        <h2 class="nombre_materia_cuestionario">Competencias Ciudadanas</h2>
-                    </div>
-                    <button id="boton_cuestioanrio_sociales" class="boton_cuestioanrio_uno"><img
-                            src="imgs/flecha_abajo.svg" alt=""></button>
-                </div>
-                <div class="archivos_materias_cuestiona" id="cuestionario_sociales">
-                    <a href="https://www.mediafire.com/file/jtuutrbhx4ln3le/Cuadernillo_de_preguntas_Saber-11-_Sociales-y-ciudadanas.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Cuadernillo Sociales
-                        y ciudadanas. <br> Peso: 8 MB</a>
-
-                    <a href="https://www.mediafire.com/file/ir7zdcjxue41i9e/SOCIALES_11.pdf/file" target="_blank"
-                        class="link_descarga"><img src="imgs/documento.svg" alt="">Sociales11 <br> Peso: 0.9 MB</a>
-
-                    <a href="https://www.mediafire.com/file/vt5ubn5roub4bzo/Sociales2010.pdf/file" target="_blank"
-                        class="link_descarga"><img src="imgs/documento.svg" alt="">Ciencias Sociales 2010 <br> Peso. 2.4
-                        MB</a>
-
-                    <a href="https://www.mediafire.com/file/lriha3sqj1nvcv6/Sociales2009.pdf/file" target="_blank"
-                        class="link_descarga"><img src="imgs/documento.svg" alt="">Ciencias Sociales 2009 <br> Peso: 3.2
-                        MB</a>
-
-                    <a href="https://www.mediafire.com/file/b94ttt955w0b725/ViolenciaySociedad2010.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Violencia y Sociedad
-                        2010 <br>Peso: 1.2 MB</a>
-
-                    <a href="https://www.mediafire.com/file/xmucjw9s7yuiv28/Geografia.pdf/file" target="_blank"
-                        class="link_descarga"><img src="imgs/documento.svg" alt="">Geografía <br> Peso: 1.5 MB</a>
-
-                    <a href="https://www.mediafire.com/file/rya96keqbkpdr4h/Historia_%255BBanco_de_preguntas_ICFES%255D.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Historia <br> Peso:
-                        0.8 MB</a>
-                </div>
-            </div>
-            <div class="cuestionariomateria">
-                <div class="info_cuestionario">
-                    <div class="cuestionario_derecha">
-                        <img src="imgs/hoja.svg" alt="">
-                        <h2 class="nombre_materia_cuestionario">Ciencias Naturales</h2>
-                    </div>
-                    <button id="boton_cuestioanrio_naturales" class="boton_cuestioanrio_uno"><img
-                            src="imgs/flecha_abajo.svg" alt=""></button>
-                </div>
-                <div class="archivos_materias_cuestiona" id="cuestionario_naturales">
-                    <a href="https://www.mediafire.com/file/6emnzf0jwexgq4x/Cuadernillo_de-preguntas-Saber-11-ciencias-naturales.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Cuadernillo Ciencias
-                        Naturales <br> Peso: 8 MB</a>
-
-                    <a href="https://www.mediafire.com/file/wy0ajcq3jhq1aj5/MedioAmbiente2010.pdf/file" target="_blank"
-                        class="link_descarga"><img src="imgs/documento.svg" alt="">Medio Ambiente <br> Peso: 1.8 MB</a>
-
-                    <a href="https://www.mediafire.com/file/4bn0xm7nihlc6gh/Biologia2010.pdf/file" target="_blank"
-                        class="link_descarga"><img src="imgs/documento.svg" alt="">Biologia 2010 <br> Peso: 1.9 MB</a>
-
-                    <a href="https://www.mediafire.com/file/knuhr3r69eri6vr/Biologia2009.pdf/file" target="_blank"
-                        class="link_descarga"><img src="imgs/documento.svg" alt="">Biologia 2009 <br> Peso: 2.1 MB</a>
-
-                    <a href="https://www.mediafire.com/file/036qui34t5hs6th/Profundizacion_Biologia_%255BBanco_de_preguntas_ICFES%255D.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Profundizacion
-                        Biologia 2009 <br> Peso: 2.1 MB</a>
-
-                    <a href="https://www.mediafire.com/file/1hc1fa7s67o14bv/Fisica_2010.pdf/file" target="_blank"
-                        class="link_descarga"><img src="imgs/documento.svg" alt="">Fisica 2010 <br> Peso. 2.5 MB</a>
-
-                    <a href="https://www.mediafire.com/file/gfw1izu4ur9ngty/Fisica2009.pdf/file" target="_blank"
-                        class="link_descarga"><img src="imgs/documento.svg" alt="">Fisica 2009 <br>Peso: 2.8 MB</a>
-
-                    <a href="https://www.mediafire.com/file/1h0rlqlk9n77yvn/Qu%25C3%25ADmica2010.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Quimica 2010 <br>
-                        Peso: 2.1 MB</a>
-
-                    <a href="https://www.mediafire.com/file/6evo1ytpk5c8g1q/quimica2009.pdf/file" target="_blank"
-                        class="link_descarga"><img src="imgs/documento.svg" alt="">Quimica 2009 <br> Peso: 1.8 MB</a>
-
-                </div>
-            </div>
-            <div class="cuestionariomateria">
-                <div class="info_cuestionario">
-                    <div class="cuestionario_derecha">
-                        <img src="imgs/bandera-usa.svg" alt="">
-                        <h2 class="nombre_materia_cuestionario">Ingles</h2>
-                    </div>
-
-                    <button id="boton_cuestioanrio_ingles" class="boton_cuestioanrio_uno"><img
-                            src="imgs/flecha_abajo.svg" alt=""></button>
-                </div>
-                <div class="archivos_materias_cuestiona" id="cuestionario_ingles">
-                    <a href="https://www.mediafire.com/file/m2k1i8u09ho1b99/Cuadernillo-de-preguntas-Saber-11-ingles-2018.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Cuadernillo Ingles.
-                        <br> Peso: 11.7 MB</a>
-
-                    <a href="https://www.mediafire.com/file/piffqbtprkytcnj/Ingl%25C3%25A9s2010.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Inglés 2010 <br>
-                        Peso. 1.7 MB</a>
-
-                    <a href="https://www.mediafire.com/file/bipj6kl016fdf9v/ingles2009.pdf/file" target="_blank"
-                        class="link_descarga"><img src="imgs/documento.svg" alt="">Inglés 2009 <br>Peso: 0.7 MB</a>
-
-                </div>
-            </div>
-            <div class="cuestionariomateria">
-                <div class="info_cuestionario">
-                    <div class="cuestionario_derecha">
-                        <img src="imgs/matematicas.svg" alt="">
-                        <h2 class="nombre_materia_cuestionario">Matemáticas</h2>
-                    </div>
-
-                    <button id="boton_cuestioanrio_mate" class="boton_cuestioanrio_uno"><img src="imgs/flecha_abajo.svg"
-                            alt=""></button>
-                </div>
-                <div class="archivos_materias_cuestiona" id="cuestionario_mate">
-                    <a href="https://www.mediafire.com/file/g72cpbadu3sc5ny/Cuadernillo_de-preguntas-Saber-11-matematicas.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Cuadernillo
-                        matemáticas <br> Peso: 8.5 MB</a>
-
-                    <a href="https://www.mediafire.com/file/nt42oa5tuu2rpk0/Matem%25C3%25A1ticas2010.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Matemáticas 2010 <br>
-                        Peso. 2.0 MB</a>
-
-                    <a href="https://www.mediafire.com/file/ljephgzjpni72su/matematicas2009.pdf/file" target="_blank"
-                        class="link_descarga"><img src="imgs/documento.svg" alt="">Matemáticas 2009 <br> Peso. 2.4
-                        MB</a>
-
-                </div>
-            </div>
-            <div class="cuestionariomateria">
-                <div class="info_cuestionario">
-                    <div class="cuestionario_derecha">
-                        <img src="imgs/español.svg" alt="">
-                        <h2 class="nombre_materia_cuestionario">Lectura Crítica</h2>
-                    </div>
-                    <button id="boton_cuestioanrio_español" class="boton_cuestioanrio_uno"><img
-                            src="imgs/flecha_abajo.svg" alt=""></button>
-                </div>
-                <div class="archivos_materias_cuestiona" id="cuestionario_español">
-                    <a href="https://www.mediafire.com/file/9dms6enu8eyc048/Cuadernillo_de_preguntas_Saber-11-lectura-critica.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Cuadernillo Lectura
-                        Critíca. <br> Peso: 14 MB</a>
-
-                    <a href="https://www.mediafire.com/file/591qcpqi6t2q621/Lenguaje2010.pdf/file" target="_blank"
-                        class="link_descarga"><img src="imgs/documento.svg" alt="">Lenguaje 2010 <br> Peso. 0.9 MB</a>
-
-                    <a href="https://www.mediafire.com/file/gp4eaguyio6hxun/Lenguaje2009.pdf/file" target="_blank"
-                        class="link_descarga"><img src="imgs/documento.svg" alt="">Lenguaje 2009 <br> Peso. 1.6 MB</a>
-
-                    <a href="https://www.mediafire.com/file/fnvusrxbs8bxi5k/Filosof%25C3%25ADa2010.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Filosofía 2010 <br>
-                        Peso: 1.5 MB</a>
-
-                    <a href="https://www.mediafire.com/file/hnzfbyh8z918q7f/Filosof%25C3%25ADa2009.pdf/file"
-                        target="_blank" class="link_descarga"><img src="imgs/documento.svg" alt="">Filosofía 2009 <br>
-                        Peso: 0.6 MB</a>
-
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-        <h1 class="h1_separador clickable-title" id="h1_separador_secmaspaginas">Recomendaciones</h1>
-        <div class="maspaginasdiv" id="maspaginasdiv">
+        <h1 class="h1_separador clickable-title" id="h1_separador_secmaspaginas">
+            <button class="section-toggle" type="button" aria-expanded="false" aria-controls="maspaginasdiv">
+                <span>Recomendaciones</span><img class="section-arrow" src="imgs/flecha_abajo.svg" alt="" aria-hidden="true">
+            </button>
+        </h1>
+        <div class="maspaginasdiv seccion-oculta" id="maspaginasdiv">
             <a href="https://altopuntaje.com/" target="_blank" class="otrapagina">
                 <img src="imgs/altopuntaje.png" alt="" class="otraspaginaimg">
                 <h2>Alto Puntaje</h2>
